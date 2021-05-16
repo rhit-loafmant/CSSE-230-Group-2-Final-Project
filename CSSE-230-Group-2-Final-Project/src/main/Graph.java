@@ -70,15 +70,21 @@ public class Graph {
 		public String name;
 		public float longitude;
 		public float latitude;
+		public float distance;
+		public Node parent;
+		public ArrayList<Node> childNodes;
 		public ArrayList<Node> adjacentNodes;
 		public HashMap<Node,Float> adjNodeDistances;
 
 		public Node(String name, float latitude, float longitude) {
+			this.childNodes = new ArrayList<Node>();
+			this.parent = null;
 			this.name = name;
 			this.longitude = longitude;
 			this.latitude = latitude;
 			this.adjacentNodes = new ArrayList<Node>();
 			this.adjNodeDistances = new HashMap<Node,Float>();
+			this.distance = Integer.MAX_VALUE;
 		}
 	}
 }
