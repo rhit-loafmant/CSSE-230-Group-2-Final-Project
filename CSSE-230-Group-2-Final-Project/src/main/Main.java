@@ -1,5 +1,10 @@
 package main;
 
+import java.util.HashMap;
+import java.util.Set;
+
+import main.Graph.Node;
+
 public class Main {
 
 	public static void main(String[] args) {
@@ -29,6 +34,15 @@ public class Main {
 		g.printAllAdjNodes(g.nodes.get(4));
 		System.out.println("all nodes adjacent to F");
 		g.printAllAdjNodes(g.nodes.get(5));
+		
+//		Dijkstra dij = new Dijkstra();
+//		HashMap<Graph.Node, Float> spt = dij.shortestPathTree(g, g.nodes.get(4));
+//		Set<Graph.Node> keyset = spt.keySet();
+//		Graph.Node[] sptNodes = (Graph.Node[]) keyset.toArray();
+//		System.out.println("SPT of graph g is: ");
+//		for(int i=0; i<sptNodes.length; i++) {
+//			System.out.println(sptNodes[i].name);
+//		}
 	}
 	
 }

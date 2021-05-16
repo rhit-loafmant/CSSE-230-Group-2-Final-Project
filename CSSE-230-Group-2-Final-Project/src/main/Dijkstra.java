@@ -7,8 +7,8 @@ public class Dijkstra {
 	public void shortestPathTree(Graph graph, Node sourceVertex) {
 		int index = 0;
 //		PriorityQueue<Node> priorityQ = new PriorityQueue<Node>();
-		HashMap<Node, Float> sPT = new HashMap<Node, Float>();
-		ArrayList<Node> visitedNodes = new ArrayList<Node>();
+		HashMap<Graph.Node, Float> sPT = new HashMap<Graph.Node, Float>();
+		ArrayList<Graph.Node> visitedNodes = new ArrayList<Graph.Node>();
 
 		sourceVertex.parent = null;
 		sourceVertex.distance = 0;
@@ -40,7 +40,8 @@ public class Dijkstra {
 			}
 			index++;
 		}
-
+//		return sPT;
+		
 //		while (!sPT.isEmpty()) {
 //			priorityQ.add(visitedNodes.get(0));
 //			sPT.remove(0);
