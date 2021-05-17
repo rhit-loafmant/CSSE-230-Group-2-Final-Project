@@ -1,5 +1,8 @@
 package main;
 
+import java.awt.Color;
+import java.awt.Graphics2D;
+import java.awt.geom.Ellipse2D;
 import java.util.ArrayList;
 import java.util.HashMap;
 
@@ -86,5 +89,14 @@ public class Graph {
 			this.adjNodeDistances = new HashMap<Node,Float>();
 			this.distance = Integer.MAX_VALUE;
 		}
+		
+		//latitude = y, longitude = x
+		public void drawOn(Graphics2D graphics2) {
+			Ellipse2D.Double nodeLocation = new Ellipse2D.Double(longitude, latitude, 3, 2);
+			graphics2.setColor(Color.BLACK);
+			graphics2.fill(nodeLocation);
+		}
+		
 	}
 }
+

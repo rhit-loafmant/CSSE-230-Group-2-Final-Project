@@ -1,7 +1,9 @@
 package main;
 
+import java.awt.BorderLayout;
 import java.util.HashMap;
 import java.util.Set;
+import javax.swing.*;
 
 import main.Graph.Node;
 
@@ -34,6 +36,15 @@ public class Main {
 		g.printAllAdjNodes(g.nodes.get(4));
 		System.out.println("all nodes adjacent to F");
 		g.printAllAdjNodes(g.nodes.get(5));
+		
+		//Starting GUI
+		JFrame mapFrame = new JFrame();
+		mapFrame.setTitle("Airports of the World!");
+		mapFrame.setSize(50, 150);
+		mapFrame.add(new MapComponent(g.nodes), BorderLayout.CENTER);
+		
+		mapFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		mapFrame.setVisible(true);
 		
 //		Dijkstra dij = new Dijkstra();
 //		HashMap<Graph.Node, Float> spt = dij.shortestPathTree(g, g.nodes.get(4));
