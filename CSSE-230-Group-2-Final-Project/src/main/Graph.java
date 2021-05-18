@@ -10,7 +10,7 @@ import java.util.HashMap;
 public class Graph {
 	public ArrayList<Node> nodes;
 	public int size;
-	private float maxNodeDist = 500f;
+	private float maxNodeDist = 0f;
 
 	public Graph() {
 		this.nodes = new ArrayList<Node>();
@@ -64,6 +64,7 @@ public class Graph {
 	}
 	
 	public void printAllAdjNodes(Node n) {
+		System.out.println("All nodes adjacent to " + n.name + ":");
 		for(int i=0; i<n.adjacentNodes.size(); i++) {
 			System.out.println(n.adjacentNodes.get(i).name + ", Distance: " + n.adjNodeDistances.get(n.adjacentNodes.get(i)) + " km");
 		}
