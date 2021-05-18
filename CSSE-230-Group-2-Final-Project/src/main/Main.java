@@ -29,17 +29,11 @@ public class Main {
 		
 
 				
-		System.out.println("all nodes adjacent to A");
 		g.printAllAdjNodes(g.nodes.get(0));
-		System.out.println("all nodes adjacent to B");
 		g.printAllAdjNodes(g.nodes.get(1));
-		System.out.println("all nodes adjacent to C");
 		g.printAllAdjNodes(g.nodes.get(2));
-		System.out.println("all nodes adjacent to D");
 		g.printAllAdjNodes(g.nodes.get(3));
-		System.out.println("all nodes adjacent to E");
 		g.printAllAdjNodes(g.nodes.get(4));
-		System.out.println("all nodes adjacent to F");
 		g.printAllAdjNodes(g.nodes.get(5));
 		
 		//Starting GUI

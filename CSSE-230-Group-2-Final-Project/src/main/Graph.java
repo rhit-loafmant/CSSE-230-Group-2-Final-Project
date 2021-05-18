@@ -64,6 +64,7 @@ public class Graph {
 	}
 	
 	public void printAllAdjNodes(Node n) {
+		System.out.println("All nodes adjacent to " + n.name + ":");
 		for(int i=0; i<n.adjacentNodes.size(); i++) {
 			System.out.println(n.adjacentNodes.get(i).name + ", Distance: " + n.adjNodeDistances.get(n.adjacentNodes.get(i)) + " km");
 		}
