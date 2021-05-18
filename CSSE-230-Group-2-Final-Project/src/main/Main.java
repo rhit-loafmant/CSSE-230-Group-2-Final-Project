@@ -8,6 +8,8 @@ import javax.swing.*;
 import main.Graph.Node;
 
 public class Main {
+	public static final int WINDOW_WIDTH = 600;
+	public static final int WINDOW_HEIGHT = 600;
 
 	public static void main(String[] args) {
 		new Main();
@@ -21,6 +23,9 @@ public class Main {
 		g.addNode("D", 39, 98);
 		g.addNode("E", 37, 101);
 		g.addNode("F", 40, 91);
+		
+		g.addNode("G", 2, 40);
+		g.addNode("lhkj", 98, 35);
 		
 
 				
@@ -40,7 +45,7 @@ public class Main {
 		//Starting GUI
 		JFrame mapFrame = new JFrame();
 		mapFrame.setTitle("Airports of the World!");
-		mapFrame.setSize(50, 150);
+		mapFrame.setSize(WINDOW_WIDTH, WINDOW_HEIGHT);
 		mapFrame.add(new MapComponent(g.nodes), BorderLayout.CENTER);
 		
 		mapFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);

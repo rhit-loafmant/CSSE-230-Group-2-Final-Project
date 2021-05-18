@@ -89,12 +89,15 @@ public class Graph {
 			this.adjNodeDistances = new HashMap<Node,Float>();
 			this.distance = Integer.MAX_VALUE;
 		}
-		
 		//latitude = y, longitude = x
-		public void drawOn(Graphics2D graphics2) {
-			Ellipse2D.Double nodeLocation = new Ellipse2D.Double(longitude, latitude, 3, 2);
-			graphics2.setColor(Color.BLACK);
-			graphics2.fill(nodeLocation);
+		public void drawNode(Graphics2D g2d, Color color, int radius, int x, int y) {
+			Ellipse2D.Double nodeLocation = new Ellipse2D.Double(x, y, radius, radius);
+			g2d.setColor(color);
+//			g2d.translate(radius/2, radius/2);
+			g2d.fill(nodeLocation);
+		}
+		public void drawLines(Graphics2D g2d, Color color, int x1, int y1, int x2, int y2) {
+			
 		}
 		
 	}

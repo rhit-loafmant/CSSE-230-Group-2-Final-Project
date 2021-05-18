@@ -1,5 +1,6 @@
 package main;
 
+import java.awt.Color;
 import java.awt.Graphics;
 import java.awt.Graphics2D;
 import java.util.ArrayList;
@@ -18,8 +19,10 @@ public class MapComponent extends JComponent{
 		super.paintComponent(g);
 		Graphics2D g2 = (Graphics2D) g;
 		
-		for(Node node: this.nodes) {
-			node.drawOn(g2);
+		for(Node node : this.nodes) {
+			int x = Math.round(Main.WINDOW_WIDTH * (node.latitude/180));
+			int y = Math.round(Main.WINDOW_HEIGHT * (node.longitude/180));
+			node.drawNode(g2, Color.BLACK, 4, x, y);
 		}
 	}	
 
