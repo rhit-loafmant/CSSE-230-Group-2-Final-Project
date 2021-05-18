@@ -17,14 +17,13 @@ public class Graph {
 
 	public boolean addNode(String name, float latitude, float longitude) {
 		Node newNode = new Node(name, latitude, longitude);
-		for (int i = 0; i < nodes.size(); i++) {
-			Node tempNode = nodes.get(i);
-			float distance = distBetweenNodes(newNode, tempNode);
+		for (Node n : this.nodes) {
+			float distance = distBetweenNodes(newNode, n);
 			if (distance < maxNodeDist) {
-				newNode.adjacentNodes.add(tempNode);// not done
-				tempNode.adjacentNodes.add(newNode);
-				newNode.adjNodeDistances.put(tempNode, distance);
-				tempNode.adjNodeDistances.put(newNode, distance);
+				newNode.adjacentNodes.add(n);// not done
+				n.adjacentNodes.add(newNode);
+				newNode.adjNodeDistances.put(n, distance);
+				n.adjNodeDistances.put(newNode, distance);
 			}
 		}
 		nodes.add(newNode);
@@ -91,12 +90,14 @@ public class Graph {
 		}
 		//latitude = y, longitude = x
 		public void drawNode(Graphics2D g2d, Color color, int radius, int x, int y) {
-			Ellipse2D.Double nodeLocation = new Ellipse2D.Double(x, y, radius, radius);
+			Ellipse2D.Double nodeLocation = new Ellipse2D.Double(x -radius/2, y-radius/2, radius, radius);
 			g2d.setColor(color);
-//			g2d.translate(radius/2, radius/2);
 			g2d.fill(nodeLocation);
+//			System.out.println("placed " + this.name+ "at " +x+", "+y);
 		}
 		public void drawLines(Graphics2D g2d, Color color, int x1, int y1, int x2, int y2) {
+			g2d.setColor(color);
+			g2d.drawLine(x1, y1, x2, y2);
 			
 		}
 		
