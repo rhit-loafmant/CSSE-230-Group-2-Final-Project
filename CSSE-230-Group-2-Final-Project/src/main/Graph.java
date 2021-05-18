@@ -2,6 +2,7 @@ package main;
 
 import java.awt.Color;
 import java.awt.Graphics2D;
+import java.awt.Shape;
 import java.awt.geom.Ellipse2D;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -48,15 +49,15 @@ public class Graph {
 	}
 
 	public float distBetweenNodes(Node nodeA, Node nodeB) {
-		float latitude1 = nodeA.latitude;
-		float longitude1 = nodeA.longitude;
-		float latitude2 = nodeB.latitude;
-		float longitude2 = nodeB.longitude;
+		float latA = nodeA.latitude;
+		float lonA = nodeA.longitude;
+		float latB = nodeB.latitude;
+		float lonB = nodeB.longitude;
 		float radius = 6371f;
-		float dLat = (float) Math.toRadians(latitude2 - latitude1);
-		float dLon = (float) Math.toRadians(longitude2 - longitude1);
-		float a = (float) (Math.sin(dLat / 2) * Math.sin(dLat / 2) + Math.cos(Math.toRadians(latitude1))
-				* Math.cos(Math.toRadians(latitude2)) * Math.sin(dLon / 2) * Math.sin(dLon / 2));
+		float dLat = (float) Math.toRadians(latB - latA);
+		float dLon = (float) Math.toRadians(lonB - lonA);
+		float a = (float) (Math.sin(dLat / 2) * Math.sin(dLat / 2) + Math.cos(Math.toRadians(latA))
+				* Math.cos(Math.toRadians(latB)) * Math.sin(dLon / 2) * Math.sin(dLon / 2));
 		float c = (float) (2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a)));
 		float distance = radius * c;
 		return distance;
@@ -97,6 +98,10 @@ public class Graph {
 		}
 		public void drawLines(Graphics2D g2d, Color color, int x1, int y1, int x2, int y2) {
 			g2d.setColor(color);
+//			int x, y;
+//			x = (x1+x2)/2;
+//			y = (y1+y2)/2;
+//			g2d.drawArc(x, y, (x*2)/(y*2), 10, 5, 170);
 			g2d.drawLine(x1, y1, x2, y2);
 			
 		}

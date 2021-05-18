@@ -1,8 +1,11 @@
 package main;
 
 import java.awt.BorderLayout;
+import java.awt.image.BufferedImage;
 import java.util.HashMap;
 import java.util.Set;
+
+import javax.imageio.ImageIO;
 import javax.swing.*;
 import javax.xml.parsers.DocumentBuilderFactory;  
 import javax.xml.parsers.DocumentBuilder;  
@@ -10,11 +13,13 @@ import org.w3c.dom.Document;
 import org.w3c.dom.NodeList;  
 import org.w3c.dom.Node;  
 import org.w3c.dom.Element;  
-import java.io.File;  
+import java.io.File;
+import java.io.IOException;  
 
 public class Main {
-	public static final int WINDOW_WIDTH = 1200;
-	public static final int WINDOW_HEIGHT = 800;
+	public static final int WINDOW_WIDTH = 1200, WINDOW_HEIGHT = 800, MAP_WIDTH = 1200, MAP_HEIGHT = 600;
+	public static BufferedImage map;
+
 
 	public static void main(String[] args) {
 		new Main();
@@ -24,8 +29,14 @@ public class Main {
 		Graph g = new Graph();
 		Reader reader = new Reader("src/main/nodes.xml");
 		reader.readFile(g);
+		try {
+			map = ImageIO.read(new File("src/main/map.png"));
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		
-		
+//		
 //		g.addNode("A", 41, 100);
 //		g.addNode("B", 41, 95);
 //		g.addNode("C", 38, 93);
@@ -37,9 +48,8 @@ public class Main {
 //		g.addNode("lhkj", 98, 35);
 //		g.addNode("325hrer", 2, 40);
 //		g.addNode("ewerdsf", -70, -170);
-////		
-//
-//				
+
+				
 //		System.out.println("all nodes adjacent to A");
 //		g.printAllAdjNodes(g.nodes.get(0));
 //		System.out.println("all nodes adjacent to B");
