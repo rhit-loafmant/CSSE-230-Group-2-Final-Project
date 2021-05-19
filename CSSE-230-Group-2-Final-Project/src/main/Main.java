@@ -1,6 +1,7 @@
 package main;
 
 import java.awt.BorderLayout;
+import java.awt.Dimension;
 import java.awt.image.BufferedImage;
 import java.util.HashMap;
 import java.util.Set;
@@ -66,10 +67,11 @@ public class Main {
 		//Starting GUI
 		JFrame mapFrame = new JFrame();
 		mapFrame.setTitle("Airports of the World!");
-		mapFrame.setSize(WINDOW_WIDTH, WINDOW_HEIGHT);
+		mapFrame.setPreferredSize(new Dimension(WINDOW_WIDTH, WINDOW_HEIGHT));	
+		mapFrame.setLayout(new BorderLayout());
 		mapFrame.add(new MapComponent(g.nodes), BorderLayout.CENTER);
-		
 		mapFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		mapFrame.pack();
 		mapFrame.setVisible(true);
 		
 //		Dijkstra dij = new Dijkstra();

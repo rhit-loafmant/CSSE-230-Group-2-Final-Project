@@ -10,7 +10,7 @@ import java.util.HashMap;
 public class Graph {
 	public ArrayList<Node> nodes;
 	public int size;
-	private float maxNodeDist = 0f;
+	private float maxNodeDist = 500f;
 
 	public Graph() {
 		this.nodes = new ArrayList<Node>();

@@ -3,6 +3,7 @@ package main;
 import java.awt.Color;
 import java.awt.Graphics;
 import java.awt.Graphics2D;
+import java.awt.RenderingHints;
 import java.util.ArrayList;
 import javax.swing.JComponent;
 import main.Graph.Node;
@@ -17,14 +18,15 @@ public class MapComponent extends JComponent{
 	protected void paintComponent(Graphics g) {
 		super.paintComponent(g);
 		Graphics2D g2d = (Graphics2D) g;
-
+		g2d.setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON);
+		
 		g.drawImage(Main.map, 0, 0, null);
 		g2d.translate(300, Main.MAP_HEIGHT);
 		
 		//THIS CODE DRAWS 0, 0 CROSSHAIR
-		g2d.setColor(Color.RED);
-		g2d.drawLine(-10, 0, 10, 0);
-		g2d.drawLine(0, -10, 0, 10);
+//		g2d.setColor(Color.RED);
+//		g2d.drawLine(-10, 0, 10, 0);
+//		g2d.drawLine(0, -10, 0, 10);
 		
 		
 		double latMulti = Main.MAP_HEIGHT/180.00, lonMulti = Main.MAP_WIDTH/360.00;
@@ -43,5 +45,19 @@ public class MapComponent extends JComponent{
 			
 		}
 	}	
+	
+	public class MapControlPanel extends JComponent{
+		private int maxAdjNodeDist;
+		
+		public ArrayList<Node> nodes = new ArrayList<Node>();
+		public MapControlPanel(ArrayList<Node> nodes) {
+			this.nodes = nodes;
+		}
+
+		@Override
+		protected void paintComponent(Graphics g) {
+			
+		}
+	}
 
 }
