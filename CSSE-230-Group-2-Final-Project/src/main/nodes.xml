@@ -2,3272 +2,4580 @@
 <data>
   <columns>
     <name index="1">name</name>
+    <continent index="4">continent</continent>
+    <country index="5">country</country>
     <latitude index="2">latitude</latitude>
     <longitude index="3">longitude</longitude>
   </columns>
   <nodes>
     <node index="1">
       <name>Honiara International Airport</name>
+      <continent>OC</continent>
+      <country>SB</country>
       <latitude>-9.428</latitude>
       <longitude>160.054993</longitude>
     </node>
     <node index="2">
       <name>Port Moresby Jacksons International Airport</name>
+      <continent>OC</continent>
+      <country>PG</country>
       <latitude>-9.443380355835</latitude>
       <longitude>147.2200012207</longitude>
     </node>
     <node index="3">
       <name>Keflavik International Airport</name>
+      <continent>EU</continent>
+      <country>IS</country>
       <latitude>63.985001</latitude>
       <longitude>-22.6056</longitude>
     </node>
     <node index="4">
       <name>PriÅ¡tina Adem Jashari International Airport</name>
+      <continent>EU</continent>
+      <country>XK</country>
       <latitude>42.5728</latitude>
       <longitude>21.035801</longitude>
     </node>
     <node index="5">
       <name>Guodu Air Base</name>
+      <continent>AS</continent>
+      <country>CN</country>
       <latitude>36.001741</latitude>
       <longitude>117.63201</longitude>
     </node>
     <node index="6">
       <name>Nanaimo International Air And Space Port / RCAF Nanaimo Base</name>
+      <continent>NA</continent>
+      <country>CA</country>
       <latitude>49.05497</latitude>
       <longitude>-123.869863</longitude>
     </node>
     <node index="7">
       <name>Edmonton International Airport</name>
+      <continent>NA</continent>
+      <country>CA</country>
       <latitude>53.3097000122</latitude>
       <longitude>-113.580001831</longitude>
     </node>
     <node index="8">
       <name>Halifax / Stanfield International Airport</name>
+      <continent>NA</continent>
+      <country>CA</country>
       <latitude>44.8807983398</latitude>
       <longitude>-63.5085983276</longitude>
     </node>
     <node index="9">
       <name>Kelowna International Airport</name>
+      <continent>NA</continent>
+      <country>CA</country>
       <latitude>49.9561</latitude>
       <longitude>-119.377998</longitude>
     </node>
     <node index="10">
       <name>Ottawa Macdonald-Cartier International Airport</name>
+      <continent>NA</continent>
+      <country>CA</country>
       <latitude>45.322498321533</latitude>
       <longitude>-75.66919708252</longitude>
     </node>
     <node index="11">
       <name>Montreal / Pierre Elliott Trudeau International Airport</name>
+      <continent>NA</continent>
+      <country>CA</country>
       <latitude>45.4706001282</latitude>
       <longitude>-73.7407989502</longitude>
     </node>
     <node index="12">
       <name>Vancouver International Airport</name>
+      <continent>NA</continent>
+      <country>CA</country>
       <latitude>49.193901062</latitude>
       <longitude>-123.183998108</longitude>
     </node>
     <node index="13">
       <name>Winnipeg / James Armstrong Richardson International Airport</name>
+      <continent>NA</continent>
+      <country>CA</country>
       <latitude>49.9099998474</latitude>
       <longitude>-97.2398986816</longitude>
     </node>
     <node index="14">
       <name>Abbotsford International Airport</name>
+      <continent>NA</continent>
+      <country>CA</country>
       <latitude>49.025299</latitude>
       <longitude>-122.361</longitude>
     </node>
     <node index="15">
       <name>Whitehorse / Erik Nielsen International Airport</name>
+      <continent>NA</continent>
+      <country>CA</country>
       <latitude>60.709599</latitude>
       <longitude>-135.067001</longitude>
     </node>
     <node index="16">
       <name>Calgary International Airport</name>
+      <continent>NA</continent>
+      <country>CA</country>
       <latitude>51.113899231</latitude>
       <longitude>-114.019996643</longitude>
     </node>
     <node index="17">
       <name>Victoria International Airport</name>
+      <continent>NA</continent>
+      <country>CA</country>
       <latitude>48.646900177</latitude>
       <longitude>-123.426002502</longitude>
     </node>
     <node index="18">
       <name>St. John's International Airport</name>
+      <continent>NA</continent>
+      <country>CA</country>
       <latitude>47.618598938</latitude>
       <longitude>-52.7518997192</longitude>
     </node>
     <node index="19">
       <name>Lester B. Pearson International Airport</name>
+      <continent>NA</continent>
+      <country>CA</country>
       <latitude>43.6772003174</latitude>
       <longitude>-79.6305999756</longitude>
     </node>
     <node index="20">
       <name>Yellowknife International Airport</name>
+      <continent>NA</continent>
+      <country>CA</country>
       <latitude>62.462799</latitude>
       <longitude>-114.440002</longitude>
     </node>
     <node index="21">
       <name>Soummam â€“ Abane Ramdane Airport</name>
+      <continent>AF</continent>
+      <country>DZ</country>
       <latitude>36.712793</latitude>
       <longitude>5.07857</longitude>
     </node>
     <node index="22">
       <name>Houari Boumediene Airport</name>
+      <continent>AF</continent>
+      <country>DZ</country>
       <latitude>36.691002</latitude>
       <longitude>3.21541</longitude>
     </node>
     <node index="23">
       <name>Ouagadougou Airport</name>
+      <continent>AF</continent>
+      <country>BF</country>
       <latitude>12.3532</latitude>
       <longitude>-1.51242</longitude>
     </node>
     <node index="24">
       <name>Kotoka International Airport</name>
+      <continent>AF</continent>
+      <country>GH</country>
       <latitude>5.6051898002625</latitude>
       <longitude>-0.16678600013256</longitude>
     </node>
     <node index="25">
       <name>Nnamdi Azikiwe International Airport</name>
+      <continent>AF</continent>
+      <country>NG</country>
       <latitude>9.0067901611328</latitude>
       <longitude>7.2631697654724</longitude>
     </node>
     <node index="26">
       <name>Akwa Ibom International Airport</name>
+      <continent>AF</continent>
+      <country>NG</country>
       <latitude>4.8725</latitude>
       <longitude>8.093</longitude>
     </node>
     <node index="27">
       <name>Mallam Aminu International Airport</name>
+      <continent>AF</continent>
+      <country>NG</country>
       <latitude>12.0476</latitude>
       <longitude>8.52462</longitude>
     </node>
     <node index="28">
       <name>Murtala Muhammed International Airport</name>
+      <continent>AF</continent>
+      <country>NG</country>
       <latitude>6.5773701667786</latitude>
       <longitude>3.3211600780487</longitude>
     </node>
     <node index="29">
       <name>Diori Hamani International Airport</name>
+      <continent>AF</continent>
+      <country>NE</country>
       <latitude>13.4815</latitude>
       <longitude>2.18361</longitude>
     </node>
     <node index="30">
       <name>Tunis Carthage International Airport</name>
+      <continent>AF</continent>
+      <country>TN</country>
       <latitude>36.851001739502</latitude>
       <longitude>10.227199554443</longitude>
     </node>
     <node index="31">
       <name>Brussels Airport</name>
+      <continent>EU</continent>
+      <country>BE</country>
       <latitude>50.9014015198</latitude>
       <longitude>4.48443984985</longitude>
     </node>
     <node index="32">
       <name>Brussels South Charleroi Airport</name>
+      <continent>EU</continent>
+      <country>BE</country>
       <latitude>50.459202</latitude>
       <longitude>4.45382</longitude>
     </node>
     <node index="33">
       <name>LiÃ¨ge Airport</name>
+      <continent>EU</continent>
+      <country>BE</country>
       <latitude>50.63740158081</latitude>
       <longitude>5.4432201385498</longitude>
     </node>
     <node index="34">
       <name>Berlin Brandenburg Airport</name>
+      <continent>EU</continent>
+      <country>DE</country>
       <latitude>52.351389</latitude>
       <longitude>13.493889</longitude>
     </node>
     <node index="35">
       <name>Dresden Airport</name>
+      <continent>EU</continent>
+      <country>DE</country>
       <latitude>51.132801055908</latitude>
       <longitude>13.767200469971</longitude>
     </node>
     <node index="36">
       <name>Frankfurt am Main Airport</name>
+      <continent>EU</continent>
+      <country>DE</country>
       <latitude>50.033333</latitude>
       <longitude>8.570556</longitude>
     </node>
     <node index="37">
       <name>MÃ¼nster OsnabrÃ¼ck Airport</name>
+      <continent>EU</continent>
+      <country>DE</country>
       <latitude>52.134601593</latitude>
       <longitude>7.68483018875</longitude>
     </node>
     <node index="38">
       <name>Hamburg Helmut Schmidt Airport</name>
+      <continent>EU</continent>
+      <country>DE</country>
       <latitude>53.630402</latitude>
       <longitude>9.98823</longitude>
     </node>
     <node index="39">
       <name>Cologne Bonn Airport</name>
+      <continent>EU</continent>
+      <country>DE</country>
       <latitude>50.8658981323</latitude>
       <longitude>7.1427397728</longitude>
     </node>
     <node index="40">
       <name>DÃ¼sseldorf Airport</name>
+      <continent>EU</continent>
+      <country>DE</country>
       <latitude>51.289501</latitude>
       <longitude>6.76678</longitude>
     </node>
     <node index="41">
       <name>Munich Airport</name>
+      <continent>EU</continent>
+      <country>DE</country>
       <latitude>48.353802</latitude>
       <longitude>11.7861</longitude>
     </node>
     <node index="42">
       <name>Nuremberg Airport</name>
+      <continent>EU</continent>
+      <country>DE</country>
       <latitude>49.498699</latitude>
       <longitude>11.078056</longitude>
     </node>
     <node index="43">
       <name>Leipzig/Halle Airport</name>
+      <continent>EU</continent>
+      <country>DE</country>
       <latitude>51.423889</latitude>
       <longitude>12.236389</longitude>
     </node>
     <node index="44">
       <name>Stuttgart Airport</name>
+      <continent>EU</continent>
+      <country>DE</country>
       <latitude>48.6898994446</latitude>
       <longitude>9.22196006775</longitude>
     </node>
     <node index="45">
       <name>Hannover Airport</name>
+      <continent>EU</continent>
+      <country>DE</country>
       <latitude>52.461101532</latitude>
       <longitude>9.68507957458</longitude>
     </node>
     <node index="46">
       <name>Bremen Airport</name>
+      <continent>EU</continent>
+      <country>DE</country>
       <latitude>53.0475006104</latitude>
       <longitude>8.78666973114</longitude>
     </node>
     <node index="47">
       <name>Dortmund Airport</name>
+      <continent>EU</continent>
+      <country>DE</country>
       <latitude>51.5182991028</latitude>
       <longitude>7.61223983765</longitude>
     </node>
     <node index="48">
       <name>Karlsruhe Baden-Baden Airport</name>
+      <continent>EU</continent>
+      <country>DE</country>
       <latitude>48.7793998718</latitude>
       <longitude>8.08049964905</longitude>
     </node>
     <node index="49">
       <name>Lennart Meri Tallinn Airport</name>
+      <continent>EU</continent>
+      <country>EE</country>
       <latitude>59.4132995605</latitude>
       <longitude>24.8327999115</longitude>
     </node>
     <node index="50">
       <name>Helsinki Vantaa Airport</name>
+      <continent>EU</continent>
+      <country>FI</country>
       <latitude>60.3172</latitude>
       <longitude>24.963301</longitude>
     </node>
     <node index="51">
       <name>Belfast International Airport</name>
+      <continent>EU</continent>
+      <country>GB</country>
       <latitude>54.6575012207</latitude>
       <longitude>-6.21582984924</longitude>
     </node>
     <node index="52">
       <name>George Best Belfast City Airport</name>
+      <continent>EU</continent>
+      <country>GB</country>
       <latitude>54.618099212646</latitude>
       <longitude>-5.8724999427795</longitude>
     </node>
     <node index="53">
       <name>Birmingham International Airport</name>
+      <continent>EU</continent>
+      <country>GB</country>
       <latitude>52.4538993835</latitude>
       <longitude>-1.74802994728</longitude>
     </node>
     <node index="54">
       <name>Manchester Airport</name>
+      <continent>EU</continent>
+      <country>GB</country>
       <latitude>53.349375</latitude>
       <longitude>-2.279521</longitude>
     </node>
     <node index="55">
       <name>Robin Hood Doncaster Sheffield Airport</name>
+      <continent>EU</continent>
+      <country>GB</country>
       <latitude>53.4805378105</latitude>
       <longitude>-1.01065635681</longitude>
     </node>
     <node index="56">
       <name>Cardiff International Airport</name>
+      <continent>EU</continent>
+      <country>GB</country>
       <latitude>51.396701812744</latitude>
       <longitude>-3.3433299064636</longitude>
     </node>
     <node index="57">
       <name>Bristol Airport</name>
+      <continent>EU</continent>
+      <country>GB</country>
       <latitude>51.382702</latitude>
       <longitude>-2.71909</longitude>
     </node>
     <node index="58">
       <name>Liverpool John Lennon Airport</name>
+      <continent>EU</continent>
+      <country>GB</country>
       <latitude>53.333599090576</latitude>
       <longitude>-2.8497200012207</longitude>
     </node>
     <node index="59">
       <name>London Luton Airport</name>
+      <continent>EU</continent>
+      <country>GB</country>
       <latitude>51.874698638916</latitude>
       <longitude>-0.36833301186562</longitude>
     </node>
     <node index="60">
       <name>Bournemouth Airport</name>
+      <continent>EU</continent>
+      <country>GB</country>
       <latitude>50.779998779297</latitude>
       <longitude>-1.8424999713898</longitude>
     </node>
     <node index="61">
       <name>Southampton Airport</name>
+      <continent>EU</continent>
+      <country>GB</country>
       <latitude>50.950298309326</latitude>
       <longitude>-1.3567999601364</longitude>
     </node>
     <node index="62">
       <name>London Gatwick Airport</name>
+      <continent>EU</continent>
+      <country>GB</country>
       <latitude>51.148102</latitude>
       <longitude>-0.190278</longitude>
     </node>
     <node index="63">
       <name>London Heathrow Airport</name>
+      <continent>EU</continent>
+      <country>GB</country>
       <latitude>51.4706</latitude>
       <longitude>-0.461941</longitude>
     </node>
     <node index="64">
       <name>Leeds Bradford Airport</name>
+      <continent>EU</continent>
+      <country>GB</country>
       <latitude>53.865898132324</latitude>
       <longitude>-1.660570025444</longitude>
     </node>
     <node index="65">
       <name>Newcastle Airport</name>
+      <continent>EU</continent>
+      <country>GB</country>
       <latitude>55.037498474121</latitude>
       <longitude>-1.6916699409485</longitude>
     </node>
     <node index="66">
       <name>East Midlands Airport</name>
+      <continent>EU</continent>
+      <country>GB</country>
       <latitude>52.8311004639</latitude>
       <longitude>-1.32806003094</longitude>
     </node>
     <node index="67">
       <name>Aberdeen Dyce Airport</name>
+      <continent>EU</continent>
+      <country>GB</country>
       <latitude>57.201900482178</latitude>
       <longitude>-2.1977798938751</longitude>
     </node>
     <node index="68">
       <name>Glasgow International Airport</name>
+      <continent>EU</continent>
+      <country>GB</country>
       <latitude>55.871899</latitude>
       <longitude>-4.43306</longitude>
     </node>
     <node index="69">
       <name>Edinburgh Airport</name>
+      <continent>EU</continent>
+      <country>GB</country>
       <latitude>55.950000762939</latitude>
       <longitude>-3.3724999427795</longitude>
     </node>
     <node index="70">
       <name>Norwich International Airport</name>
+      <continent>EU</continent>
+      <country>GB</country>
       <latitude>52.6758003235</latitude>
       <longitude>1.28278005123</longitude>
     </node>
     <node index="71">
       <name>London Stansted Airport</name>
+      <continent>EU</continent>
+      <country>GB</country>
       <latitude>51.8849983215</latitude>
       <longitude>0.234999999404</longitude>
     </node>
     <node index="72">
       <name>Exeter International Airport</name>
+      <continent>EU</continent>
+      <country>GB</country>
       <latitude>50.734401702881</latitude>
       <longitude>-3.4138898849487</longitude>
     </node>
     <node index="73">
       <name>RAF Lakenheath</name>
+      <continent>EU</continent>
+      <country>GB</country>
       <latitude>52.4093017578</latitude>
       <longitude>0.56099998951</longitude>
     </node>
     <node index="74">
       <name>RAF Mildenhall</name>
+      <continent>EU</continent>
+      <country>GB</country>
       <latitude>52.36190032959</latitude>
       <longitude>0.4864059984684</longitude>
     </node>
     <node index="75">
       <name>RAF Fairford</name>
+      <continent>EU</continent>
+      <country>GB</country>
       <latitude>51.6822013855</latitude>
       <longitude>-1.79003000259</longitude>
     </node>
     <node index="76">
       <name>RAF Brize Norton</name>
+      <continent>EU</continent>
+      <country>GB</country>
       <latitude>51.75</latitude>
       <longitude>-1.58362</longitude>
     </node>
     <node index="77">
       <name>Amsterdam Airport Schiphol</name>
+      <continent>EU</continent>
+      <country>NL</country>
       <latitude>52.308601</latitude>
       <longitude>4.76389</longitude>
     </node>
     <node index="78">
       <name>Eindhoven Airport</name>
+      <continent>EU</continent>
+      <country>NL</country>
       <latitude>51.4500999451</latitude>
       <longitude>5.37452983856</longitude>
     </node>
     <node index="79">
       <name>Cork Airport</name>
+      <continent>EU</continent>
+      <country>IE</country>
       <latitude>51.841300964355</latitude>
       <longitude>-8.4911098480225</longitude>
     </node>
     <node index="80">
       <name>Dublin Airport</name>
+      <continent>EU</continent>
+      <country>IE</country>
       <latitude>53.421299</latitude>
       <longitude>-6.27007</longitude>
     </node>
     <node index="81">
       <name>Shannon Airport</name>
+      <continent>EU</continent>
+      <country>IE</country>
       <latitude>52.702</latitude>
       <longitude>-8.92482</longitude>
     </node>
     <node index="82">
       <name>Billund Airport</name>
+      <continent>EU</continent>
+      <country>DK</country>
       <latitude>55.7402992249</latitude>
       <longitude>9.15178012848</longitude>
     </node>
     <node index="83">
       <name>Copenhagen Kastrup Airport</name>
+      <continent>EU</continent>
+      <country>DK</country>
       <latitude>55.617900848389</latitude>
       <longitude>12.656000137329</longitude>
     </node>
     <node index="84">
       <name>Aalborg Airport</name>
+      <continent>EU</continent>
+      <country>DK</country>
       <latitude>57.0927589138</latitude>
       <longitude>9.84924316406</longitude>
     </node>
     <node index="85">
       <name>Luxembourg-Findel International Airport</name>
+      <continent>EU</continent>
+      <country>LU</country>
       <latitude>49.6233333</latitude>
       <longitude>6.2044444</longitude>
     </node>
     <node index="86">
       <name>BodÃ¸ Airport</name>
+      <continent>EU</continent>
+      <country>NO</country>
       <latitude>67.269203186035</latitude>
       <longitude>14.365300178528</longitude>
     </node>
     <node index="87">
       <name>Bergen Airport Flesland</name>
+      <continent>EU</continent>
+      <country>NO</country>
       <latitude>60.29339981</latitude>
       <longitude>5.218140125</longitude>
     </node>
     <node index="88">
       <name>Oslo Gardermoen Airport</name>
+      <continent>EU</continent>
+      <country>NO</country>
       <latitude>60.193901062012</latitude>
       <longitude>11.100399971008</longitude>
     </node>
     <node index="89">
       <name>TromsÃ¸ Airport</name>
+      <continent>EU</continent>
+      <country>NO</country>
       <latitude>69.683296203613</latitude>
       <longitude>18.918899536133</longitude>
     </node>
     <node index="90">
       <name>Trondheim Airport VÃ¦rnes</name>
+      <continent>EU</continent>
+      <country>NO</country>
       <latitude>63.4578018</latitude>
       <longitude>10.9239998</longitude>
     </node>
     <node index="91">
       <name>Stavanger Airport Sola</name>
+      <continent>EU</continent>
+      <country>NO</country>
       <latitude>58.876701354</latitude>
       <longitude>5.6377801895</longitude>
     </node>
     <node index="92">
       <name>Bydgoszcz Ignacy Jan Paderewski Airport</name>
+      <continent>EU</continent>
+      <country>PL</country>
       <latitude>53.096802</latitude>
       <longitude>17.977699</longitude>
     </node>
     <node index="93">
       <name>GdaÅ„sk Lech WaÅ‚Ä™sa Airport</name>
+      <continent>EU</continent>
+      <country>PL</country>
       <latitude>54.377601623535</latitude>
       <longitude>18.466199874878</longitude>
     </node>
     <node index="94">
       <name>KrakÃ³w John Paul II International Airport</name>
+      <continent>EU</continent>
+      <country>PL</country>
       <latitude>50.077702</latitude>
       <longitude>19.7848</longitude>
     </node>
     <node index="95">
       <name>Katowice International Airport</name>
+      <continent>EU</continent>
+      <country>PL</country>
       <latitude>50.4743</latitude>
       <longitude>19.08</longitude>
     </node>
     <node index="96">
       <name>Modlin Airport</name>
+      <continent>EU</continent>
+      <country>PL</country>
       <latitude>52.451099</latitude>
       <longitude>20.6518</longitude>
     </node>
     <node index="97">
       <name>PoznaÅ„-Åawica Airport</name>
+      <continent>EU</continent>
+      <country>PL</country>
       <latitude>52.4210014343</latitude>
       <longitude>16.8262996674</longitude>
     </node>
     <node index="98">
       <name>Szczecin-GoleniÃ³w &quot;SolidarnoÅ›Ä‡&quot; Airport</name>
+      <continent>EU</continent>
+      <country>PL</country>
       <latitude>53.584702</latitude>
       <longitude>14.9022</longitude>
     </node>
     <node index="99">
       <name>Warsaw Chopin Airport</name>
+      <continent>EU</continent>
+      <country>PL</country>
       <latitude>52.1656990051</latitude>
       <longitude>20.9671001434</longitude>
     </node>
     <node index="100">
       <name>Copernicus WrocÅ‚aw Airport</name>
+      <continent>EU</continent>
+      <country>PL</country>
       <latitude>51.1026992798</latitude>
       <longitude>16.885799408</longitude>
     </node>
     <node index="101">
       <name>Gothenburg-Landvetter Airport</name>
+      <continent>EU</continent>
+      <country>SE</country>
       <latitude>57.662799835205</latitude>
       <longitude>12.279800415039</longitude>
     </node>
     <node index="102">
       <name>MalmÃ¶ Sturup Airport</name>
+      <continent>EU</continent>
+      <country>SE</country>
       <latitude>55.536305364</latitude>
       <longitude>13.3761978149</longitude>
     </node>
     <node index="103">
       <name>LuleÃ¥ Airport</name>
+      <continent>EU</continent>
+      <country>SE</country>
       <latitude>65.543800354004</latitude>
       <longitude>22.121999740601</longitude>
     </node>
     <node index="104">
       <name>Stockholm-Arlanda Airport</name>
+      <continent>EU</continent>
+      <country>SE</country>
       <latitude>59.651901245117</latitude>
       <longitude>17.918600082397</longitude>
     </node>
     <node index="105">
       <name>Ramstein Air Base</name>
+      <continent>EU</continent>
+      <country>DE</country>
       <latitude>49.436901092529</latitude>
       <longitude>7.6002798080444</longitude>
     </node>
     <node index="106">
       <name>Riga International Airport</name>
+      <continent>EU</continent>
+      <country>LV</country>
       <latitude>56.923599243164</latitude>
       <longitude>23.971099853516</longitude>
     </node>
     <node index="107">
       <name>Vilnius International Airport</name>
+      <continent>EU</continent>
+      <country>LT</country>
       <latitude>54.634102</latitude>
       <longitude>25.285801</longitude>
     </node>
     <node index="108">
       <name>Cape Town International Airport</name>
+      <continent>AF</continent>
+      <country>ZA</country>
       <latitude>-33.9648017883</latitude>
       <longitude>18.6016998291</longitude>
     </node>
     <node index="109">
       <name>George Airport</name>
+      <continent>AF</continent>
+      <country>ZA</country>
       <latitude>-34.0056</latitude>
       <longitude>22.378902</longitude>
     </node>
     <node index="110">
       <name>King Shaka International Airport</name>
+      <continent>AF</continent>
+      <country>ZA</country>
       <latitude>-29.6144444444</latitude>
       <longitude>31.1197222222</longitude>
     </node>
     <node index="111">
       <name>OR Tambo International Airport</name>
+      <continent>AF</continent>
+      <country>ZA</country>
       <latitude>-26.1392</latitude>
       <longitude>28.246</longitude>
     </node>
     <node index="112">
       <name>Sir Seretse Khama International Airport</name>
+      <continent>AF</continent>
+      <country>BW</country>
       <latitude>-24.555201</latitude>
       <longitude>25.9182</longitude>
     </node>
     <node index="113">
       <name>King Mswati III International Airport</name>
+      <continent>AF</continent>
+      <country>SZ</country>
       <latitude>-26.358611</latitude>
       <longitude>31.716944</longitude>
     </node>
     <node index="114">
       <name>Sir Seewoosagur Ramgoolam International Airport</name>
+      <continent>AF</continent>
+      <country>MU</country>
       <latitude>-20.430201</latitude>
       <longitude>57.683601</longitude>
     </node>
     <node index="115">
       <name>Kenneth Kaunda International Airport</name>
+      <continent>AF</continent>
+      <country>ZM</country>
       <latitude>-15.3308</latitude>
       <longitude>28.4526</longitude>
     </node>
     <node index="116">
       <name>Ivato Airport</name>
+      <continent>AF</continent>
+      <country>MG</country>
       <latitude>-18.7969</latitude>
       <longitude>47.478802</longitude>
     </node>
     <node index="117">
       <name>Quatro de Fevereiro Airport</name>
+      <continent>AF</continent>
+      <country>AO</country>
       <latitude>-8.85837</latitude>
       <longitude>13.2312</longitude>
     </node>
     <node index="118">
       <name>Maputo Airport</name>
+      <continent>AF</continent>
+      <country>MZ</country>
       <latitude>-25.920799</latitude>
       <longitude>32.572601</longitude>
     </node>
     <node index="119">
       <name>Seychelles International Airport</name>
+      <continent>AF</continent>
+      <country>SC</country>
       <latitude>-4.67434</latitude>
       <longitude>55.521801</longitude>
     </node>
     <node index="120">
       <name>N'Djamena International Airport</name>
+      <continent>AF</continent>
+      <country>TD</country>
       <latitude>12.1337</latitude>
       <longitude>15.034</longitude>
     </node>
     <node index="121">
       <name>Robert Gabriel Mugabe International Airport</name>
+      <continent>AF</continent>
+      <country>ZW</country>
       <latitude>-17.931801</latitude>
       <longitude>31.0928</longitude>
     </node>
     <node index="122">
       <name>Hosea Kutako International Airport</name>
+      <continent>AF</continent>
+      <country>NA</country>
       <latitude>-22.4799</latitude>
       <longitude>17.4709</longitude>
     </node>
     <node index="123">
       <name>Ndjili International Airport</name>
+      <continent>AF</continent>
+      <country>CD</country>
       <latitude>-4.38575</latitude>
       <longitude>15.4446</longitude>
     </node>
     <node index="124">
       <name>Modibo Keita International Airport</name>
+      <continent>AF</continent>
+      <country>ML</country>
       <latitude>12.5335</latitude>
       <longitude>-7.94994</longitude>
     </node>
     <node index="125">
       <name>La Palma Airport</name>
+      <continent>EU</continent>
+      <country>ES</country>
       <latitude>28.626499</latitude>
       <longitude>-17.7556</longitude>
     </node>
     <node index="126">
       <name>Gran Canaria Airport</name>
+      <continent>EU</continent>
+      <country>ES</country>
       <latitude>27.931900024414</latitude>
       <longitude>-15.38659954071</longitude>
     </node>
     <node index="127">
       <name>Tenerife South Airport</name>
+      <continent>EU</continent>
+      <country>ES</country>
       <latitude>28.0445</latitude>
       <longitude>-16.5725</longitude>
     </node>
     <node index="128">
       <name>Tenerife Norte Airport</name>
+      <continent>EU</continent>
+      <country>ES</country>
       <latitude>28.4827</latitude>
       <longitude>-16.341499</longitude>
     </node>
     <node index="129">
       <name>Lungi International Airport</name>
+      <continent>AF</continent>
+      <country>SL</country>
       <latitude>8.61644</latitude>
       <longitude>-13.1955</longitude>
     </node>
     <node index="130">
       <name>Roberts International Airport</name>
+      <continent>AF</continent>
+      <country>LR</country>
       <latitude>6.23379</latitude>
       <longitude>-10.3623</longitude>
     </node>
     <node index="131">
       <name>Mohammed V International Airport</name>
+      <continent>AF</continent>
+      <country>MA</country>
       <latitude>33.367500305176</latitude>
       <longitude>-7.5899701118469</longitude>
     </node>
     <node index="132">
       <name>Blaise Diagne International Airport</name>
+      <continent>AF</continent>
+      <country>SN</country>
       <latitude>14.67</latitude>
       <longitude>-17.073333</longitude>
     </node>
     <node index="133">
       <name>Nouakchottâ€“Oumtounsy International Airport</name>
+      <continent>AF</continent>
+      <country>MR</country>
       <latitude>18.31</latitude>
       <longitude>-15.9697222</longitude>
     </node>
     <node index="134">
       <name>AmÃ­lcar Cabral International Airport</name>
+      <continent>AF</continent>
+      <country>CV</country>
       <latitude>16.7414</latitude>
       <longitude>-22.9494</longitude>
     </node>
     <node index="135">
       <name>Addis Ababa Bole International Airport</name>
+      <continent>AF</continent>
+      <country>ET</country>
       <latitude>8.97789001465</latitude>
       <longitude>38.7993011475</longitude>
     </node>
     <node index="136">
       <name>Egal International Airport</name>
+      <continent>AF</continent>
+      <country>SO</country>
       <latitude>9.513207</latitude>
       <longitude>44.082389</longitude>
     </node>
     <node index="137">
       <name>Cairo International Airport</name>
+      <continent>AF</continent>
+      <country>EG</country>
       <latitude>30.121900558472</latitude>
       <longitude>31.405599594116</longitude>
     </node>
     <node index="138">
       <name>Hurghada International Airport</name>
+      <continent>AF</continent>
+      <country>EG</country>
       <latitude>27.180325</latitude>
       <longitude>33.807292</longitude>
     </node>
     <node index="139">
       <name>Jomo Kenyatta International Airport</name>
+      <continent>AF</continent>
+      <country>KE</country>
       <latitude>-1.31923997402</latitude>
       <longitude>36.9277992249</longitude>
     </node>
     <node index="140">
       <name>Moi International Airport</name>
+      <continent>AF</continent>
+      <country>KE</country>
       <latitude>-4.03483</latitude>
       <longitude>39.5942</longitude>
     </node>
     <node index="141">
       <name>Tripoli International Airport</name>
+      <continent>AF</continent>
+      <country>LY</country>
       <latitude>32.663502</latitude>
       <longitude>13.159</longitude>
     </node>
     <node index="142">
       <name>Kigali International Airport</name>
+      <continent>AF</continent>
+      <country>RW</country>
       <latitude>-1.96863</latitude>
       <longitude>30.1395</longitude>
     </node>
     <node index="143">
       <name>Juba International Airport</name>
+      <continent>AF</continent>
+      <country>SS</country>
       <latitude>4.87201023102</latitude>
       <longitude>31.6011009216</longitude>
     </node>
     <node index="144">
       <name>Khartoum International Airport</name>
+      <continent>AF</continent>
+      <country>SD</country>
       <latitude>15.5895</latitude>
       <longitude>32.5532</longitude>
     </node>
     <node index="145">
       <name>Julius Nyerere International Airport</name>
+      <continent>AF</continent>
+      <country>TZ</country>
       <latitude>-6.87811</latitude>
       <longitude>39.202599</longitude>
     </node>
     <node index="146">
       <name>Abeid Amani Karume International Airport</name>
+      <continent>AF</continent>
+      <country>TZ</country>
       <latitude>-6.22202</latitude>
       <longitude>39.224899</longitude>
     </node>
     <node index="147">
       <name>Entebbe International Airport</name>
+      <continent>AF</continent>
+      <country>UG</country>
       <latitude>0.042386</latitude>
       <longitude>32.443501</longitude>
     </node>
     <node index="148">
       <name>Aji Pangeran Tumenggung Pranoto International Airport</name>
+      <continent>AS</continent>
+      <country>ID</country>
       <latitude>-0.374448</latitude>
       <longitude>117.249392</longitude>
     </node>
     <node index="149">
       <name>Lilbuanaka International Airport/Heliport/Airforcebase/TestingSite/Flightschool</name>
+      <continent>AF</continent>
+      <country>DZ</country>
       <latitude>26.430219</latitude>
       <longitude>2.943306</longitude>
     </node>
     <node index="150">
       <name>Boulder City-Lake Mead International Airport</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>35.947498</latitude>
       <longitude>-114.861</longitude>
     </node>
     <node index="151">
       <name>Mesquite International Airport</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>36.834999</latitude>
       <longitude>-114.055</longitude>
     </node>
     <node index="152">
       <name>Albuquerque International Sunport</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>35.040199</latitude>
       <longitude>-106.609001</longitude>
     </node>
     <node index="153">
       <name>California Redwood Coast-Humboldt County International Airport</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>40.978101</latitude>
       <longitude>-124.109</longitude>
     </node>
     <node index="154">
       <name>Joint Base Andrews</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>38.810799</latitude>
       <longitude>-76.866997</longitude>
     </node>
     <node index="155">
       <name>Fort Worth Alliance Airport</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>32.9875984192</latitude>
       <longitude>-97.3188018799</longitude>
     </node>
     <node index="156">
       <name>Augusta Regional At Bush Field</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>33.369899749756</latitude>
       <longitude>-81.964500427246</longitude>
     </node>
     <node index="157">
       <name>Rick Husband Amarillo International Airport</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>35.219398</latitude>
       <longitude>-101.706001</longitude>
     </node>
     <node index="158">
       <name>Hartsfield Jackson Atlanta International Airport</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>33.6367</latitude>
       <longitude>-84.428101</longitude>
     </node>
     <node index="159">
       <name>Austin Bergstrom International Airport</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>30.194499969482</latitude>
       <longitude>-97.669898986816</longitude>
     </node>
     <node index="160">
       <name>Asheville Regional Airport</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>35.436199</latitude>
       <longitude>-82.541801</longitude>
     </node>
     <node index="161">
       <name>Beale Air Force Base</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>39.136100769</latitude>
       <longitude>-121.43699646</longitude>
     </node>
     <node index="162">
       <name>Barksdale Air Force Base</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>32.5018005371</latitude>
       <longitude>-93.6626968384</longitude>
     </node>
     <node index="163">
       <name>Bradley International Airport</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>41.9388999939</latitude>
       <longitude>-72.6831970215</longitude>
     </node>
     <node index="164">
       <name>Boeing Field King County International Airport</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>47.529998779297</latitude>
       <longitude>-122.30200195312</longitude>
     </node>
     <node index="165">
       <name>Bangor International Airport</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>44.807399749756</latitude>
       <longitude>-68.828102111816</longitude>
     </node>
     <node index="166">
       <name>Birmingham-Shuttlesworth International Airport</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>33.56290054</latitude>
       <longitude>-86.75350189</longitude>
     </node>
     <node index="167">
       <name>Billings Logan International Airport</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>45.80770111084</latitude>
       <longitude>-108.54299926758</longitude>
     </node>
     <node index="168">
       <name>Scott AFB/Midamerica Airport</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>38.5452</latitude>
       <longitude>-89.835197</longitude>
     </node>
     <node index="169">
       <name>Central Illinois Regional Airport at Bloomington-Normal</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>40.47710037</latitude>
       <longitude>-88.91590118</longitude>
     </node>
     <node index="170">
       <name>Nashville International Airport</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>36.124500274658</latitude>
       <longitude>-86.678199768066</longitude>
     </node>
     <node index="171">
       <name>Boise Air Terminal/Gowen Field</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>43.5644</latitude>
       <longitude>-116.223</longitude>
     </node>
     <node index="172">
       <name>Logan International Airport</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>42.3643</latitude>
       <longitude>-71.005203</longitude>
     </node>
     <node index="173">
       <name>Buffalo Niagara International Airport</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>42.94049835</latitude>
       <longitude>-78.73220062</longitude>
     </node>
     <node index="174">
       <name>Baltimore/Washington International Thurgood Marshall Airport</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>39.1754</latitude>
       <longitude>-76.668297</longitude>
     </node>
     <node index="175">
       <name>Columbia Metropolitan Airport</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>33.938800811767</latitude>
       <longitude>-81.119499206543</longitude>
     </node>
     <node index="176">
       <name>Columbus Air Force Base</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>33.6437988281</latitude>
       <longitude>-88.4438018799</longitude>
     </node>
     <node index="177">
       <name>Chattanooga Metropolitan Airport (Lovell Field)</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>35.035301</latitude>
       <longitude>-85.203796</longitude>
     </node>
     <node index="178">
       <name>Charleston International Airport</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>32.898602</latitude>
       <longitude>-80.040497</longitude>
     </node>
     <node index="179">
       <name>The Eastern Iowa Airport</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>41.884701</latitude>
       <longitude>-91.7108</longitude>
     </node>
     <node index="180">
       <name>Cleveland Hopkins International Airport</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>41.4117012024</latitude>
       <longitude>-81.8498001099</longitude>
     </node>
     <node index="181">
       <name>Charlotte Douglas International Airport</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>35.214000701904</latitude>
       <longitude>-80.943099975586</longitude>
     </node>
     <node index="182">
       <name>Camarillo International Airport</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>34.213699</latitude>
       <longitude>-119.094002</longitude>
     </node>
     <node index="183">
       <name>John Glenn Columbus International Airport</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>39.998001</latitude>
       <longitude>-82.891899</longitude>
     </node>
     <node index="184">
       <name>City of Colorado Springs Municipal Airport</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>38.805801</latitude>
       <longitude>-104.700996</longitude>
     </node>
     <node index="185">
       <name>Corpus Christi International Airport</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>27.770399093628</latitude>
       <longitude>-97.501197814941</longitude>
     </node>
     <node index="186">
       <name>Yeager Airport</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>38.373100280762</latitude>
       <longitude>-81.593200683594</longitude>
     </node>
     <node index="187">
       <name>Cincinnati Northern Kentucky International Airport</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>39.048801</latitude>
       <longitude>-84.667801</longitude>
     </node>
     <node index="188">
       <name>Cannon Air Force Base</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>34.3828010559</latitude>
       <longitude>-103.321998596</longitude>
     </node>
     <node index="189">
       <name>Daytona Beach International Airport</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>29.179899</latitude>
       <longitude>-81.058098</longitude>
     </node>
     <node index="190">
       <name>Dallas Love Field</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>32.847099</latitude>
       <longitude>-96.851799</longitude>
     </node>
     <node index="191">
       <name>James M Cox Dayton International Airport</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>39.902400970459</latitude>
       <longitude>-84.219398498535</longitude>
     </node>
     <node index="192">
       <name>Dubuque Regional Airport</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>42.40200043</latitude>
       <longitude>-90.70950317</longitude>
     </node>
     <node index="193">
       <name>Ronald Reagan Washington National Airport</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>38.8521</latitude>
       <longitude>-77.037697</longitude>
     </node>
     <node index="194">
       <name>Denver International Airport</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>39.861698150635</latitude>
       <longitude>-104.672996521</longitude>
     </node>
     <node index="195">
       <name>Dallas Fort Worth International Airport</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>32.896801</latitude>
       <longitude>-97.038002</longitude>
     </node>
     <node index="196">
       <name>Laughlin Air Force Base</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>29.359501</latitude>
       <longitude>-100.778002</longitude>
     </node>
     <node index="197">
       <name>Duluth International Airport</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>46.8420982361</latitude>
       <longitude>-92.1936035156</longitude>
     </node>
     <node index="198">
       <name>Dover Air Force Base</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>39.12950134</latitude>
       <longitude>-75.46600342</longitude>
     </node>
     <node index="199">
       <name>Des Moines International Airport</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>41.534000396729</latitude>
       <longitude>-93.663101196289</longitude>
     </node>
     <node index="200">
       <name>Detroit Metropolitan Wayne County Airport</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>42.212398529053</latitude>
       <longitude>-83.353401184082</longitude>
     </node>
     <node index="201">
       <name>Dyess Air Force Base</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>32.4207992554</latitude>
       <longitude>-99.854598999</longitude>
     </node>
     <node index="202">
       <name>Edwards Air Force Base</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>34.905399</latitude>
       <longitude>-117.884003</longitude>
     </node>
     <node index="203">
       <name>Vance Air Force Base</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>36.3391990662</latitude>
       <longitude>-97.9164962769</longitude>
     </node>
     <node index="204">
       <name>Erie International Tom Ridge Field</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>42.0831270134</latitude>
       <longitude>-80.1738667488</longitude>
     </node>
     <node index="205">
       <name>Newark Liberty International Airport</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>40.692501</latitude>
       <longitude>-74.168701</longitude>
     </node>
     <node index="206">
       <name>Key West International Airport</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>24.556101</latitude>
       <longitude>-81.759598</longitude>
     </node>
     <node index="207">
       <name>Fresno Yosemite International Airport</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>36.776199</latitude>
       <longitude>-119.718002</longitude>
     </node>
     <node index="208">
       <name>Wright-Patterson Air Force Base</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>39.8260993958</latitude>
       <longitude>-84.0483016968</longitude>
     </node>
     <node index="209">
       <name>Flagstaff Pulliam International Airport</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>35.1385</latitude>
       <longitude>-111.670998</longitude>
     </node>
     <node index="210">
       <name>Fort Lauderdale Hollywood International Airport</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>26.072599</latitude>
       <longitude>-80.152702</longitude>
     </node>
     <node index="211">
       <name>Fort Smith Regional Airport</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>35.336601257324</latitude>
       <longitude>-94.367401123047</longitude>
     </node>
     <node index="212">
       <name>Fort Worth Meacham International Airport</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>32.819801</latitude>
       <longitude>-97.362396</longitude>
     </node>
     <node index="213">
       <name>Fort Wayne International Airport</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>40.97850037</latitude>
       <longitude>-85.19509888</longitude>
     </node>
     <node index="214">
       <name>Spokane International Airport</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>47.619899749756</latitude>
       <longitude>-117.53399658203</longitude>
     </node>
     <node index="215">
       <name>Gulfport Biloxi International Airport</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>30.407300949097</latitude>
       <longitude>-89.070098876953</longitude>
     </node>
     <node index="216">
       <name>Austin Straubel International Airport</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>44.48509979248</latitude>
       <longitude>-88.129600524902</longitude>
     </node>
     <node index="217">
       <name>Seymour Johnson Air Force Base</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>35.33940125</latitude>
       <longitude>-77.96060181</longitude>
     </node>
     <node index="218">
       <name>Piedmont Triad International Airport</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>36.097801208496</latitude>
       <longitude>-79.937301635742</longitude>
     </node>
     <node index="219">
       <name>Greenville Spartanburg International Airport</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>34.895699</latitude>
       <longitude>-82.218903</longitude>
     </node>
     <node index="220">
       <name>Grissom Air Reserve Base</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>40.6481018066</latitude>
       <longitude>-86.1520996094</longitude>
     </node>
     <node index="221">
       <name>Range Regional Airport</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>47.38660049</latitude>
       <longitude>-92.83899689</longitude>
     </node>
     <node index="222">
       <name>Lake Havasu City International Airport</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>34.571098</latitude>
       <longitude>-114.358002</longitude>
     </node>
     <node index="223">
       <name>Holloman Air Force Base</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>32.8525009155</latitude>
       <longitude>-106.107002258</longitude>
     </node>
     <node index="224">
       <name>William P Hobby Airport</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>29.64539909</latitude>
       <longitude>-95.27890015</longitude>
     </node>
     <node index="225">
       <name>Huntsville International Carl T Jones Field</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>34.637199401855</latitude>
       <longitude>-86.775100708008</longitude>
     </node>
     <node index="226">
       <name>Tri-State/Milton J. Ferguson Field</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>38.36669922</latitude>
       <longitude>-82.55799866</longitude>
     </node>
     <node index="227">
       <name>Washington Dulles International Airport</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>38.9445</latitude>
       <longitude>-77.455803</longitude>
     </node>
     <node index="228">
       <name>George Bush Intercontinental Houston Airport</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>29.984399795532</latitude>
       <longitude>-95.341400146484</longitude>
     </node>
     <node index="229">
       <name>Wichita Eisenhower National Airport</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>37.649899</latitude>
       <longitude>-97.433098</longitude>
     </node>
     <node index="230">
       <name>Indianapolis International Airport</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>39.7173</latitude>
       <longitude>-86.294403</longitude>
     </node>
     <node index="231">
       <name>Jackson-Medgar Wiley Evers International Airport</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>32.3111991882</latitude>
       <longitude>-90.0758972168</longitude>
     </node>
     <node index="232">
       <name>Jacksonville International Airport</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>30.494100570679</latitude>
       <longitude>-81.687896728516</longitude>
     </node>
     <node index="233">
       <name>John F Kennedy International Airport</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>40.639801</latitude>
       <longitude>-73.7789</longitude>
     </node>
     <node index="234">
       <name>Joplin Regional Airport</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>37.151798248291</latitude>
       <longitude>-94.49829864502</longitude>
     </node>
     <node index="235">
       <name>Bakersfield International Airport</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>35.324799</latitude>
       <longitude>-118.996002</longitude>
     </node>
     <node index="236">
       <name>McCarran International Airport</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>36.08010101</latitude>
       <longitude>-115.1520004</longitude>
     </node>
     <node index="237">
       <name>Los Angeles International Airport</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>33.942501</latitude>
       <longitude>-118.407997</longitude>
     </node>
     <node index="238">
       <name>Lubbock Preston Smith International Airport</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>33.663601</latitude>
       <longitude>-101.822998</longitude>
     </node>
     <node index="239">
       <name>Rickenbacker International Airport</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>39.813801</latitude>
       <longitude>-82.927803</longitude>
     </node>
     <node index="240">
       <name>Blue Grass Airport</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>38.036499023438</latitude>
       <longitude>-84.605903625488</longitude>
     </node>
     <node index="241">
       <name>Langley Air Force Base</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>37.082901001</latitude>
       <longitude>-76.360496521</longitude>
     </node>
     <node index="242">
       <name>Lafayette Regional Airport</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>30.20529938</latitude>
       <longitude>-91.98760223</longitude>
     </node>
     <node index="243">
       <name>La Guardia Airport</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>40.777199</latitude>
       <longitude>-73.872597</longitude>
     </node>
     <node index="244">
       <name>Bill &amp; Hillary Clinton National Airport/Adams Field</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>34.7294006348</latitude>
       <longitude>-92.2242965698</longitude>
     </node>
     <node index="245">
       <name>Altus Air Force Base</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>34.667098999</latitude>
       <longitude>-99.2667007446</longitude>
     </node>
     <node index="246">
       <name>Luke Air Force Base</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>33.5349998474</latitude>
       <longitude>-112.383003235</longitude>
     </node>
     <node index="247">
       <name>MBS International Airport</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>43.532901763916</latitude>
       <longitude>-84.079597473145</longitude>
     </node>
     <node index="248">
       <name>Mac Dill Air Force Base</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>27.84930038</latitude>
       <longitude>-82.52120209</longitude>
     </node>
     <node index="249">
       <name>Kansas City International Airport</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>39.2976</latitude>
       <longitude>-94.713898</longitude>
     </node>
     <node index="250">
       <name>Orlando International Airport</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>28.429399490356</latitude>
       <longitude>-81.30899810791</longitude>
     </node>
     <node index="251">
       <name>Chicago Midway International Airport</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>41.785999</latitude>
       <longitude>-87.752403</longitude>
     </node>
     <node index="252">
       <name>Memphis International Airport</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>35.042400360107</latitude>
       <longitude>-89.976699829102</longitude>
     </node>
     <node index="253">
       <name>Dobbins Air Reserve Base</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>33.91540146</latitude>
       <longitude>-84.51629639</longitude>
     </node>
     <node index="254">
       <name>Montgomery Regional (Dannelly Field) Airport</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>32.30059814</latitude>
       <longitude>-86.39399719</longitude>
     </node>
     <node index="255">
       <name>Manchester-Boston Regional Airport</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>42.932598</latitude>
       <longitude>-71.435699</longitude>
     </node>
     <node index="256">
       <name>Miami International Airport</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>25.793199539184</latitude>
       <longitude>-80.290603637695</longitude>
     </node>
     <node index="257">
       <name>General Mitchell International Airport</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>42.947200775146</latitude>
       <longitude>-87.896598815918</longitude>
     </node>
     <node index="258">
       <name>Quad City International Airport</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>41.448501586914</latitude>
       <longitude>-90.507499694824</longitude>
     </node>
     <node index="259">
       <name>Monroe Regional Airport</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>32.510898590088</latitude>
       <longitude>-92.037696838379</longitude>
     </node>
     <node index="260">
       <name>Mobile Regional Airport</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>30.691200256348</latitude>
       <longitude>-88.242797851562</longitude>
     </node>
     <node index="261">
       <name>Dane County Regional Truax Field</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>43.13990020752</latitude>
       <longitude>-89.337501525879</longitude>
     </node>
     <node index="262">
       <name>Minneapolisâ€“Saint Paul International Airport / Woldâ€“Chamberlain Field</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>44.882</latitude>
       <longitude>-93.221802</longitude>
     </node>
     <node index="263">
       <name>Louis Armstrong New Orleans International Airport</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>29.99340057373</latitude>
       <longitude>-90.258003234863</longitude>
     </node>
     <node index="264">
       <name>Mountain Home Air Force Base</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>43.043598</latitude>
       <longitude>-115.872002</longitude>
     </node>
     <node index="265">
       <name>Yuma International Airport / Marine Corps Air Station Yuma</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>32.656601</latitude>
       <longitude>-114.606003</longitude>
     </node>
     <node index="266">
       <name>Metropolitan Oakland International Airport</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>37.721298</latitude>
       <longitude>-122.221001</longitude>
     </node>
     <node index="267">
       <name>Will Rogers World Airport</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>35.393100738525</latitude>
       <longitude>-97.600700378418</longitude>
     </node>
     <node index="268">
       <name>Eppley Airfield</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>41.3032</latitude>
       <longitude>-95.894096</longitude>
     </node>
     <node index="269">
       <name>Ontario International Airport</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>34.055999755859</latitude>
       <longitude>-117.6009979248</longitude>
     </node>
     <node index="270">
       <name>Chicago O'Hare International Airport</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>41.9786</latitude>
       <longitude>-87.9048</longitude>
     </node>
     <node index="271">
       <name>Norfolk International Airport</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>36.894599914551</latitude>
       <longitude>-76.201202392578</longitude>
     </node>
     <node index="272">
       <name>Tyndall Air Force Base</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>30.0695991516</latitude>
       <longitude>-85.5754013062</longitude>
     </node>
     <node index="273">
       <name>Palm Beach International Airport</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>26.683200836182</latitude>
       <longitude>-80.095596313477</longitude>
     </node>
     <node index="274">
       <name>Portland International Airport</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>45.58869934</latitude>
       <longitude>-122.5979996</longitude>
     </node>
     <node index="275">
       <name>Newport News Williamsburg International Airport</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>37.13190079</latitude>
       <longitude>-76.49299622</longitude>
     </node>
     <node index="276">
       <name>Philadelphia International Airport</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>39.871898651123</latitude>
       <longitude>-75.241096496582</longitude>
     </node>
     <node index="277">
       <name>Phoenix Sky Harbor International Airport</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>33.435302</latitude>
       <longitude>-112.005905</longitude>
     </node>
     <node index="278">
       <name>General Wayne A. Downing Peoria International Airport</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>40.6641998291</latitude>
       <longitude>-89.6932983398</longitude>
     </node>
     <node index="279">
       <name>Pittsburgh International Airport</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>40.49150085</latitude>
       <longitude>-80.23290253</longitude>
     </node>
     <node index="280">
       <name>Prescott International Airport - Ernest A. Love Field</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>34.654499</latitude>
       <longitude>-112.419998</longitude>
     </node>
     <node index="281">
       <name>Theodore Francis Green State Airport</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>41.732601</latitude>
       <longitude>-71.420403</longitude>
     </node>
     <node index="282">
       <name>Provo-Utah Lake International Airport</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>40.2192</latitude>
       <longitude>-111.723</longitude>
     </node>
     <node index="283">
       <name>Portland International Jetport</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>43.646198</latitude>
       <longitude>-70.309303</longitude>
     </node>
     <node index="284">
       <name>Raleigh Durham International Airport</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>35.877601623535</latitude>
       <longitude>-78.787498474121</longitude>
     </node>
     <node index="285">
       <name>Chicago Rockford International Airport</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>42.195400238037</latitude>
       <longitude>-89.097198486328</longitude>
     </node>
     <node index="286">
       <name>Richmond International Airport</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>37.505199432373</latitude>
       <longitude>-77.319702148438</longitude>
     </node>
     <node index="287">
       <name>Randolph Air Force Base</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>29.52969933</latitude>
       <longitude>-98.27890015</longitude>
     </node>
     <node index="288">
       <name>Reno Tahoe International Airport</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>39.499099731445</latitude>
       <longitude>-119.7679977417</longitude>
     </node>
     <node index="289">
       <name>Roanokeâ€“Blacksburg Regional Airport</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>37.3255</latitude>
       <longitude>-79.975403</longitude>
     </node>
     <node index="290">
       <name>Greater Rochester International Airport</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>43.118900299072</latitude>
       <longitude>-77.672401428223</longitude>
     </node>
     <node index="291">
       <name>Rochester International Airport</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>43.908298492432</latitude>
       <longitude>-92.5</longitude>
     </node>
     <node index="292">
       <name>Southwest Florida International Airport</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>26.536199569702</latitude>
       <longitude>-81.75520324707</longitude>
     </node>
     <node index="293">
       <name>San Diego International Airport</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>32.7336006165</latitude>
       <longitude>-117.190002441</longitude>
     </node>
     <node index="294">
       <name>San Antonio International Airport</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>29.533701</latitude>
       <longitude>-98.469803</longitude>
     </node>
     <node index="295">
       <name>Savannah Hilton Head International Airport</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>32.12760162</latitude>
       <longitude>-81.20210266</longitude>
     </node>
     <node index="296">
       <name>San Bernardino International Airport</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>34.095402</latitude>
       <longitude>-117.235001</longitude>
     </node>
     <node index="297">
       <name>South Bend Regional Airport</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>41.708698272705</latitude>
       <longitude>-86.31729888916</longitude>
     </node>
     <node index="298">
       <name>Louisville Muhammad Ali International Airport</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>38.1744</latitude>
       <longitude>-85.736</longitude>
     </node>
     <node index="299">
       <name>Seattle Tacoma International Airport</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>47.449001</latitude>
       <longitude>-122.308998</longitude>
     </node>
     <node index="300">
       <name>Orlando Sanford International Airport</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>28.777599334717</latitude>
       <longitude>-81.237503051758</longitude>
     </node>
     <node index="301">
       <name>San Francisco International Airport</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>37.618999481201</latitude>
       <longitude>-122.375</longitude>
     </node>
     <node index="302">
       <name>Springfield Branson National Airport</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>37.24570084</latitude>
       <longitude>-93.38860321</longitude>
     </node>
     <node index="303">
       <name>Saint George-Southwest Utah International Airport</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>37.036389</latitude>
       <longitude>-113.510306</longitude>
     </node>
     <node index="304">
       <name>Norman Y. Mineta San Jose International Airport</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>37.362598</latitude>
       <longitude>-121.929001</longitude>
     </node>
     <node index="305">
       <name>Fairchild Air Force Base</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>47.6151008606</latitude>
       <longitude>-117.65599823</longitude>
     </node>
     <node index="306">
       <name>Salt Lake City International Airport</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>40.785749</latitude>
       <longitude>-111.979746</longitude>
     </node>
     <node index="307">
       <name>Sacramento International Airport</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>38.695400238037</latitude>
       <longitude>-121.59100341797</longitude>
     </node>
     <node index="308">
       <name>John Wayne Airport-Orange County Airport</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>33.67570114</latitude>
       <longitude>-117.8679962</longitude>
     </node>
     <node index="309">
       <name>Abraham Lincoln Capital Airport</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>39.84410095</latitude>
       <longitude>-89.67790222</longitude>
     </node>
     <node index="310">
       <name>Sheppard Air Force Base-Wichita Falls Municipal Airport</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>33.9888</latitude>
       <longitude>-98.491898</longitude>
     </node>
     <node index="311">
       <name>Sarasota Bradenton International Airport</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>27.395399093628</latitude>
       <longitude>-82.554397583008</longitude>
     </node>
     <node index="312">
       <name>Shaw Air Force Base</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>33.97269821</latitude>
       <longitude>-80.47059631</longitude>
     </node>
     <node index="313">
       <name>St Louis Lambert International Airport</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>38.748697</latitude>
       <longitude>-90.370003</longitude>
     </node>
     <node index="314">
       <name>Spirit of St Louis Airport</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>38.662101745605</latitude>
       <longitude>-90.652000427246</longitude>
     </node>
     <node index="315">
       <name>Travis Air Force Base</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>38.262699127197</latitude>
       <longitude>-121.92700195312</longitude>
     </node>
     <node index="316">
       <name>Sioux Gateway Airport / Brigadier General Bud Day Field</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>42.397605</latitude>
       <longitude>-96.382237</longitude>
     </node>
     <node index="317">
       <name>Syracuse Hancock International Airport</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>43.111198425293</latitude>
       <longitude>-76.106300354004</longitude>
     </node>
     <node index="318">
       <name>Whiteman Air Force Base</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>38.73030090332</latitude>
       <longitude>-93.547897338867</longitude>
     </node>
     <node index="319">
       <name>McChord Air Force Base</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>47.1376991272</latitude>
       <longitude>-122.475997925</longitude>
     </node>
     <node index="320">
       <name>Tinker Air Force Base</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>35.414699554443</latitude>
       <longitude>-97.386596679688</longitude>
     </node>
     <node index="321">
       <name>Tallahassee Regional Airport</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>30.396499633789</latitude>
       <longitude>-84.350303649902</longitude>
     </node>
     <node index="322">
       <name>Toledo Express Airport</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>41.58679962</latitude>
       <longitude>-83.80780029</longitude>
     </node>
     <node index="323">
       <name>Tampa International Airport</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>27.975500106811</latitude>
       <longitude>-82.533203125</longitude>
     </node>
     <node index="324">
       <name>Tri-Cities Regional TN/VA Airport</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>36.475201</latitude>
       <longitude>-82.407401</longitude>
     </node>
     <node index="325">
       <name>Tulsa International Airport</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>36.198398590088</latitude>
       <longitude>-95.88809967041</longitude>
     </node>
     <node index="326">
       <name>Tucson International Airport / Morris Air National Guard Base</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>32.115004</latitude>
       <longitude>-110.938053</longitude>
     </node>
     <node index="327">
       <name>McGhee Tyson Airport</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>35.81100082</latitude>
       <longitude>-83.9940033</longitude>
     </node>
     <node index="328">
       <name>Nephi-Central Utah International Airport</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>39.7388</latitude>
       <longitude>-111.872002</longitude>
     </node>
     <node index="329">
       <name>South Valley International Airport</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>40.619499</latitude>
       <longitude>-111.992996</longitude>
     </node>
     <node index="330">
       <name>Vandenberg Air Force Base</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>34.7373008728</latitude>
       <longitude>-120.583999634</longitude>
     </node>
     <node index="331">
       <name>North Las Vegas Metropolitan International Airport</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>36.210701</latitude>
       <longitude>-115.194</longitude>
     </node>
     <node index="332">
       <name>Visalia International Airport</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>36.318699</latitude>
       <longitude>-119.392998</longitude>
     </node>
     <node index="333">
       <name>Destin-Fort Walton Beach Airport</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>30.4832</latitude>
       <longitude>-86.525398</longitude>
     </node>
     <node index="334">
       <name>Robins Air Force Base</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>32.6400985718</latitude>
       <longitude>-83.5919036865</longitude>
     </node>
     <node index="335">
       <name>Tirana International Airport Mother Teresa</name>
+      <continent>EU</continent>
+      <country>AL</country>
       <latitude>41.4146995544</latitude>
       <longitude>19.7206001282</longitude>
     </node>
     <node index="336">
       <name>Burgas Airport</name>
+      <continent>EU</continent>
+      <country>BG</country>
       <latitude>42.569599151611</latitude>
       <longitude>27.515199661255</longitude>
     </node>
     <node index="337">
       <name>Sofia Airport</name>
+      <continent>EU</continent>
+      <country>BG</country>
       <latitude>42.69669342041</latitude>
       <longitude>23.411436080933</longitude>
     </node>
     <node index="338">
       <name>Varna Airport</name>
+      <continent>EU</continent>
+      <country>BG</country>
       <latitude>43.232101</latitude>
       <longitude>27.8251</longitude>
     </node>
     <node index="339">
       <name>Larnaca International Airport</name>
+      <continent>AS</continent>
+      <country>CY</country>
       <latitude>34.875099</latitude>
       <longitude>33.624901</longitude>
     </node>
     <node index="340">
       <name>Paphos International Airport</name>
+      <continent>AS</continent>
+      <country>CY</country>
       <latitude>34.717998504639</latitude>
       <longitude>32.485698699951</longitude>
     </node>
     <node index="341">
       <name>RAF Akrotiri</name>
+      <continent>EU</continent>
+      <country>GB</country>
       <latitude>34.590401</latitude>
       <longitude>32.9879</longitude>
     </node>
     <node index="342">
       <name>Zagreb Airport</name>
+      <continent>EU</continent>
+      <country>HR</country>
       <latitude>45.7429008484</latitude>
       <longitude>16.0687999725</longitude>
     </node>
     <node index="343">
       <name>Alicante International Airport</name>
+      <continent>EU</continent>
+      <country>ES</country>
       <latitude>38.282199859619</latitude>
       <longitude>-0.55815601348877</longitude>
     </node>
     <node index="344">
       <name>Barcelona International Airport</name>
+      <continent>EU</continent>
+      <country>ES</country>
       <latitude>41.2971</latitude>
       <longitude>2.07846</longitude>
     </node>
     <node index="345">
       <name>Adolfo SuÃ¡rez Madridâ€“Barajas Airport</name>
+      <continent>EU</continent>
+      <country>ES</country>
       <latitude>40.471926</latitude>
       <longitude>-3.56264</longitude>
     </node>
     <node index="346">
       <name>MÃ¡laga Airport</name>
+      <continent>EU</continent>
+      <country>ES</country>
       <latitude>36.674900054932</latitude>
       <longitude>-4.4991102218628</longitude>
     </node>
     <node index="347">
       <name>Palma De Mallorca Airport</name>
+      <continent>EU</continent>
+      <country>ES</country>
       <latitude>39.551700592</latitude>
       <longitude>2.73881006241</longitude>
     </node>
     <node index="348">
       <name>Santiago de Compostela Airport</name>
+      <continent>EU</continent>
+      <country>ES</country>
       <latitude>42.896301269531</latitude>
       <longitude>-8.4151401519775</longitude>
     </node>
     <node index="349">
       <name>Bordeaux-MÃ©rignac Airport</name>
+      <continent>EU</continent>
+      <country>FR</country>
       <latitude>44.8283</latitude>
       <longitude>-0.715556</longitude>
     </node>
     <node index="350">
       <name>Toulouse-Blagnac Airport</name>
+      <continent>EU</continent>
+      <country>FR</country>
       <latitude>43.629101</latitude>
       <longitude>1.36382</longitude>
     </node>
     <node index="351">
       <name>Lyon Saint-ExupÃ©ry Airport</name>
+      <continent>EU</continent>
+      <country>FR</country>
       <latitude>45.725556</latitude>
       <longitude>5.081111</longitude>
     </node>
     <node index="352">
       <name>Marseille Provence Airport</name>
+      <continent>EU</continent>
+      <country>FR</country>
       <latitude>43.439271922</latitude>
       <longitude>5.22142410278</longitude>
     </node>
     <node index="353">
       <name>Nice-CÃ´te d'Azur Airport</name>
+      <continent>EU</continent>
+      <country>FR</country>
       <latitude>43.6584014893</latitude>
       <longitude>7.21586990356</longitude>
     </node>
     <node index="354">
       <name>Avord (BA 702) Air Base</name>
+      <continent>EU</continent>
+      <country>FR</country>
       <latitude>47.053299</latitude>
       <longitude>2.6325</longitude>
     </node>
     <node index="355">
       <name>Charles de Gaulle International Airport</name>
+      <continent>EU</continent>
+      <country>FR</country>
       <latitude>49.012798</latitude>
       <longitude>2.55</longitude>
     </node>
     <node index="356">
       <name>Paris-Orly Airport</name>
+      <continent>EU</continent>
+      <country>FR</country>
       <latitude>48.7233333</latitude>
       <longitude>2.3794444</longitude>
     </node>
     <node index="357">
       <name>EuroAirport Basel-Mulhouse-Freiburg Airport</name>
+      <continent>EU</continent>
+      <country>FR</country>
       <latitude>47.59</latitude>
       <longitude>7.529167</longitude>
     </node>
     <node index="358">
       <name>Eleftherios Venizelos International Airport</name>
+      <continent>EU</continent>
+      <country>GR</country>
       <latitude>37.9364013672</latitude>
       <longitude>23.9444999695</longitude>
     </node>
     <node index="359">
       <name>Heraklion International Nikos Kazantzakis Airport</name>
+      <continent>EU</continent>
+      <country>GR</country>
       <latitude>35.3396987915</latitude>
       <longitude>25.1802997589</longitude>
     </node>
     <node index="360">
       <name>Thessaloniki Macedonia International Airport</name>
+      <continent>EU</continent>
+      <country>GR</country>
       <latitude>40.51969909668</latitude>
       <longitude>22.970899581909</longitude>
     </node>
     <node index="361">
       <name>Budapest Liszt Ferenc International Airport</name>
+      <continent>EU</continent>
+      <country>HU</country>
       <latitude>47.42976</latitude>
       <longitude>19.261093</longitude>
     </node>
     <node index="362">
       <name>Lake Havasu City International Airport</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>34.43826</latitude>
       <longitude>-114.222531</longitude>
     </node>
     <node index="363">
       <name>Bari Karol WojtyÅ‚a Airport</name>
+      <continent>EU</continent>
+      <country>IT</country>
       <latitude>41.138901</latitude>
       <longitude>16.760599</longitude>
     </node>
     <node index="364">
       <name>Catania-Fontanarossa Airport</name>
+      <continent>EU</continent>
+      <country>IT</country>
       <latitude>37.466801</latitude>
       <longitude>15.0664</longitude>
     </node>
     <node index="365">
       <name>Falconeâ€“Borsellino Airport</name>
+      <continent>EU</continent>
+      <country>IT</country>
       <latitude>38.175999</latitude>
       <longitude>13.091</longitude>
     </node>
     <node index="366">
       <name>Cagliari Elmas Airport</name>
+      <continent>EU</continent>
+      <country>IT</country>
       <latitude>39.251499</latitude>
       <longitude>9.05428</longitude>
     </node>
     <node index="367">
       <name>Malpensa International Airport</name>
+      <continent>EU</continent>
+      <country>IT</country>
       <latitude>45.6306</latitude>
       <longitude>8.72811</longitude>
     </node>
     <node index="368">
       <name>Milan Bergamo Airport</name>
+      <continent>EU</continent>
+      <country>IT</country>
       <latitude>45.673901</latitude>
       <longitude>9.70417</longitude>
     </node>
     <node index="369">
       <name>Turin Airport</name>
+      <continent>EU</continent>
+      <country>IT</country>
       <latitude>45.200802</latitude>
       <longitude>7.64963</longitude>
     </node>
     <node index="370">
       <name>Genoa Cristoforo Colombo Airport</name>
+      <continent>EU</continent>
+      <country>IT</country>
       <latitude>44.4133</latitude>
       <longitude>8.8375</longitude>
     </node>
     <node index="371">
       <name>Milano Linate Airport</name>
+      <continent>EU</continent>
+      <country>IT</country>
       <latitude>45.445099</latitude>
       <longitude>9.27674</longitude>
     </node>
     <node index="372">
       <name>Bologna Guglielmo Marconi Airport</name>
+      <continent>EU</continent>
+      <country>IT</country>
       <latitude>44.5354</latitude>
       <longitude>11.2887</longitude>
     </node>
     <node index="373">
       <name>Treviso-Sant'Angelo Airport</name>
+      <continent>EU</continent>
+      <country>IT</country>
       <latitude>45.648399</latitude>
       <longitude>12.1944</longitude>
     </node>
     <node index="374">
       <name>Verona Villafranca Airport</name>
+      <continent>EU</continent>
+      <country>IT</country>
       <latitude>45.395699</latitude>
       <longitude>10.8885</longitude>
     </node>
     <node index="375">
       <name>Venice Marco Polo Airport</name>
+      <continent>EU</continent>
+      <country>IT</country>
       <latitude>45.505299</latitude>
       <longitude>12.3519</longitude>
     </node>
     <node index="376">
       <name>Ciampinoâ€“G. B. Pastine International Airport</name>
+      <continent>EU</continent>
+      <country>IT</country>
       <latitude>41.7994</latitude>
       <longitude>12.5949</longitude>
     </node>
     <node index="377">
       <name>Leonardo da Vinciâ€“Fiumicino Airport</name>
+      <continent>EU</continent>
+      <country>IT</country>
       <latitude>41.8002778</latitude>
       <longitude>12.2388889</longitude>
     </node>
     <node index="378">
       <name>Naples International Airport</name>
+      <continent>EU</continent>
+      <country>IT</country>
       <latitude>40.886002</latitude>
       <longitude>14.2908</longitude>
     </node>
     <node index="379">
       <name>Pisa International Airport</name>
+      <continent>EU</continent>
+      <country>IT</country>
       <latitude>43.683899</latitude>
       <longitude>10.3927</longitude>
     </node>
     <node index="380">
       <name>Ljubljana JoÅ¾e PuÄnik Airport</name>
+      <continent>EU</continent>
+      <country>SI</country>
       <latitude>46.223701</latitude>
       <longitude>14.4576</longitude>
     </node>
     <node index="381">
       <name>VÃ¡clav Havel Airport Prague</name>
+      <continent>EU</continent>
+      <country>CZ</country>
       <latitude>50.1008</latitude>
       <longitude>14.26</longitude>
     </node>
     <node index="382">
       <name>Ben Gurion International Airport</name>
+      <continent>AS</continent>
+      <country>IL</country>
       <latitude>32.01139831543</latitude>
       <longitude>34.886699676514</longitude>
     </node>
     <node index="383">
       <name>Ramon Airport</name>
+      <continent>AS</continent>
+      <country>IL</country>
       <latitude>29.723694</latitude>
       <longitude>35.011416</longitude>
     </node>
     <node index="384">
       <name>Malta International Airport</name>
+      <continent>EU</continent>
+      <country>MT</country>
       <latitude>35.857498</latitude>
       <longitude>14.4775</longitude>
     </node>
     <node index="385">
       <name>Vienna International Airport</name>
+      <continent>EU</continent>
+      <country>AT</country>
       <latitude>48.110298</latitude>
       <longitude>16.5697</longitude>
     </node>
     <node index="386">
       <name>Faro Airport</name>
+      <continent>EU</continent>
+      <country>PT</country>
       <latitude>37.0144004822</latitude>
       <longitude>-7.96590995789</longitude>
     </node>
     <node index="387">
       <name>Lajes Airport</name>
+      <continent>EU</continent>
+      <country>PT</country>
       <latitude>38.761799</latitude>
       <longitude>-27.090799</longitude>
     </node>
     <node index="388">
       <name>JoÃ£o Paulo II Airport</name>
+      <continent>EU</continent>
+      <country>PT</country>
       <latitude>37.7411994934</latitude>
       <longitude>-25.6979007721</longitude>
     </node>
     <node index="389">
       <name>Francisco de SÃ¡ Carneiro Airport</name>
+      <continent>EU</continent>
+      <country>PT</country>
       <latitude>41.2481002808</latitude>
       <longitude>-8.68138980865</longitude>
     </node>
     <node index="390">
       <name>Humberto Delgado Airport (Lisbon Portela Airport)</name>
+      <continent>EU</continent>
+      <country>PT</country>
       <latitude>38.7813</latitude>
       <longitude>-9.13592</longitude>
     </node>
     <node index="391">
       <name>Sarajevo International Airport</name>
+      <continent>EU</continent>
+      <country>BA</country>
       <latitude>43.824600219726</latitude>
       <longitude>18.331499099731</longitude>
     </node>
     <node index="392">
       <name>Henri CoandÄƒ International Airport</name>
+      <continent>EU</continent>
+      <country>RO</country>
       <latitude>44.5711111</latitude>
       <longitude>26.085</longitude>
     </node>
     <node index="393">
       <name>Geneva Cointrin International Airport</name>
+      <continent>EU</continent>
+      <country>CH</country>
       <latitude>46.238098144531</latitude>
       <longitude>6.108950138092</longitude>
     </node>
     <node index="394">
       <name>ZÃ¼rich Airport</name>
+      <continent>EU</continent>
+      <country>CH</country>
       <latitude>47.458056</latitude>
       <longitude>8.548056</longitude>
     </node>
     <node index="395">
       <name>EsenboÄŸa International Airport</name>
+      <continent>AS</continent>
+      <country>TR</country>
       <latitude>40.1281013489</latitude>
       <longitude>32.995098114</longitude>
     </node>
     <node index="396">
       <name>Adana ÅžakirpaÅŸa Airport</name>
+      <continent>AS</continent>
+      <country>TR</country>
       <latitude>36.982201</latitude>
       <longitude>35.280399</longitude>
     </node>
     <node index="397">
       <name>Antalya International Airport</name>
+      <continent>AS</continent>
+      <country>TR</country>
       <latitude>36.898701</latitude>
       <longitude>30.800501</longitude>
     </node>
     <node index="398">
       <name>Gaziantep International Airport</name>
+      <continent>AS</continent>
+      <country>TR</country>
       <latitude>36.9472007751</latitude>
       <longitude>37.4786987305</longitude>
     </node>
     <node index="399">
       <name>Ä°stanbul AtatÃ¼rk Airport</name>
+      <continent>AS</continent>
+      <country>TR</country>
       <latitude>40.976898</latitude>
       <longitude>28.8146</longitude>
     </node>
     <node index="400">
       <name>Adnan Menderes International Airport</name>
+      <continent>AS</continent>
+      <country>TR</country>
       <latitude>38.2924003601</latitude>
       <longitude>27.156999588</longitude>
     </node>
     <node index="401">
       <name>Dalaman International Airport</name>
+      <continent>AS</continent>
+      <country>TR</country>
       <latitude>36.7131004333</latitude>
       <longitude>28.7924995422</longitude>
     </node>
     <node index="402">
       <name>Erzurum International Airport</name>
+      <continent>AS</continent>
+      <country>TR</country>
       <latitude>39.9565010071</latitude>
       <longitude>41.1702003479</longitude>
     </node>
     <node index="403">
       <name>Trabzon International Airport</name>
+      <continent>AS</continent>
+      <country>TR</country>
       <latitude>40.995098114014</latitude>
       <longitude>39.789699554443</longitude>
     </node>
     <node index="404">
       <name>SÃ¼leyman Demirel International Airport</name>
+      <continent>AS</continent>
+      <country>TR</country>
       <latitude>37.8554000854</latitude>
       <longitude>30.3684005737</longitude>
     </node>
     <node index="405">
       <name>Milas Bodrum International Airport</name>
+      <continent>AS</continent>
+      <country>TR</country>
       <latitude>37.2505989075</latitude>
       <longitude>27.6643009186</longitude>
     </node>
     <node index="406">
       <name>Istanbul Sabiha GÃ¶kÃ§en International Airport</name>
+      <continent>AS</continent>
+      <country>TR</country>
       <latitude>40.898602</latitude>
       <longitude>29.3092</longitude>
     </node>
     <node index="407">
       <name>Ä°stanbul Airport</name>
+      <continent>AS</continent>
+      <country>TR</country>
       <latitude>41.261297</latitude>
       <longitude>28.741951</longitude>
     </node>
     <node index="408">
       <name>Skopje International Airport</name>
+      <continent>EU</continent>
+      <country>MK</country>
       <latitude>41.961601</latitude>
       <longitude>21.621401</longitude>
     </node>
     <node index="409">
       <name>Belgrade Nikola Tesla Airport</name>
+      <continent>EU</continent>
+      <country>RS</country>
       <latitude>44.8184013367</latitude>
       <longitude>20.3090991974</longitude>
     </node>
     <node index="410">
       <name>Podgorica Airport / Podgorica Golubovci Airbase</name>
+      <continent>EU</continent>
+      <country>ME</country>
       <latitude>42.359402</latitude>
       <longitude>19.2519</longitude>
     </node>
     <node index="411">
       <name>M. R. Å tefÃ¡nik Airport</name>
+      <continent>EU</continent>
+      <country>SK</country>
       <latitude>48.1702003479</latitude>
       <longitude>17.212699890137</longitude>
     </node>
     <node index="412">
       <name>Punta Cana International Airport</name>
+      <continent>NA</continent>
+      <country>DO</country>
       <latitude>18.5673999786</latitude>
       <longitude>-68.3634033203</longitude>
     </node>
     <node index="413">
       <name>Las AmÃ©ricas International Airport</name>
+      <continent>NA</continent>
+      <country>DO</country>
       <latitude>18.42970085144</latitude>
       <longitude>-69.668899536133</longitude>
     </node>
     <node index="414">
       <name>La Aurora Airport</name>
+      <continent>NA</continent>
+      <country>GT</country>
       <latitude>14.5833</latitude>
       <longitude>-90.527496</longitude>
     </node>
     <node index="415">
       <name>Norman Manley International Airport</name>
+      <continent>NA</continent>
+      <country>JM</country>
       <latitude>17.935699462891</latitude>
       <longitude>-76.787498474121</longitude>
     </node>
     <node index="416">
       <name>General Juan N Alvarez International Airport</name>
+      <continent>NA</continent>
+      <country>MX</country>
       <latitude>16.757099151611</latitude>
       <longitude>-99.753997802734</longitude>
     </node>
     <node index="417">
       <name>Bachigualato Federal International Airport</name>
+      <continent>NA</continent>
+      <country>MX</country>
       <latitude>24.7645</latitude>
       <longitude>-107.474998</longitude>
     </node>
     <node index="418">
       <name>Don Miguel Hidalgo Y Costilla International Airport</name>
+      <continent>NA</continent>
+      <country>MX</country>
       <latitude>20.521799087524</latitude>
       <longitude>-103.31099700928</longitude>
     </node>
     <node index="419">
       <name>General Ignacio P. Garcia International Airport</name>
+      <continent>NA</continent>
+      <country>MX</country>
       <latitude>29.0958995819</latitude>
       <longitude>-111.047996521</longitude>
     </node>
     <node index="420">
       <name>Valle del Fuerte International Airport</name>
+      <continent>NA</continent>
+      <country>MX</country>
       <latitude>25.6852</latitude>
       <longitude>-109.081001</longitude>
     </node>
     <node index="421">
       <name>Licenciado Benito Juarez International Airport</name>
+      <continent>NA</continent>
+      <country>MX</country>
       <latitude>19.4363</latitude>
       <longitude>-99.072098</longitude>
     </node>
     <node index="422">
       <name>General Mariano Escobedo International Airport</name>
+      <continent>NA</continent>
+      <country>MX</country>
       <latitude>25.7784996033</latitude>
       <longitude>-100.107002258</longitude>
     </node>
     <node index="423">
       <name>General Rafael Buelna International Airport</name>
+      <continent>NA</continent>
+      <country>MX</country>
       <latitude>23.1614</latitude>
       <longitude>-106.265999</longitude>
     </node>
     <node index="424">
       <name>Licenciado Gustavo DÃ­az Ordaz International Airport</name>
+      <continent>NA</continent>
+      <country>MX</country>
       <latitude>20.680099487305</latitude>
       <longitude>-105.25399780273</longitude>
     </node>
     <node index="425">
       <name>Los Cabos International Airport</name>
+      <continent>NA</continent>
+      <country>MX</country>
       <latitude>23.15180015564</latitude>
       <longitude>-109.72100067139</longitude>
     </node>
     <node index="426">
       <name>Santa LucÃ­a Air Force Base / Felipe Angeles International Airport</name>
+      <continent>NA</continent>
+      <country>MX</country>
       <latitude>19.755041</latitude>
       <longitude>-99.017287</longitude>
     </node>
     <node index="427">
       <name>General Abelardo L. RodrÃ­guez International Airport</name>
+      <continent>NA</continent>
+      <country>MX</country>
       <latitude>32.54109954834</latitude>
       <longitude>-116.9700012207</longitude>
     </node>
     <node index="428">
       <name>CancÃºn International Airport</name>
+      <continent>NA</continent>
+      <country>MX</country>
       <latitude>21.0365009308</latitude>
       <longitude>-86.8770980835</longitude>
     </node>
     <node index="429">
       <name>Tocumen International Airport</name>
+      <continent>NA</continent>
+      <country>PA</country>
       <latitude>9.0713596344</latitude>
       <longitude>-79.3834991455</longitude>
     </node>
     <node index="430">
       <name>Daniel Oduber Quiros International Airport</name>
+      <continent>NA</continent>
+      <country>CR</country>
       <latitude>10.5933</latitude>
       <longitude>-85.544403</longitude>
     </node>
     <node index="431">
       <name>MonseÃ±or Ã“scar Arnulfo Romero International Airport</name>
+      <continent>NA</continent>
+      <country>SV</country>
       <latitude>13.4409</latitude>
       <longitude>-89.055702</longitude>
     </node>
     <node index="432">
       <name>JosÃ© MartÃ­ International Airport</name>
+      <continent>NA</continent>
+      <country>CU</country>
       <latitude>22.989200592041</latitude>
       <longitude>-82.409103393555</longitude>
     </node>
     <node index="433">
       <name>Juan Gualberto Gomez International Airport</name>
+      <continent>NA</continent>
+      <country>CU</country>
       <latitude>23.034400939941</latitude>
       <longitude>-81.435302734375</longitude>
     </node>
     <node index="434">
       <name>Owen Roberts International Airport</name>
+      <continent>NA</continent>
+      <country>KY</country>
       <latitude>19.2928009033</latitude>
       <longitude>-81.3576965332</longitude>
     </node>
     <node index="435">
       <name>Lynden Pindling International Airport</name>
+      <continent>NA</continent>
+      <country>BS</country>
       <latitude>25.039</latitude>
       <longitude>-77.466202</longitude>
     </node>
     <node index="436">
       <name>Philip S. W. Goldson International Airport</name>
+      <continent>NA</continent>
+      <country>BZ</country>
       <latitude>17.539100646973</latitude>
       <longitude>-88.308197021484</longitude>
     </node>
     <node index="437">
       <name>Rarotonga International Airport</name>
+      <continent>OC</continent>
+      <country>CK</country>
       <latitude>-21.2026996613</latitude>
       <longitude>-159.805999756</longitude>
     </node>
     <node index="438">
       <name>Faa'a International Airport</name>
+      <continent>OC</continent>
+      <country>PF</country>
       <latitude>-17.553699</latitude>
       <longitude>-149.606995</longitude>
     </node>
     <node index="439">
       <name>Bauerfield International Airport</name>
+      <continent>OC</continent>
+      <country>VU</country>
       <latitude>-17.699301</latitude>
       <longitude>168.320007</longitude>
     </node>
     <node index="440">
       <name>NoumÃ©a Magenta Airport</name>
+      <continent>OC</continent>
+      <country>NC</country>
       <latitude>-22.258301</latitude>
       <longitude>166.473007</longitude>
     </node>
     <node index="441">
       <name>Auckland International Airport</name>
+      <continent>OC</continent>
+      <country>NZ</country>
       <latitude>-37.008099</latitude>
       <longitude>174.792007</longitude>
     </node>
     <node index="442">
       <name>Christchurch International Airport</name>
+      <continent>OC</continent>
+      <country>NZ</country>
       <latitude>-43.489398956299</latitude>
       <longitude>172.53199768066</longitude>
     </node>
     <node index="443">
       <name>Wellington International Airport</name>
+      <continent>OC</continent>
+      <country>NZ</country>
       <latitude>-41.3272018433</latitude>
       <longitude>174.804992676</longitude>
     </node>
     <node index="444">
       <name>Bahrain International Airport</name>
+      <continent>AS</continent>
+      <country>BH</country>
       <latitude>26.267295</latitude>
       <longitude>50.63764</longitude>
     </node>
     <node index="445">
       <name>King Fahd International Airport</name>
+      <continent>AS</continent>
+      <country>SA</country>
       <latitude>26.471200942993</latitude>
       <longitude>49.797901153564</longitude>
     </node>
     <node index="446">
       <name>King Abdulaziz Air Base</name>
+      <continent>AS</continent>
+      <country>SA</country>
       <latitude>26.2654</latitude>
       <longitude>50.152</longitude>
     </node>
     <node index="447">
       <name>King Abdulaziz International Airport</name>
+      <continent>AS</continent>
+      <country>SA</country>
       <latitude>21.6796</latitude>
       <longitude>39.156502</longitude>
     </node>
     <node index="448">
       <name>Prince Mohammad Bin Abdulaziz Airport</name>
+      <continent>AS</continent>
+      <country>SA</country>
       <latitude>24.5534</latitude>
       <longitude>39.705101</longitude>
     </node>
     <node index="449">
       <name>King Khaled International Airport</name>
+      <continent>AS</continent>
+      <country>SA</country>
       <latitude>24.957599639892</latitude>
       <longitude>46.698799133301</longitude>
     </node>
     <node index="450">
       <name>Imam Khomeini International Airport</name>
+      <continent>AS</continent>
+      <country>IR</country>
       <latitude>35.41609954834</latitude>
       <longitude>51.152198791504</longitude>
     </node>
     <node index="451">
       <name>Mehrabad International Airport</name>
+      <continent>AS</continent>
+      <country>IR</country>
       <latitude>35.68920135498</latitude>
       <longitude>51.313400268555</longitude>
     </node>
     <node index="452">
       <name>Mashhad International Airport</name>
+      <continent>AS</continent>
+      <country>IR</country>
       <latitude>36.235198974609</latitude>
       <longitude>59.640998840332</longitude>
     </node>
     <node index="453">
       <name>Shiraz Shahid Dastghaib International Airport</name>
+      <continent>AS</continent>
+      <country>IR</country>
       <latitude>29.5392</latitude>
       <longitude>52.589802</longitude>
     </node>
     <node index="454">
       <name>Tabriz International Airport</name>
+      <continent>AS</continent>
+      <country>IR</country>
       <latitude>38.133899688721</latitude>
       <longitude>46.235000610351</longitude>
     </node>
     <node index="455">
       <name>Queen Alia International Airport</name>
+      <continent>AS</continent>
+      <country>JO</country>
       <latitude>31.7226009369</latitude>
       <longitude>35.9931983948</longitude>
     </node>
     <node index="456">
       <name>Kuwait International Airport</name>
+      <continent>AS</continent>
+      <country>KW</country>
       <latitude>29.226600646973</latitude>
       <longitude>47.968898773193</longitude>
     </node>
     <node index="457">
       <name>Beirut Rafic Hariri International Airport</name>
+      <continent>AS</continent>
+      <country>LB</country>
       <latitude>33.820899963379</latitude>
       <longitude>35.488399505615</longitude>
     </node>
     <node index="458">
       <name>Duqm International Airport</name>
+      <continent>AS</continent>
+      <country>OM</country>
       <latitude>19.501944</latitude>
       <longitude>57.634167</longitude>
     </node>
     <node index="459">
       <name>Mussanah Airport</name>
+      <continent>AS</continent>
+      <country>OM</country>
       <latitude>23.640556</latitude>
       <longitude>57.4875</longitude>
     </node>
     <node index="460">
       <name>Abu Dhabi International Airport</name>
+      <continent>AS</continent>
+      <country>AE</country>
       <latitude>24.443764</latitude>
       <longitude>54.651718</longitude>
     </node>
     <node index="461">
       <name>Dubai International Airport</name>
+      <continent>AS</continent>
+      <country>AE</country>
       <latitude>25.2527999878</latitude>
       <longitude>55.3643989563</longitude>
     </node>
     <node index="462">
       <name>Al Maktoum International Airport</name>
+      <continent>AS</continent>
+      <country>AE</country>
       <latitude>24.896356</latitude>
       <longitude>55.161389</longitude>
     </node>
     <node index="463">
       <name>Sharjah International Airport</name>
+      <continent>AS</continent>
+      <country>AE</country>
       <latitude>25.328599929809</latitude>
       <longitude>55.517200469971</longitude>
     </node>
     <node index="464">
       <name>Muscat International Airport</name>
+      <continent>AS</continent>
+      <country>OM</country>
       <latitude>23.593299865723</latitude>
       <longitude>58.284400939941</longitude>
     </node>
     <node index="465">
       <name>Islamabad International Airport</name>
+      <continent>AS</continent>
+      <country>PK</country>
       <latitude>33.549</latitude>
       <longitude>72.82566</longitude>
     </node>
     <node index="466">
       <name>Sialkot International Airport</name>
+      <continent>AS</continent>
+      <country>PK</country>
       <latitude>32.535557</latitude>
       <longitude>74.363892</longitude>
     </node>
     <node index="467">
       <name>Baghdad International Airport / New Al Muthana Air Base</name>
+      <continent>AS</continent>
+      <country>IQ</country>
       <latitude>33.262501</latitude>
       <longitude>44.2346</longitude>
     </node>
     <node index="468">
       <name>Basra International Airport</name>
+      <continent>AS</continent>
+      <country>IQ</country>
       <latitude>30.549101</latitude>
       <longitude>47.662102</longitude>
     </node>
     <node index="469">
       <name>Aleppo International Airport</name>
+      <continent>AS</continent>
+      <country>SY</country>
       <latitude>36.180698394775</latitude>
       <longitude>37.22439956665</longitude>
     </node>
     <node index="470">
       <name>Damascus International Airport</name>
+      <continent>AS</continent>
+      <country>SY</country>
       <latitude>33.411499023438</latitude>
       <longitude>36.515598297119</longitude>
     </node>
     <node index="471">
       <name>Bassel Al-Assad International Airport</name>
+      <continent>AS</continent>
+      <country>SY</country>
       <latitude>35.401100158691</latitude>
       <longitude>35.948699951172</longitude>
     </node>
     <node index="472">
       <name>Hamad International Airport</name>
+      <continent>AS</continent>
+      <country>QA</country>
       <latitude>25.273056</latitude>
       <longitude>51.608056</longitude>
     </node>
     <node index="473">
       <name>Fairbanks International Airport</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>64.81510162</latitude>
       <longitude>-147.8560028</longitude>
     </node>
     <node index="474">
       <name>Ted Stevens Anchorage International Airport</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>61.17440032959</latitude>
       <longitude>-149.99600219726</longitude>
     </node>
     <node index="475">
       <name>Antonio B. Won Pat International Airport</name>
+      <continent>OC</continent>
+      <country>GU</country>
       <latitude>13.4834</latitude>
       <longitude>144.796005</longitude>
     </node>
     <node index="476">
       <name>Laguindingan Airport</name>
+      <continent>AS</continent>
+      <country>PH</country>
       <latitude>8.612203</latitude>
       <longitude>124.456496</longitude>
     </node>
     <node index="477">
       <name>Cagayan North International Airport</name>
+      <continent>AS</continent>
+      <country>PH</country>
       <latitude>18.182388</latitude>
       <longitude>121.745853</longitude>
     </node>
     <node index="478">
       <name>Daniel K Inouye International Airport</name>
+      <continent>NA</continent>
+      <country>US</country>
       <latitude>21.32062</latitude>
       <longitude>-157.924228</longitude>
     </node>
     <node index="479">
       <name>Kinmen Airport</name>
+      <continent>AS</continent>
+      <country>TW</country>
       <latitude>24.4279</latitude>
       <longitude>118.359001</longitude>
     </node>
     <node index="480">
       <name>Kaohsiung International Airport</name>
+      <continent>AS</continent>
+      <country>TW</country>
       <latitude>22.577101</latitude>
       <longitude>120.349998</longitude>
     </node>
     <node index="481">
       <name>Taiwan Taoyuan International Airport</name>
+      <continent>AS</continent>
+      <country>TW</country>
       <latitude>25.0777</latitude>
       <longitude>121.233002</longitude>
     </node>
     <node index="482">
       <name>Narita International Airport</name>
+      <continent>AS</continent>
+      <country>JP</country>
       <latitude>35.764702</latitude>
       <longitude>140.386002</longitude>
     </node>
     <node index="483">
       <name>Kansai International Airport</name>
+      <continent>AS</continent>
+      <country>JP</country>
       <latitude>34.427299</latitude>
       <longitude>135.244003</longitude>
     </node>
     <node index="484">
       <name>New Chitose Airport</name>
+      <continent>AS</continent>
+      <country>JP</country>
       <latitude>42.7752</latitude>
       <longitude>141.692001</longitude>
     </node>
     <node index="485">
       <name>Fukuoka Airport</name>
+      <continent>AS</continent>
+      <country>JP</country>
       <latitude>33.585899353027</latitude>
       <longitude>130.45100402832</longitude>
     </node>
     <node index="486">
       <name>Kagoshima Airport</name>
+      <continent>AS</continent>
+      <country>JP</country>
       <latitude>31.803400039673</latitude>
       <longitude>130.71899414062</longitude>
     </node>
     <node index="487">
       <name>Chubu Centrair International Airport</name>
+      <continent>AS</continent>
+      <country>JP</country>
       <latitude>34.8583984375</latitude>
       <longitude>136.80499267578</longitude>
     </node>
     <node index="488">
       <name>Mount Fuji Shizuoka Airport</name>
+      <continent>AS</continent>
+      <country>JP</country>
       <latitude>34.796043</latitude>
       <longitude>138.187752</longitude>
     </node>
     <node index="489">
       <name>Osaka International Airport</name>
+      <continent>AS</continent>
+      <country>JP</country>
       <latitude>34.785499572754</latitude>
       <longitude>135.43800354004</longitude>
     </node>
     <node index="490">
       <name>Sendai Airport</name>
+      <continent>AS</continent>
+      <country>JP</country>
       <latitude>38.139702</latitude>
       <longitude>140.917007</longitude>
     </node>
     <node index="491">
       <name>Tokyo Haneda International Airport</name>
+      <continent>AS</continent>
+      <country>JP</country>
       <latitude>35.552299</latitude>
       <longitude>139.779999</longitude>
     </node>
     <node index="492">
       <name>Yokota Air Base</name>
+      <continent>AS</continent>
+      <country>JP</country>
       <latitude>35.748500823975</latitude>
       <longitude>139.34800720215</longitude>
     </node>
     <node index="493">
       <name>Muan International Airport</name>
+      <continent>AS</continent>
+      <country>KR</country>
       <latitude>34.991406</latitude>
       <longitude>126.382814</longitude>
     </node>
     <node index="494">
       <name>Kunsan Air Base</name>
+      <continent>AS</continent>
+      <country>KR</country>
       <latitude>35.903800964355</latitude>
       <longitude>126.61599731445</longitude>
     </node>
     <node index="495">
       <name>Jeju International Airport</name>
+      <continent>AS</continent>
+      <country>KR</country>
       <latitude>33.511299133301</latitude>
       <longitude>126.49299621582</longitude>
     </node>
     <node index="496">
       <name>Gimhae International Airport</name>
+      <continent>AS</continent>
+      <country>KR</country>
       <latitude>35.1795005798</latitude>
       <longitude>128.93800354</longitude>
     </node>
     <node index="497">
       <name>Incheon International Airport</name>
+      <continent>AS</continent>
+      <country>KR</country>
       <latitude>37.469100952148</latitude>
       <longitude>126.45099639892</longitude>
     </node>
     <node index="498">
       <name>Osan Air Base</name>
+      <continent>AS</continent>
+      <country>KR</country>
       <latitude>37.090599</latitude>
       <longitude>127.029999</longitude>
     </node>
     <node index="499">
       <name>Gimpo International Airport</name>
+      <continent>AS</continent>
+      <country>KR</country>
       <latitude>37.5583</latitude>
       <longitude>126.791</longitude>
     </node>
     <node index="500">
       <name>Cheongju International Airport/Cheongju Air Base (K-59/G-513)</name>
+      <continent>AS</continent>
+      <country>KR</country>
       <latitude>36.717008</latitude>
       <longitude>127.498741</longitude>
     </node>
     <node index="501">
       <name>Naha Airport / JASDF Naha Air Base</name>
+      <continent>AS</continent>
+      <country>JP</country>
       <latitude>26.195801</latitude>
       <longitude>127.646004</longitude>
     </node>
     <node index="502">
       <name>Kadena Air Base</name>
+      <continent>AS</continent>
+      <country>JP</country>
       <latitude>26.351667</latitude>
       <longitude>127.769444</longitude>
     </node>
     <node index="503">
       <name>Diosdado Macapagal International Airport</name>
+      <continent>AS</continent>
+      <country>PH</country>
       <latitude>15.186</latitude>
       <longitude>120.559998</longitude>
     </node>
     <node index="504">
       <name>Ninoy Aquino International Airport</name>
+      <continent>AS</continent>
+      <country>PH</country>
       <latitude>14.5086</latitude>
       <longitude>121.019997</longitude>
     </node>
     <node index="505">
       <name>Francisco Bangoy International Airport</name>
+      <continent>AS</continent>
+      <country>PH</country>
       <latitude>7.12552</latitude>
       <longitude>125.646004</longitude>
     </node>
     <node index="506">
       <name>Mactan Cebu International Airport</name>
+      <continent>AS</continent>
+      <country>PH</country>
       <latitude>10.307499885559</latitude>
       <longitude>123.97899627686</longitude>
     </node>
     <node index="507">
       <name>Lipetsk Air Base</name>
+      <continent>EU</continent>
+      <country>RU</country>
       <latitude>52.634998321533</latitude>
       <longitude>39.444999694824</longitude>
     </node>
     <node index="508">
       <name>Grozny North Airport</name>
+      <continent>EU</continent>
+      <country>RU</country>
       <latitude>43.388302</latitude>
       <longitude>45.698601</longitude>
     </node>
     <node index="509">
       <name>Ukrainka Air Base</name>
+      <continent>EU</continent>
+      <country>RU</country>
       <latitude>51.169997</latitude>
       <longitude>128.445007</longitude>
     </node>
     <node index="510">
       <name>Olenya Air Base</name>
+      <continent>EU</continent>
+      <country>RU</country>
       <latitude>68.151802062988</latitude>
       <longitude>33.463901519775</longitude>
     </node>
     <node index="511">
       <name>Ministro Pistarini International Airport</name>
+      <continent>SA</continent>
+      <country>AR</country>
       <latitude>-34.8222</latitude>
       <longitude>-58.5358</longitude>
     </node>
     <node index="512">
       <name>Val de Cans/JÃºlio Cezar Ribeiro International Airport</name>
+      <continent>SA</continent>
+      <country>BR</country>
       <latitude>-1.37925004959</latitude>
       <longitude>-48.4762992859</longitude>
     </node>
     <node index="513">
       <name>Presidente Juscelino Kubitschek International Airport</name>
+      <continent>SA</continent>
+      <country>BR</country>
       <latitude>-15.869167</latitude>
       <longitude>-47.920834</longitude>
     </node>
     <node index="514">
       <name>Tancredo Neves International Airport</name>
+      <continent>SA</continent>
+      <country>BR</country>
       <latitude>-19.624443054199</latitude>
       <longitude>-43.971942901611</longitude>
     </node>
     <node index="515">
       <name>Afonso Pena Airport</name>
+      <continent>SA</continent>
+      <country>BR</country>
       <latitude>-25.5284996033</latitude>
       <longitude>-49.1758003235</longitude>
     </node>
     <node index="516">
       <name>Eduardo Gomes International Airport</name>
+      <continent>SA</continent>
+      <country>BR</country>
       <latitude>-3.03861</latitude>
       <longitude>-60.049702</longitude>
     </node>
     <node index="517">
       <name>HercÃ­lio Luz International Airport</name>
+      <continent>SA</continent>
+      <country>BR</country>
       <latitude>-27.670278549194</latitude>
       <longitude>-48.552501678467</longitude>
     </node>
     <node index="518">
       <name>Rio GaleÃ£o â€“ Tom Jobim International Airport</name>
+      <continent>SA</continent>
+      <country>BR</country>
       <latitude>-22.8099994659</latitude>
       <longitude>-43.2505569458</longitude>
     </node>
     <node index="519">
       <name>Guarulhos - Governador AndrÃ© Franco Montoro International Airport</name>
+      <continent>SA</continent>
+      <country>BR</country>
       <latitude>-23.435556411743</latitude>
       <longitude>-46.473056793213</longitude>
     </node>
     <node index="520">
       <name>SÃ£o GonÃ§alo do Amarante - Governador AluÃ­zio Alves International Airport</name>
+      <continent>SA</continent>
+      <country>BR</country>
       <latitude>-5.769804</latitude>
       <longitude>-35.366578</longitude>
     </node>
     <node index="521">
       <name>Congonhas Airport</name>
+      <continent>SA</continent>
+      <country>BR</country>
       <latitude>-23.626110076904</latitude>
       <longitude>-46.656387329101</longitude>
     </node>
     <node index="522">
       <name>Deputado Luiz Eduardo MagalhÃ£es International Airport</name>
+      <continent>SA</continent>
+      <country>BR</country>
       <latitude>-12.9086112976</latitude>
       <longitude>-38.3224983215</longitude>
     </node>
     <node index="523">
       <name>Comodoro Arturo Merino BenÃ­tez International Airport</name>
+      <continent>SA</continent>
+      <country>CL</country>
       <latitude>-33.393001556396</latitude>
       <longitude>-70.785797119141</longitude>
     </node>
     <node index="524">
       <name>(duplicate?) Scandinavian Mountains Airport</name>
+      <continent>EU</continent>
+      <country>SE</country>
       <latitude>-1</latitude>
       <longitude>-1</longitude>
     </node>
     <node index="525">
       <name>Cotopaxi International Airport</name>
+      <continent>SA</continent>
+      <country>EC</country>
       <latitude>-0.906833</latitude>
       <longitude>-78.615799</longitude>
     </node>
     <node index="526">
       <name>Mariscal Sucre International Airport</name>
+      <continent>SA</continent>
+      <country>EC</country>
       <latitude>-0.129166666667</latitude>
       <longitude>-78.3575</longitude>
     </node>
     <node index="527">
       <name>El Dorado International Airport</name>
+      <continent>SA</continent>
+      <country>CO</country>
       <latitude>4.70159</latitude>
       <longitude>-74.1469</longitude>
     </node>
     <node index="528">
       <name>Viru Viru International Airport</name>
+      <continent>SA</continent>
+      <country>BO</country>
       <latitude>-17.6448</latitude>
       <longitude>-63.135399</longitude>
     </node>
     <node index="529">
       <name>Jorge ChÃ¡vez International Airport</name>
+      <continent>SA</continent>
+      <country>PE</country>
       <latitude>-12.0219</latitude>
       <longitude>-77.114305</longitude>
     </node>
     <node index="530">
       <name>Alejandro Velasco Astete International Airport</name>
+      <continent>SA</continent>
+      <country>PE</country>
       <latitude>-13.5356998444</latitude>
       <longitude>-71.9387969971</longitude>
     </node>
     <node index="531">
       <name>Carrasco International /General C L Berisso Airport</name>
+      <continent>SA</continent>
+      <country>UY</country>
       <latitude>-34.838402</latitude>
       <longitude>-56.0308</longitude>
     </node>
     <node index="532">
       <name>General JosÃ© Antonio Anzoategui International Airport</name>
+      <continent>SA</continent>
+      <country>VE</country>
       <latitude>10.111111</latitude>
       <longitude>-64.692222</longitude>
     </node>
     <node index="533">
       <name>SimÃ³n BolÃ­var International Airport</name>
+      <continent>SA</continent>
+      <country>VE</country>
       <latitude>10.601194</latitude>
       <longitude>-66.991222</longitude>
     </node>
     <node index="534">
       <name>Pointe-Ã -Pitre Le Raizet</name>
+      <continent>NA</continent>
+      <country>GP</country>
       <latitude>16.265301</latitude>
       <longitude>-61.531799</longitude>
     </node>
     <node index="535">
       <name>Luis Munoz Marin International Airport</name>
+      <continent>NA</continent>
+      <country>PR</country>
       <latitude>18.4393997192</latitude>
       <longitude>-66.0018005371</longitude>
     </node>
     <node index="536">
       <name>Enfidha - Hammamet International Airport</name>
+      <continent>AF</continent>
+      <country>TN</country>
       <latitude>36.075833</latitude>
       <longitude>10.438611</longitude>
     </node>
     <node index="537">
       <name>Queen Beatrix International Airport</name>
+      <continent>NA</continent>
+      <country>AW</country>
       <latitude>12.5014</latitude>
       <longitude>-70.015198</longitude>
     </node>
     <node index="538">
       <name>Flamingo International Airport</name>
+      <continent>NA</continent>
+      <country>BQ</country>
       <latitude>12.131</latitude>
       <longitude>-68.268501</longitude>
     </node>
     <node index="539">
       <name>Hato International Airport</name>
+      <continent>NA</continent>
+      <country>CW</country>
       <latitude>12.1889</latitude>
       <longitude>-68.959801</longitude>
     </node>
     <node index="540">
       <name>Princess Juliana International Airport</name>
+      <continent>NA</continent>
+      <country>SX</country>
       <latitude>18.0410003662</latitude>
       <longitude>-63.1088981628</longitude>
     </node>
     <node index="541">
       <name>Almaty Airport</name>
+      <continent>AS</continent>
+      <country>KZ</country>
       <latitude>43.352100372314</latitude>
       <longitude>77.040496826172</longitude>
     </node>
     <node index="542">
       <name>Nursultan Nazarbayev International Airport</name>
+      <continent>AS</continent>
+      <country>KZ</country>
       <latitude>51.022202</latitude>
       <longitude>71.466904</longitude>
     </node>
     <node index="543">
       <name>Manas International Airport</name>
+      <continent>AS</continent>
+      <country>KG</country>
       <latitude>43.0612983704</latitude>
       <longitude>74.4776000977</longitude>
     </node>
     <node index="544">
       <name>Hazrat Sultan International Airport</name>
+      <continent>AS</continent>
+      <country>KZ</country>
       <latitude>43.313126</latitude>
       <longitude>68.549881</longitude>
     </node>
     <node index="545">
       <name>Sary-Arka Airport</name>
+      <continent>AS</continent>
+      <country>KZ</country>
       <latitude>49.670799255371</latitude>
       <longitude>73.334396362305</longitude>
     </node>
     <node index="546">
       <name>Heydar Aliyev International Airport</name>
+      <continent>AS</continent>
+      <country>AZ</country>
       <latitude>40.467498779297</latitude>
       <longitude>50.046699523926</longitude>
     </node>
     <node index="547">
       <name>Zvartnots International Airport</name>
+      <continent>AS</continent>
+      <country>AM</country>
       <latitude>40.1473007202</latitude>
       <longitude>44.3959007263</longitude>
     </node>
     <node index="548">
       <name>Tbilisi International Airport</name>
+      <continent>AS</continent>
+      <country>GE</country>
       <latitude>41.6692008972</latitude>
       <longitude>44.95470047</longitude>
     </node>
     <node index="549">
       <name>Khabarovsk-Novy Airport</name>
+      <continent>AS</continent>
+      <country>RU</country>
       <latitude>48.52799987793</latitude>
       <longitude>135.18800354004</longitude>
     </node>
     <node index="550">
       <name>Vladivostok International Airport</name>
+      <continent>EU</continent>
+      <country>RU</country>
       <latitude>43.396256</latitude>
       <longitude>132.148155</longitude>
     </node>
     <node index="551">
       <name>Boryspil International Airport</name>
+      <continent>EU</continent>
+      <country>UA</country>
       <latitude>50.345001220703</latitude>
       <longitude>30.89469909668</longitude>
     </node>
     <node index="552">
       <name>Simferopol International Airport</name>
+      <continent>EU</continent>
+      <country>UA</country>
       <latitude>45.0522</latitude>
       <longitude>33.975101</longitude>
     </node>
     <node index="553">
       <name>Kharkiv International Airport</name>
+      <continent>EU</continent>
+      <country>UA</country>
       <latitude>49.924800872803</latitude>
       <longitude>36.290000915527</longitude>
     </node>
     <node index="554">
       <name>Odessa International Airport</name>
+      <continent>EU</continent>
+      <country>UA</country>
       <latitude>46.42679977417</latitude>
       <longitude>30.676500320434</longitude>
     </node>
     <node index="555">
       <name>Pulkovo Airport</name>
+      <continent>EU</continent>
+      <country>RU</country>
       <latitude>59.800300598145</latitude>
       <longitude>30.262500762939</longitude>
     </node>
     <node index="556">
       <name>Minsk National Airport</name>
+      <continent>EU</continent>
+      <country>BY</country>
       <latitude>53.888071</latitude>
       <longitude>28.039964</longitude>
     </node>
     <node index="557">
       <name>Krasnoyarsk International Airport</name>
+      <continent>EU</continent>
+      <country>RU</country>
       <latitude>56.173077</latitude>
       <longitude>92.492437</longitude>
     </node>
     <node index="558">
       <name>Tolmachevo Airport</name>
+      <continent>AS</continent>
+      <country>RU</country>
       <latitude>55.012599945068</latitude>
       <longitude>82.650703430176</longitude>
     </node>
     <node index="559">
       <name>Platov International Airport</name>
+      <continent>EU</continent>
+      <country>RU</country>
       <latitude>47.493888</latitude>
       <longitude>39.924722</longitude>
     </node>
     <node index="560">
       <name>Sochi International Airport</name>
+      <continent>EU</continent>
+      <country>RU</country>
       <latitude>43.449902</latitude>
       <longitude>39.9566</longitude>
     </node>
     <node index="561">
       <name>Koltsovo Airport</name>
+      <continent>AS</continent>
+      <country>RU</country>
       <latitude>56.743099212646</latitude>
       <longitude>60.802700042725</longitude>
     </node>
     <node index="562">
       <name>Ashgabat International Airport</name>
+      <continent>AS</continent>
+      <country>TM</country>
       <latitude>37.986801</latitude>
       <longitude>58.361</longitude>
     </node>
     <node index="563">
       <name>Tashkent International Airport</name>
+      <continent>AS</continent>
+      <country>UZ</country>
       <latitude>41.257900238</latitude>
       <longitude>69.2811965942</longitude>
     </node>
     <node index="564">
       <name>Zhukovsky International Airport</name>
+      <continent>EU</continent>
+      <country>RU</country>
       <latitude>55.553299</latitude>
       <longitude>38.150002</longitude>
     </node>
     <node index="565">
       <name>Domodedovo International Airport</name>
+      <continent>EU</continent>
+      <country>RU</country>
       <latitude>55.408798217773</latitude>
       <longitude>37.906299591064</longitude>
     </node>
     <node index="566">
       <name>Sheremetyevo International Airport</name>
+      <continent>EU</continent>
+      <country>RU</country>
       <latitude>55.972599</latitude>
       <longitude>37.4146</longitude>
     </node>
     <node index="567">
       <name>Vnukovo International Airport</name>
+      <continent>EU</continent>
+      <country>RU</country>
       <latitude>55.5914993286</latitude>
       <longitude>37.2615013123</longitude>
     </node>
     <node index="568">
       <name>Kazan International Airport</name>
+      <continent>EU</continent>
+      <country>RU</country>
       <latitude>55.606201171875</latitude>
       <longitude>49.278701782227</longitude>
     </node>
     <node index="569">
       <name>Borisoglebskoye Airport</name>
+      <continent>EU</continent>
+      <country>RU</country>
       <latitude>55.86669921875</latitude>
       <longitude>49.13330078125</longitude>
     </node>
     <node index="570">
       <name>Gagarin International Airport</name>
+      <continent>EU</continent>
+      <country>RU</country>
       <latitude>51.712778</latitude>
       <longitude>46.171111</longitude>
     </node>
     <node index="571">
       <name>Ufa International Airport</name>
+      <continent>EU</continent>
+      <country>RU</country>
       <latitude>54.557498931885</latitude>
       <longitude>55.874401092529</longitude>
     </node>
     <node index="572">
       <name>Kurumoch International Airport</name>
+      <continent>EU</continent>
+      <country>RU</country>
       <latitude>53.504901885986</latitude>
       <longitude>50.16429901123</longitude>
     </node>
     <node index="573">
       <name>Chhatrapati Shivaji International Airport</name>
+      <continent>AS</continent>
+      <country>IN</country>
       <latitude>19.0886993408</latitude>
       <longitude>72.8678970337</longitude>
     </node>
     <node index="574">
       <name>Dabolim Airport</name>
+      <continent>AS</continent>
+      <country>IN</country>
       <latitude>15.3808002472</latitude>
       <longitude>73.8313980103</longitude>
     </node>
     <node index="575">
       <name>Bandaranaike International Colombo Airport</name>
+      <continent>AS</continent>
+      <country>LK</country>
       <latitude>7.1807599067688</latitude>
       <longitude>79.884101867676</longitude>
     </node>
     <node index="576">
       <name>Mattala Rajapaksa International Airport</name>
+      <continent>AS</continent>
+      <country>LK</country>
       <latitude>6.284467</latitude>
       <longitude>81.124128</longitude>
     </node>
     <node index="577">
       <name>Phnom Penh International Airport</name>
+      <continent>AS</continent>
+      <country>KH</country>
       <latitude>11.5466</latitude>
       <longitude>104.844002</longitude>
     </node>
     <node index="578">
       <name>Siem Reap International Airport</name>
+      <continent>AS</continent>
+      <country>KH</country>
       <latitude>13.41155</latitude>
       <longitude>103.813044</longitude>
     </node>
     <node index="579">
       <name>Netaji Subhash Chandra Bose International Airport</name>
+      <continent>AS</continent>
+      <country>IN</country>
       <latitude>22.654699325561</latitude>
       <longitude>88.446701049805</longitude>
     </node>
     <node index="580">
       <name>Hazrat Shahjalal International Airport</name>
+      <continent>AS</continent>
+      <country>BD</country>
       <latitude>23.843347</latitude>
       <longitude>90.397783</longitude>
     </node>
     <node index="581">
       <name>Hong Kong International Airport</name>
+      <continent>AS</continent>
+      <country>HK</country>
       <latitude>22.308901</latitude>
       <longitude>113.915001</longitude>
     </node>
     <node index="582">
       <name>Sri Guru Ram Dass Jee International Airport</name>
+      <continent>AS</continent>
+      <country>IN</country>
       <latitude>31.7096004486</latitude>
       <longitude>74.7973022461</longitude>
     </node>
     <node index="583">
       <name>Indira Gandhi International Airport</name>
+      <continent>AS</continent>
+      <country>IN</country>
       <latitude>28.5665</latitude>
       <longitude>77.103104</longitude>
     </node>
     <node index="584">
       <name>Macau International Airport</name>
+      <continent>AS</continent>
+      <country>MO</country>
       <latitude>22.149599</latitude>
       <longitude>113.592003</longitude>
     </node>
     <node index="585">
       <name>Tribhuvan International Airport</name>
+      <continent>AS</continent>
+      <country>NP</country>
       <latitude>27.6966</latitude>
       <longitude>85.3591</longitude>
     </node>
     <node index="586">
       <name>Kempegowda International Airport</name>
+      <continent>AS</continent>
+      <country>IN</country>
       <latitude>13.1979</latitude>
       <longitude>77.706299</longitude>
     </node>
     <node index="587">
       <name>Cochin International Airport</name>
+      <continent>AS</continent>
+      <country>IN</country>
       <latitude>10.152</latitude>
       <longitude>76.401901</longitude>
     </node>
     <node index="588">
       <name>Calicut International Airport</name>
+      <continent>AS</continent>
+      <country>IN</country>
       <latitude>11.1367998123</latitude>
       <longitude>75.9552993774</longitude>
     </node>
     <node index="589">
       <name>Rajiv Gandhi International Airport</name>
+      <continent>AS</continent>
+      <country>IN</country>
       <latitude>17.231318</latitude>
       <longitude>78.429855</longitude>
     </node>
     <node index="590">
       <name>Chennai International Airport</name>
+      <continent>AS</continent>
+      <country>IN</country>
       <latitude>12.990005</latitude>
       <longitude>80.169296</longitude>
     </node>
     <node index="591">
       <name>Trivandrum International Airport</name>
+      <continent>AS</continent>
+      <country>IN</country>
       <latitude>8.48211956024</latitude>
       <longitude>76.9200973511</longitude>
     </node>
     <node index="592">
       <name>MalÃ© International Airport</name>
+      <continent>AS</continent>
+      <country>MV</country>
       <latitude>4.1918301582336</latitude>
       <longitude>73.529098510742</longitude>
     </node>
     <node index="593">
       <name>Don Mueang International Airport</name>
+      <continent>AS</continent>
+      <country>TH</country>
       <latitude>13.9125995636</latitude>
       <longitude>100.607002258</longitude>
     </node>
     <node index="594">
       <name>Suvarnabhumi Airport</name>
+      <continent>AS</continent>
+      <country>TH</country>
       <latitude>13.681099891662</latitude>
       <longitude>100.74700164795</longitude>
     </node>
     <node index="595">
       <name>Chiang Mai International Airport</name>
+      <continent>AS</continent>
+      <country>TH</country>
       <latitude>18.7667999268</latitude>
       <longitude>98.962600708</longitude>
     </node>
     <node index="596">
       <name>Phuket International Airport</name>
+      <continent>AS</continent>
+      <country>TH</country>
       <latitude>8.1132</latitude>
       <longitude>98.316902</longitude>
     </node>
     <node index="597">
       <name>Da Nang International Airport</name>
+      <continent>AS</continent>
+      <country>VN</country>
       <latitude>16.043899536133</latitude>
       <longitude>108.19899749756</longitude>
     </node>
     <node index="598">
       <name>Noi Bai International Airport</name>
+      <continent>AS</continent>
+      <country>VN</country>
       <latitude>21.221201</latitude>
       <longitude>105.806999</longitude>
     </node>
     <node index="599">
       <name>Tan Son Nhat International Airport</name>
+      <continent>AS</continent>
+      <country>VN</country>
       <latitude>10.8188</latitude>
       <longitude>106.652</longitude>
     </node>
     <node index="600">
       <name>Mandalay International Airport</name>
+      <continent>AS</continent>
+      <country>MM</country>
       <latitude>21.702199935913</latitude>
       <longitude>95.977897644043</longitude>
     </node>
     <node index="601">
       <name>Yangon International Airport</name>
+      <continent>AS</continent>
+      <country>MM</country>
       <latitude>16.9073009491</latitude>
       <longitude>96.1332015991</longitude>
     </node>
     <node index="602">
       <name>Hasanuddin International Airport</name>
+      <continent>AS</continent>
+      <country>ID</country>
       <latitude>-5.0616297721863</latitude>
       <longitude>119.55400085449</longitude>
     </node>
     <node index="603">
       <name>Ngurah Rai (Bali) International Airport</name>
+      <continent>AS</continent>
+      <country>ID</country>
       <latitude>-8.7481698989868</latitude>
       <longitude>115.16699981689</longitude>
     </node>
     <node index="604">
       <name>Sentani International Airport</name>
+      <continent>AS</continent>
+      <country>ID</country>
       <latitude>-2.57695</latitude>
       <longitude>140.516006</longitude>
     </node>
     <node index="605">
       <name>Juanda International Airport</name>
+      <continent>AS</continent>
+      <country>ID</country>
       <latitude>-7.3798298835754</latitude>
       <longitude>112.78700256348</longitude>
     </node>
     <node index="606">
       <name>Domine Eduard Osok Airport</name>
+      <continent>AS</continent>
+      <country>ID</country>
       <latitude>-0.894</latitude>
       <longitude>131.287</longitude>
     </node>
     <node index="607">
       <name>Brunei International Airport</name>
+      <continent>AS</continent>
+      <country>BN</country>
       <latitude>4.9442000389099</latitude>
       <longitude>114.92800140381</longitude>
     </node>
     <node index="608">
       <name>Soekarno-Hatta International Airport</name>
+      <continent>AS</continent>
+      <country>ID</country>
       <latitude>-6.1255698204</latitude>
       <longitude>106.65599823</longitude>
     </node>
     <node index="609">
       <name>Kualanamu International Airport</name>
+      <continent>AS</continent>
+      <country>ID</country>
       <latitude>3.642222</latitude>
       <longitude>98.885278</longitude>
     </node>
     <node index="610">
       <name>Kuala Lumpur International Airport</name>
+      <continent>AS</continent>
+      <country>MY</country>
       <latitude>2.745579957962</latitude>
       <longitude>101.70999908447</longitude>
     </node>
     <node index="611">
       <name>Singapore Changi Airport</name>
+      <continent>AS</continent>
+      <country>SG</country>
       <latitude>1.35019</latitude>
       <longitude>103.994003</longitude>
     </node>
     <node index="612">
       <name>Brisbane International Airport</name>
+      <continent>OC</continent>
+      <country>AU</country>
       <latitude>-27.384199142456</latitude>
       <longitude>153.11700439453</longitude>
     </node>
     <node index="613">
       <name>Melbourne International Airport</name>
+      <continent>OC</continent>
+      <country>AU</country>
       <latitude>-37.673302</latitude>
       <longitude>144.843002</longitude>
     </node>
     <node index="614">
       <name>Yantai Penglai International Airport</name>
+      <continent>AS</continent>
+      <country>CN</country>
       <latitude>37.657222</latitude>
       <longitude>120.987222</longitude>
     </node>
     <node index="615">
       <name>Adelaide International Airport</name>
+      <continent>OC</continent>
+      <country>AU</country>
       <latitude>-34.945</latitude>
       <longitude>138.531006</longitude>
     </node>
     <node index="616">
       <name>Perth International Airport</name>
+      <continent>OC</continent>
+      <country>AU</country>
       <latitude>-31.940299987793</latitude>
       <longitude>115.96700286865</longitude>
     </node>
     <node index="617">
       <name>Canberra International Airport</name>
+      <continent>OC</continent>
+      <country>AU</country>
       <latitude>-35.306900024414</latitude>
       <longitude>149.19500732422</longitude>
     </node>
     <node index="618">
       <name>Sydney Kingsford Smith International Airport</name>
+      <continent>OC</continent>
+      <country>AU</country>
       <latitude>-33.946098327637</latitude>
       <longitude>151.17700195312</longitude>
     </node>
     <node index="619">
       <name>Beijing Capital International Airport</name>
+      <continent>AS</continent>
+      <country>CN</country>
       <latitude>40.080101013184</latitude>
       <longitude>116.58499908447</longitude>
     </node>
     <node index="620">
       <name>Beijing Daxing International Airport</name>
+      <continent>AS</continent>
+      <country>CN</country>
       <latitude>39.509945</latitude>
       <longitude>116.41092</longitude>
     </node>
     <node index="621">
       <name>Baita International Airport</name>
+      <continent>AS</continent>
+      <country>CN</country>
       <latitude>40.851398</latitude>
       <longitude>111.823997</longitude>
     </node>
     <node index="622">
       <name>Beijing Nanyuan Airport</name>
+      <continent>AS</continent>
+      <country>CN</country>
       <latitude>39.78279876709</latitude>
       <longitude>116.38800048828</longitude>
     </node>
     <node index="623">
       <name>Tianjin Binhai International Airport</name>
+      <continent>AS</continent>
+      <country>CN</country>
       <latitude>39.1244010925</latitude>
       <longitude>117.346000671</longitude>
     </node>
     <node index="624">
       <name>Taiyuan Wusu Airport</name>
+      <continent>AS</continent>
+      <country>CN</country>
       <latitude>37.746898651123</latitude>
       <longitude>112.62799835205</longitude>
     </node>
     <node index="625">
       <name>Guangzhou Baiyun International Airport</name>
+      <continent>AS</continent>
+      <country>CN</country>
       <latitude>23.392401</latitude>
       <longitude>113.299004</longitude>
     </node>
     <node index="626">
       <name>Changsha Huanghua International Airport</name>
+      <continent>AS</continent>
+      <country>CN</country>
       <latitude>28.1891994476</latitude>
       <longitude>113.220001221</longitude>
     </node>
     <node index="627">
       <name>Guilin Liangjiang International Airport</name>
+      <continent>AS</continent>
+      <country>CN</country>
       <latitude>25.2181</latitude>
       <longitude>110.039001</longitude>
     </node>
     <node index="628">
       <name>Nanning Wuxu Airport</name>
+      <continent>AS</continent>
+      <country>CN</country>
       <latitude>22.608299</latitude>
       <longitude>108.171997</longitude>
     </node>
     <node index="629">
       <name>Shenzhen Bao'an International Airport</name>
+      <continent>AS</continent>
+      <country>CN</country>
       <latitude>22.639299</latitude>
       <longitude>113.810997</longitude>
     </node>
     <node index="630">
       <name>Zhengzhou Xinzheng International Airport</name>
+      <continent>AS</continent>
+      <country>CN</country>
       <latitude>34.5196990967</latitude>
       <longitude>113.841003418</longitude>
     </node>
     <node index="631">
       <name>Wuhan Tianhe International Airport</name>
+      <continent>AS</continent>
+      <country>CN</country>
       <latitude>30.7838</latitude>
       <longitude>114.208</longitude>
     </node>
     <node index="632">
       <name>Haikou Meilan International Airport</name>
+      <continent>AS</continent>
+      <country>CN</country>
       <latitude>19.9349</latitude>
       <longitude>110.459</longitude>
     </node>
     <node index="633">
       <name>Sanya Phoenix International Airport</name>
+      <continent>AS</continent>
+      <country>CN</country>
       <latitude>18.3029</latitude>
       <longitude>109.412003</longitude>
     </node>
     <node index="634">
       <name>Xi'an Xianyang International Airport</name>
+      <continent>AS</continent>
+      <country>CN</country>
       <latitude>34.447102</latitude>
       <longitude>108.751999</longitude>
     </node>
     <node index="635">
       <name>Ulaanbaatar Chinggis Khaan International Airport</name>
+      <continent>AS</continent>
+      <country>MN</country>
       <latitude>47.646916</latitude>
       <longitude>106.819833</longitude>
     </node>
     <node index="636">
       <name>Buyant-Ukhaa International Airport</name>
+      <continent>AS</continent>
+      <country>MN</country>
       <latitude>47.843102</latitude>
       <longitude>106.766998</longitude>
     </node>
     <node index="637">
       <name>Kunming Changshui International Airport</name>
+      <continent>AS</continent>
+      <country>CN</country>
       <latitude>25.1019444</latitude>
       <longitude>102.9291667</longitude>
     </node>
     <node index="638">
       <name>Xiamen Gaoqi International Airport</name>
+      <continent>AS</continent>
+      <country>CN</country>
       <latitude>24.54400062561</latitude>
       <longitude>118.12799835205</longitude>
     </node>
     <node index="639">
       <name>Fuzhou Changle International Airport</name>
+      <continent>AS</continent>
+      <country>CN</country>
       <latitude>25.93510055542</latitude>
       <longitude>119.66300201416</longitude>
     </node>
     <node index="640">
       <name>Hangzhou Xiaoshan International Airport</name>
+      <continent>AS</continent>
+      <country>CN</country>
       <latitude>30.229499816894</latitude>
       <longitude>120.43399810791</longitude>
     </node>
     <node index="641">
       <name>Yaoqiang Airport</name>
+      <continent>AS</continent>
+      <country>CN</country>
       <latitude>36.857200622559</latitude>
       <longitude>117.21600341797</longitude>
     </node>
     <node index="642">
       <name>Ningbo Lishe International Airport</name>
+      <continent>AS</continent>
+      <country>CN</country>
       <latitude>29.826700210571</latitude>
       <longitude>121.46199798584</longitude>
     </node>
     <node index="643">
       <name>Nanjing Lukou Airport</name>
+      <continent>AS</continent>
+      <country>CN</country>
       <latitude>31.742000579834</latitude>
       <longitude>118.86199951172</longitude>
     </node>
     <node index="644">
       <name>Shanghai Pudong International Airport</name>
+      <continent>AS</continent>
+      <country>CN</country>
       <latitude>31.143400192261</latitude>
       <longitude>121.80500030517</longitude>
     </node>
     <node index="645">
       <name>Shanghai Hongqiao International Airport</name>
+      <continent>AS</continent>
+      <country>CN</country>
       <latitude>31.198104</latitude>
       <longitude>121.33426</longitude>
     </node>
     <node index="646">
       <name>Wenzhou Longwan International Airport</name>
+      <continent>AS</continent>
+      <country>CN</country>
       <latitude>27.912201</latitude>
       <longitude>120.851997</longitude>
     </node>
     <node index="647">
       <name>Chongqing Jiangbei International Airport</name>
+      <continent>AS</continent>
+      <country>CN</country>
       <latitude>29.719200134277</latitude>
       <longitude>106.64199829101</longitude>
     </node>
     <node index="648">
       <name>Longdongbao Airport</name>
+      <continent>AS</continent>
+      <country>CN</country>
       <latitude>26.538499832153</latitude>
       <longitude>106.80100250244</longitude>
     </node>
     <node index="649">
       <name>Chengdu Shuangliu International Airport</name>
+      <continent>AS</continent>
+      <country>CN</country>
       <latitude>30.578500747681</latitude>
       <longitude>103.94699859619</longitude>
     </node>
     <node index="650">
       <name>ÃœrÃ¼mqi Diwopu International Airport</name>
+      <continent>AS</continent>
+      <country>CN</country>
       <latitude>43.90710067749</latitude>
       <longitude>87.474197387695</longitude>
     </node>
     <node index="651">
       <name>Taiping Airport</name>
+      <continent>AS</continent>
+      <country>CN</country>
       <latitude>45.623401641846</latitude>
       <longitude>126.25</longitude>
     </node>
     <node index="652">
       <name>Dalian Zhoushuizi International Airport</name>
+      <continent>AS</continent>
+      <country>CN</country>
       <latitude>38.965698</latitude>
       <longitude>121.539001</longitude>
     </node>
     <node index="653">
       <name>Shenyang Taoxian International Airport</name>
+      <continent>AS</continent>
+      <country>CN</country>
       <latitude>41.639801</latitude>
       <longitude>123.483002</longitude>
     </node>

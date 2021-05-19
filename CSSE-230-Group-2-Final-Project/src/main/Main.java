@@ -103,17 +103,18 @@ public class Main {
 				// nodeList is not iterable, so we are using for loop  
 				for (int i = 0; i < nodeList.getLength(); i++) {  
 					Node node = nodeList.item(i);  
-//					System.out.println("\nNode Name :" + node.getNodeName());  
 					if (node.getNodeType() == Node.ELEMENT_NODE) {  
 						Element eElement = (Element) node;
 						double lon, lat;
-						String name;
+						String name, continent, country;
 						name = eElement.getElementsByTagName("name").item(0).getTextContent();
 						lon = Double.parseDouble(eElement.getElementsByTagName("longitude").item(0).getTextContent())+90;
 						lat = Double.parseDouble(eElement.getElementsByTagName("latitude").item(0).getTextContent())+90;
-						g.addNode(name, (float)lat, (float)lon);
-						System.out.println("added node: "+name+", "+ lat+ ", "+lon);
-//						System.out.println("blah");
+						country = eElement.getElementsByTagName("latitude").item(0).getTextContent();
+						continent = eElement.getElementsByTagName("country").item(0).getTextContent();
+						
+						g.addNode(name, (float)lat, (float)lon, country, continent);
+
 					}  
 				}  
 			} catch (Exception e) {  

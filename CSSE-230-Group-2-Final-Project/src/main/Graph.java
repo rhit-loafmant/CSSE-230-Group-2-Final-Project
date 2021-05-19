@@ -16,8 +16,8 @@ public class Graph {
 		this.nodes = new ArrayList<Node>();
 	}
 
-	public boolean addNode(String name, float latitude, float longitude) {
-		Node newNode = new Node(name, latitude, longitude);
+	public boolean addNode(String name, float latitude, float longitude, String country, String continent) {
+		Node newNode = new Node(name, latitude, longitude, country, continent);
 		for (Node n : this.nodes) {
 			float distance = distBetweenNodes(newNode, n);
 			if (distance < maxNodeDist) {
@@ -71,21 +71,21 @@ public class Graph {
 	}
 
 	public class Node {
-		public String name;
-		public float longitude;
-		public float latitude;
-		public float distance;
+		public String name, country, continent;
+		public float longitude, latitude, distance;
 		public Node parent;
 		public ArrayList<Node> childNodes;
 		public ArrayList<Node> adjacentNodes;
 		public HashMap<Node,Float> adjNodeDistances;
 
-		public Node(String name, float latitude, float longitude) {
+		public Node(String name, float latitude, float longitude, String country, String continent) {
 			this.childNodes = new ArrayList<Node>();
 			this.parent = null;
 			this.name = name;
 			this.longitude = longitude;
 			this.latitude = latitude;
+			this.country = country;
+			this.continent = continent;
 			this.adjacentNodes = new ArrayList<Node>();
 			this.adjNodeDistances = new HashMap<Node,Float>();
 			this.distance = Integer.MAX_VALUE;
