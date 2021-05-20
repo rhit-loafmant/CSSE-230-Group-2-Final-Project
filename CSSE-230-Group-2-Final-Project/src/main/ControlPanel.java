@@ -22,14 +22,14 @@ public class ControlPanel extends JPanel {
 	private Node airport2 = null;
 	private Graph g;
 	private Dijkstra dij;
-	private MapComponent map;
+	private MapComponent mapComp;
 
 	public ArrayList<Node> nodes = new ArrayList<Node>();
 
-	public ControlPanel(Graph g, MapComponent map) {
+	public ControlPanel(Graph g, MapComponent mapComp) {
 		this.nodes = g.nodes;
 		this.g = g;
-		this.map =map;
+		this.mapComp = mapComp;
 		this.dij = new Dijkstra();
 		this.setPreferredSize(new Dimension(1200, 200));
 		setLayout(new FlowLayout());
@@ -130,12 +130,8 @@ public class ControlPanel extends JPanel {
 	}
 
 	public void createRoute() {
-//		Graph sPT = dij.shortestPathTree(g, airport1);
 		ArrayList<Node> flightRoute = dij.pathFinder(g, airport1, airport2);
-		System.out.println(flightRoute.size());
-//		for(int i=0; i<flightRoute.size(); i++) {
-//			System.out.println(flightRoute.get(i).name);
-//		}
+		mapComp.paintLines(flightRoute);
 	}
 
 }
