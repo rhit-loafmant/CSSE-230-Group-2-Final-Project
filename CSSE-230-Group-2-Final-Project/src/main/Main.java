@@ -110,9 +110,10 @@ public class Main {
 		public MapFrame() {
 			Container pane = getContentPane();			
 			setResizable(false);
-			add(new MapComponent(g.nodes), BorderLayout.NORTH);
+			MapComponent mapComp = new MapComponent(g.nodes);
+			add(mapComp, BorderLayout.NORTH);
 			
-			ControlPanel controlPanel = new ControlPanel(g);
+			ControlPanel controlPanel = new ControlPanel(g, mapComp);
 			pane.add(controlPanel, BorderLayout.SOUTH);	
 		}
 	}
