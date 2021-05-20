@@ -36,7 +36,8 @@ public class MapComponent extends JPanel{
 		for(Node node : this.nodes) {
 			int x1 = (int) Math.round(lonMulti*node.longitude);
 			int y1 = -(int) Math.round(latMulti*node.latitude);
-			Color c = Color.BLACK;			
+			Color c = Color.BLACK;
+			
 			//THIS CODE DRAWS LINES FOR EVERYTHING
 //			for(Node neighbor : node.adjacentNodes) {
 //				int x2 = (int) Math.round(lonMulti*neighbor.longitude);

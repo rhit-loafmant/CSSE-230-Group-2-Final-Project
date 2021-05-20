@@ -35,13 +35,39 @@ public class Main {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+		
+//		
+//		g.addNode("A", 41, 100);
+//		g.addNode("B", 41, 95);
+//		g.addNode("C", 38, 93);
+//		g.addNode("D", 39, 98);
+//		g.addNode("E", 37, 101);
+//		g.addNode("F", 40, 91);
+//		
+//		g.addNode("G", 2, 40);
+//		g.addNode("lhkj", 98, 35);
+//		g.addNode("325hrer", 2, 40);
+//		g.addNode("ewerdsf", -70, -170);
 
+				
+//		System.out.println("all nodes adjacent to A");
+//		g.printAllAdjNodes(g.nodes.get(0));
+//		System.out.println("all nodes adjacent to B");
+//		g.printAllAdjNodes(g.nodes.get(1));
+//		System.out.println("all nodes adjacent to C");
+//		g.printAllAdjNodes(g.nodes.get(2));
+//		System.out.println("all nodes adjacent to D");
+//		g.printAllAdjNodes(g.nodes.get(3));
+//		System.out.println("all nodes adjacent to E");
+//		g.printAllAdjNodes(g.nodes.get(4));
+//		System.out.println("all nodes adjacent to F");
+//		g.printAllAdjNodes(g.nodes.get(5));
+		
 		//Starting GUI
 		JFrame mapFrame = new JFrame();
 		mapFrame.setTitle("Airports of the World!");
 		mapFrame.setSize(WINDOW_WIDTH, WINDOW_HEIGHT);
 		mapFrame.add(new MapComponent(g.nodes), BorderLayout.CENTER);
-		mapFrame.add(new JButton("Test"));
 		
 		mapFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		mapFrame.setVisible(true);
