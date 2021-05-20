@@ -41,25 +41,6 @@ public class Main {
 			e.printStackTrace();
 		}
 
-//		g.addNode("A", 41, 100);
-//		g.addNode("B", 41, 95);
-//		g.addNode("C", 38, 93);
-//		g.addNode("D", 39, 98);
-//		g.addNode("E", 37, 101);
-//		g.addNode("F", 40, 91);
-//		
-//		g.addNode("G", 2, 40);
-//		g.addNode("lhkj", 98, 35);
-//		g.addNode("325hrer", 2, 40);
-//		g.addNode("ewerdsf", -70, -170);
-
-//		g.printAllAdjNodes(g.nodes.get(0));
-//		g.printAllAdjNodes(g.nodes.get(1));
-//		g.printAllAdjNodes(g.nodes.get(2));
-//		g.printAllAdjNodes(g.nodes.get(3));
-//		g.printAllAdjNodes(g.nodes.get(4));
-//		g.printAllAdjNodes(g.nodes.get(5));
-
 		// Starting GUI
 		MapFrame mapFrame = new MapFrame();
 
