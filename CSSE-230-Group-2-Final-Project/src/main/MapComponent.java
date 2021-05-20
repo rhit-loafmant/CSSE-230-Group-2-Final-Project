@@ -1,10 +1,12 @@
 package main;
 
+import java.awt.BasicStroke;
 import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.Graphics;
 import java.awt.Graphics2D;
 import java.awt.RenderingHints;
+import java.awt.Stroke;
 import java.util.ArrayList;
 import javax.swing.JComponent;
 import javax.swing.JPanel;
@@ -36,13 +38,14 @@ public class MapComponent extends JPanel{
 		
 		double latMulti = Main.MAP_HEIGHT/180.00, lonMulti = Main.MAP_WIDTH/360.00;
 		for(Node node : this.nodes) {
-			int x1 = (int) Math.round(lonMulti*node.longitude);
-			int y1 = -(int) Math.round(latMulti*node.latitude);
+			int x1 = (int) Math.round(lonMulti*node.displayLong);
+			int y1 = -(int) Math.round(latMulti*node.displayLat);
 			
 			//THIS CODE DRAWS LINES FOR EVERYTHING
 //			for(Node neighbor : node.adjacentNodes) {
-//				int x2 = (int) Math.round(lonMulti*neighbor.longitude);
-//				int y2 = -(int) Math.round(latMulti*neighbor.latitude);
+//				int x2 = (int) Math.round(lonMulti*neighbor.displayLong);
+//				int y2 = -(int) Math.round(latMulti*neighbor.displayLat);
+//				g2d.setStroke(new BasicStroke(0.5f));
 //				node.drawEdge(g2d, Color.BLUE, x1, y1, x2, y2);
 //			}
 			node.drawNode(g2d, Color.BLUE, 6, x1, y1);
@@ -53,12 +56,12 @@ public class MapComponent extends JPanel{
 	public void paintLines(ArrayList<Node> sPTNodes) {
 		double latMulti = Main.MAP_HEIGHT/180.00, lonMulti = Main.MAP_WIDTH/360.00;
 		for(Node node : sPTNodes) {
-			int x1 = (int) Math.round(lonMulti*node.longitude);
-			int y1 = -(int) Math.round(latMulti*node.latitude);
+			int x1 = (int) Math.round(lonMulti*node.displayLong);
+			int y1 = -(int) Math.round(latMulti*node.displayLat);
 			
 			for(Node neighbor : node.adjacentNodes) {
-				int x2 = (int) Math.round(lonMulti*neighbor.longitude);
-				int y2 = -(int) Math.round(latMulti*neighbor.latitude);
+				int x2 = (int) Math.round(lonMulti*neighbor.displayLong);
+				int y2 = -(int) Math.round(latMulti*neighbor.displayLat);
 				node.drawEdge(g2d, Color.RED, x1, y1, x2, y2);
 			}
 			node.drawNode(g2d, Color.BLACK, 6, x1, y1);
