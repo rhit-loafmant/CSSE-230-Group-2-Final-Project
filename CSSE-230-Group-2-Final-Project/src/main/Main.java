@@ -92,8 +92,8 @@ public class Main {
 								+ 90;
 						lat = Double.parseDouble(eElement.getElementsByTagName("latitude").item(0).getTextContent())
 								+ 90;
-						country = eElement.getElementsByTagName("latitude").item(0).getTextContent();
-						continent = eElement.getElementsByTagName("country").item(0).getTextContent();
+						country = eElement.getElementsByTagName("country").item(0).getTextContent();
+						continent = eElement.getElementsByTagName("continent").item(0).getTextContent();
 
 						g.addNode(name, (float) lat, (float) lon, country, continent);
 

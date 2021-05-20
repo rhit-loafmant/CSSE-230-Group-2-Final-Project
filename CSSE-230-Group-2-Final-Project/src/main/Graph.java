@@ -22,7 +22,7 @@ public class Graph {
 		Node newNode = new Node(name, latitude, longitude, country, continent);
 		for (Node n : this.nodes) {
 			float distance = distBetweenNodes(newNode, n);
-			if (distance < maxNodeDist) {
+			if (distance <= maxNodeDist) {
 				newNode.adjacentNodes.add(n);// not done
 				n.adjacentNodes.add(newNode);
 				newNode.adjNodeDistances.put(n, distance);
@@ -35,14 +35,13 @@ public class Graph {
 	}
 	
 	public boolean addNode(Node newNode) {
-		for (int i = 0; i < nodes.size(); i++) {
-			Node tempNode = nodes.get(i);
-			float distance = distBetweenNodes(newNode, tempNode);
-			if (distance < maxNodeDist) {
-				newNode.adjacentNodes.add(tempNode);// not done
-				tempNode.adjacentNodes.add(newNode);
-				newNode.adjNodeDistances.put(tempNode, distance);
-				tempNode.adjNodeDistances.put(newNode, distance);
+		for (Node n : this.nodes) {
+			float distance = distBetweenNodes(newNode, n);
+			if (distance <= maxNodeDist) {
+				newNode.adjacentNodes.add(n);// not done
+				n.adjacentNodes.add(newNode);
+				newNode.adjNodeDistances.put(n, distance);
+				n.adjNodeDistances.put(newNode, distance);
 			}
 		}
 		nodes.add(newNode);
