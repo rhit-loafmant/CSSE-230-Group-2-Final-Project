@@ -97,7 +97,7 @@ public class Graph {
 			g2d.fill(nodeLocation);
 //			System.out.println("placed " + this.name+ "at " +x+", "+y);
 		}
-		public void drawLines(Graphics2D g2d, Color color, int x1, int y1, int x2, int y2) {
+		public void drawEdge(Graphics2D g2d, Color color, int x1, int y1, int x2, int y2) {
 			g2d.setColor(color);
 //			int x, y;
 //			x = (x1+x2)/2;
