@@ -9,6 +9,18 @@ public class Dijkstra {
 		
 	}
 	/**
+	 * This method returns an arraylist containing the shortest path from the given source to
+	 * the given destination nodes in the given graph.
+	 * @param graph
+	 * @param source
+	 * @param destination
+	 * @return
+	 */
+	public ArrayList<Node> pathFinder(Graph graph, Node source, Node destination){
+		Graph sPT = shortestPathTree(graph, source);
+		return generatePath(sPT, destination);
+	}
+	/**
 	 * This method generates a shortest path "tree" from a given graph and a given source node.
 	 * We first initialize a new graph called tree to become our shortest path tree. The we 
 	 * initialize an integer index to go through all nodes in the graph. We then create a 
