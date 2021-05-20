@@ -27,7 +27,7 @@ public class Main {
 	}
 	
 	public Main() {
-		Graph g = new Graph();
+		g = new Graph();
 		Reader reader = new Reader("src/main/nodes.xml");
 		reader.readFile(g);
 		try {
@@ -65,12 +65,11 @@ public class Main {
 //		g.printAllAdjNodes(g.nodes.get(5));
 		
 		//Starting GUI
-		JFrame mapFrame = new JFrame();
+		MapFrame mapFrame = new MapFrame();
 		mapFrame.setTitle("Airports of the World!");
-		mapFrame.setSize(WINDOW_WIDTH, WINDOW_HEIGHT);
-		mapFrame.add(new MapComponent(g.nodes), BorderLayout.CENTER);
-		
+		mapFrame.setSize(WINDOW_WIDTH, WINDOW_HEIGHT);		
 		mapFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		mapFrame.pack();
 		mapFrame.setVisible(true);
 		
 //		Dijkstra dij = new Dijkstra();
@@ -109,8 +108,8 @@ public class Main {
 						name = eElement.getElementsByTagName("name").item(0).getTextContent();
 						lon = Double.parseDouble(eElement.getElementsByTagName("longitude").item(0).getTextContent())+90;
 						lat = Double.parseDouble(eElement.getElementsByTagName("latitude").item(0).getTextContent())+90;
-						country = eElement.getElementsByTagName("latitude").item(0).getTextContent();
-						continent = eElement.getElementsByTagName("country").item(0).getTextContent();
+						country = eElement.getElementsByTagName("country").item(0).getTextContent();
+						continent = eElement.getElementsByTagName("continent").item(0).getTextContent();
 						
 						g.addNode(name, (float)lat, (float)lon, country, continent);
 
