@@ -67,7 +67,6 @@ public class Main {
 		mapFrame.setPreferredSize(new Dimension(WINDOW_WIDTH, WINDOW_HEIGHT));
 		mapFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
-		
 		Timer t = new Timer(16, new ActionListener() {
 			@Override
 			public void actionPerformed(ActionEvent e) {
