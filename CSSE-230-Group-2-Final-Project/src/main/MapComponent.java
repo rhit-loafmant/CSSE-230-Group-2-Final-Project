@@ -1,17 +1,21 @@
 package main;
 
 import java.awt.Color;
+import java.awt.Dimension;
 import java.awt.Graphics;
 import java.awt.Graphics2D;
 import java.awt.RenderingHints;
 import java.util.ArrayList;
 import javax.swing.JComponent;
+import javax.swing.JPanel;
+
 import main.Graph.Node;
 
-public class MapComponent extends JComponent{
+public class MapComponent extends JPanel{
 	public ArrayList<Node> nodes = new ArrayList<Node>();
 	public MapComponent(ArrayList<Node> nodes) {
 		this.nodes = nodes;
+		this.setPreferredSize(new Dimension(1200, 600));
 	}
 
 	@Override
@@ -46,18 +50,4 @@ public class MapComponent extends JComponent{
 		}
 	}	
 	
-	public class MapControlPanel extends JComponent{
-		private int maxAdjNodeDist;
-		
-		public ArrayList<Node> nodes = new ArrayList<Node>();
-		public MapControlPanel(ArrayList<Node> nodes) {
-			this.nodes = nodes;
-		}
-
-		@Override
-		protected void paintComponent(Graphics g) {
-			
-		}
-	}
-
 }

@@ -9,6 +9,8 @@ import java.util.HashMap;
 
 public class Graph {
 	public ArrayList<Node> nodes;
+	public HashMap<String, Node> adjNodeDistances;
+
 	public int size;
 	private float maxNodeDist = 500f;
 
