@@ -93,10 +93,10 @@ public class Dijkstra {
 	 * @param destination
 	 * @return
 	 */
-	public ArrayList<Node> generatePath(Node destination){
+	public ArrayList<Node> generatePath(Graph sPT, Node destination){
 		ArrayList<Node> path = new ArrayList<Node>();
 		Stack<Node> stack = new Stack<Node>();
-		Node current = destination;
+		Node current = sPT.nodes.get(sPT.nodes.indexOf(destination));
 		stack.push(current);
 		while (current.parent != null) {
 			stack.push(current.parent);
