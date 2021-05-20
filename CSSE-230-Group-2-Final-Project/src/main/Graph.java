@@ -70,7 +70,7 @@ public class Graph {
 			System.out.println(n.adjacentNodes.get(i).name + ", Distance: " + n.adjNodeDistances.get(n.adjacentNodes.get(i)) + " km");
 		}
 	}
-
+	
 	public class Node {
 		public String name, country, continent;
 		public float longitude, latitude, distance;
