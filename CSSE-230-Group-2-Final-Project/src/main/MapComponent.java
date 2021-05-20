@@ -39,11 +39,11 @@ public class MapComponent extends JPanel{
 			Color c = Color.BLACK;
 			
 			//THIS CODE DRAWS LINES FOR EVERYTHING
-//			for(Node neighbor : node.adjacentNodes) {
-//				int x2 = (int) Math.round(lonMulti*neighbor.longitude);
-//				int y2 = -(int) Math.round(latMulti*neighbor.latitude);
-//				node.drawLines(g2d, Color.BLUE, x1, y1, x2, y2);
-//			}
+			for(Node neighbor : node.adjacentNodes) {
+				int x2 = (int) Math.round(lonMulti*neighbor.longitude);
+				int y2 = -(int) Math.round(latMulti*neighbor.latitude);
+				node.drawEdge(g2d, Color.BLUE, x1, y1, x2, y2);
+			}
 			node.drawNode(g2d, Color.BLUE, 6, x1, y1);
 			
 		}

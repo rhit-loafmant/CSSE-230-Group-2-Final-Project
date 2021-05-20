@@ -113,6 +113,7 @@ public class Main {
 						
 						g.addNode(name, (float)lat, (float)lon, country, continent);
 
+
 					}  
 				}  
 			} catch (Exception e) {  
