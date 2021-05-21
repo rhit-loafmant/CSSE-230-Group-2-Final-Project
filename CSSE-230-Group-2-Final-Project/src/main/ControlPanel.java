@@ -91,6 +91,7 @@ public class ControlPanel extends JPanel {
 			public void actionPerformed(ActionEvent e) {
 				if (airport1 != null && airport2 != null) {
 					createRoute();
+					clearAirports();
 				}
 			}
 		});
@@ -130,8 +131,8 @@ public class ControlPanel extends JPanel {
 	}
 
 	public void createRoute() {
-		ArrayList<Node> flightRoute = dij.pathFinder(g, airport1, airport2);
-		mapComp.paintLines(flightRoute);
+		dij.pathFinder(g, airport1, airport2);
+		mapComp.repaint();
 	}
 
 }

@@ -18,7 +18,9 @@ public class Dijkstra {
 	 */
 	public ArrayList<Node> pathFinder(Graph graph, Node source, Node destination){
 		Graph sPT = shortestPathTree(graph, source);
-		return generatePath(sPT, destination);
+		ArrayList<Node> sPTArray = generatePath(sPT, destination);
+		graph.sPTArray.setArray(sPTArray);
+		return sPTArray;
 	}
 	/**
 	 * This method generates a shortest path "tree" from a given graph and a given source node.

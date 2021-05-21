@@ -8,36 +8,22 @@ import java.awt.geom.Ellipse2D;
 import java.util.ArrayList;
 import java.util.HashMap;
 
+import main.Graph.Node;
+
 public class Graph {
 	public ArrayList<Node> nodes;
 	public HashMap<String, Node> adjNodeDistances;
-
+	public SPTArray sPTArray;
 	public int size;
 	private float maxNodeDist = 500f;
 
 	public Graph() {
 		this.nodes = new ArrayList<Node>();
+		sPTArray = new SPTArray();
 	}
 
 	public boolean addNode(String name, float latitude, float longitude, String country, String continent) {
 		Node newNode = new Node(name, latitude, longitude, country, continent);
-//		maxNodeDist = 500f;
-//		System.out.println(name);
-//		while (newNode.adjacentNodes.size() < 1) {
-//			for (Node n : this.nodes) {
-//				float distance = distBetweenNodes(newNode, n);
-//				if (distance <= maxNodeDist) {
-//					newNode.adjacentNodes.add(n);// not done
-//					n.adjacentNodes.add(newNode);
-//					newNode.adjNodeDistances.put(n, distance);
-//					n.adjNodeDistances.put(newNode, distance);
-//				}
-//			}
-//			maxNodeDist += 500f;
-//		}
-//		if (newNode.name.contentEquals("Daniel K Inouye International Airport")) {
-//			printAllAdjNodes(newNode);
-//		}
 		nodes.add(newNode);
 		size++;
 		return true;
@@ -60,21 +46,6 @@ public class Graph {
 			}
 		}
 	}
-
-//	public boolean addNode(Node newNode) {
-//		for (Node n : this.nodes) {
-//			float distance = distBetweenNodes(newNode, n);
-//			if (distance <= maxNodeDist) {
-//				newNode.adjacentNodes.add(n);// not done
-//				n.adjacentNodes.add(newNode);
-//				newNode.adjNodeDistances.put(n, distance);
-//				n.adjNodeDistances.put(newNode, distance);
-//			}
-//		}
-//		nodes.add(newNode);
-//		size++;
-//		return true;
-//	}
 
 	public float distBetweenNodes(Node nodeA, Node nodeB) {
 		float latA = nodeA.latitude;
@@ -147,5 +118,34 @@ public class Graph {
 
 		}
 
+	}
+
+	public class SPTArray {
+		private ArrayList<Node> sPTArray;
+
+		public SPTArray() {
+			sPTArray = new ArrayList<Node>();
+		}
+
+		public void setArray(ArrayList<Node> arr) {
+			sPTArray = arr;
+		}
+
+		public void drawOn(Graphics2D g2d) {
+			if (sPTArray.size() > 0) {
+				double latMulti = Main.MAP_HEIGHT / 180.00, lonMulti = Main.MAP_WIDTH / 360.00;
+				for (int i = 0; i < sPTArray.size() - 1; i++) {
+					int x1 = (int) Math.round(lonMulti * sPTArray.get(i).displayLong);
+					int y1 = -(int) Math.round(latMulti * sPTArray.get(i).displayLat);
+
+					int x2 = (int) Math.round(lonMulti * sPTArray.get(i + 1).displayLong);
+					int y2 = -(int) Math.round(latMulti * sPTArray.get(i + 1).displayLat);
+
+					sPTArray.get(i).drawEdge(g2d, Color.RED, x1, y1, x2, y2);
+					sPTArray.get(i).drawNode(g2d, Color.BLACK, 6, x1, y1);
+					sPTArray.get(i + 1).drawNode(g2d, Color.BLACK, 6, x2, y2);
+				}
+			}
+		}
 	}
 }

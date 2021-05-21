@@ -39,7 +39,7 @@ public class Main {
 		}
 
 		// Starting GUI
-		MapFrame mapFrame = new MapFrame();
+		MapFrame mapFrame = new MapFrame(g);
 		mapFrame.setTitle("Airports of the World!");
 		mapFrame.setSize(WINDOW_WIDTH, WINDOW_HEIGHT);
 		mapFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -103,10 +103,10 @@ public class Main {
 
 	private class MapFrame extends JFrame {
 
-		public MapFrame() {
+		public MapFrame(Graph g) {
 			Container pane = getContentPane();
 			setResizable(false);
-			MapComponent mapComp = new MapComponent(g.nodes);
+			MapComponent mapComp = new MapComponent(g);
 			add(mapComp, BorderLayout.NORTH);
 
 			ControlPanel controlPanel = new ControlPanel(g, mapComp);
