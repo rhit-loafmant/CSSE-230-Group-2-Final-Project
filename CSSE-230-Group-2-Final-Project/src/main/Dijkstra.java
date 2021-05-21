@@ -64,7 +64,7 @@ public class Dijkstra {
 		ArrayList<Graph.Node> visitedNodes = new ArrayList<Graph.Node>();
 
 		sourceVertex.parent = null;
-		sourceVertex.distance = 0;
+		sourceVertex.distance = 0f;
 		visitedNodes.add(sourceVertex);
 		distanceTracker.put(sourceVertex, 0f);
 
