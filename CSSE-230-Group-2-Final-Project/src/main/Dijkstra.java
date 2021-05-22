@@ -145,21 +145,6 @@ public class Dijkstra {
 	 * @param distance
 	 * @return
 	 */
-//	public ArrayList<Node> possibleDestinationsByDistance(Graph sPT, float distance) {
-//		ArrayList<Node> list = new ArrayList<Node>();
-//		ArrayList<Node> visitedNodes = new ArrayList<Node>();
-//		while (sPT.nodes.size() != visitedNodes.size()) {
-//			for (int i = 0; i < sPT.nodes.size(); i++) {
-//				Node current = sPT.nodes.get(i);
-//				visitedNodes.add(current);
-//				if (current.distance <= distance) {
-//					list.add(current);
-//				}
-//			}
-//		}
-//		return list;
-//	}
-	
 	public ArrayList<Node> possibleDestinationsByDistance(Graph graph, float distance, Node source) {
 		return graph.getNodesWithinDist(source, distance);
 	}
