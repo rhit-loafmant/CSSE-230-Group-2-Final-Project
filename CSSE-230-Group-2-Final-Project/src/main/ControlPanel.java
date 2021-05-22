@@ -54,7 +54,7 @@ public class ControlPanel extends JPanel {
 		JPanel card3 = new JPanel();
 		card3.setLayout(new BorderLayout());
 
-		airportSelector = new JList(filteredModel("Jackson"));
+		airportSelector = new JList(filteredModel(""));
 		airportSelector.setSelectionMode(ListSelectionModel.SINGLE_SELECTION);
 		airportSelector.setLayoutOrientation(JList.VERTICAL);
 		airportSelector.setVisibleRowCount(10);
@@ -173,6 +173,33 @@ public class ControlPanel extends JPanel {
 		searchBar = new JTextField();
 		searchBar.setPreferredSize(new Dimension(300, 39));
 		card1.add(searchBar, BorderLayout.NORTH);
+		
+		searchBar.addKeyListener(new KeyListener() {
+			public void updateList() {
+				if(searchBar.getText() != "") airportSelector.setModel(filteredModel(searchBar.getText()));
+			}
+
+			@Override
+			public void keyTyped(KeyEvent e) {
+				updateList();
+				// TODO Auto-generated method stub
+				
+			}
+
+			@Override
+			public void keyPressed(KeyEvent e) {
+				updateList();
+				// TODO Auto-generated method stub
+				
+			}
+
+			@Override
+			public void keyReleased(KeyEvent e) {
+				updateList();
+				// TODO Auto-generated method stub
+				
+			}
+		});
 
 		add(card1, BorderLayout.WEST);
 		add(card2B, BorderLayout.CENTER);
