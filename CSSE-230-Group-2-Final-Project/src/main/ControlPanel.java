@@ -9,11 +9,14 @@ import java.util.ArrayList;
 import main.Graph.Node;
 
 public class ControlPanel extends JPanel {
-	private int maxAdjNodeDist;
 	private JList airportSelector;
 	private JButton selectButton;
 	private JButton clearButton;
 	private JButton routeButton;
+	private JButton flightStats;
+	private JButton destByDist;
+	private JButton destByTime;
+	private JTextField cDest;
 	private JTable airport1Table;
 	private JTable airport2Table;
 	private Object[][] airport1Data;
@@ -23,7 +26,7 @@ public class ControlPanel extends JPanel {
 	private Graph g;
 	private Dijkstra dij;
 	private MapComponent mapComp;
-
+	public ArrayList<Node> sPTArray;
 	public ArrayList<Node> nodes = new ArrayList<Node>();
 
 	public ControlPanel(Graph g, MapComponent mapComp) {
@@ -32,13 +35,22 @@ public class ControlPanel extends JPanel {
 		this.mapComp = mapComp;
 		this.dij = new Dijkstra();
 		this.setPreferredSize(new Dimension(1200, 200));
-		setLayout(new FlowLayout());
+		setLayout(new BorderLayout());
 		airport1Data = new Object[][] { { " ", " ", " ", " ", " " } };
 		airport2Data = new Object[][] { { " ", " ", " ", " ", " " } };
 		init();
 	}
 
 	private void init() {
+
+		JPanel card1 = new JPanel();
+		card1.setLayout(new BorderLayout());
+		JPanel card2A = new JPanel();
+		card2A.setLayout(new BorderLayout());
+		JPanel card2B = new JPanel();
+		card2B.add(card2A);
+		JPanel card3 = new JPanel();
+		card3.setLayout(new BorderLayout());
 
 		DefaultListModel model = new DefaultListModel();
 		for (int i = 0; i < nodes.size(); i++) {
@@ -48,10 +60,9 @@ public class ControlPanel extends JPanel {
 		airportSelector.setSelectionMode(ListSelectionModel.SINGLE_SELECTION);
 		airportSelector.setLayoutOrientation(JList.VERTICAL);
 		airportSelector.setVisibleRowCount(10);
-		add(airportSelector);
 		JScrollPane listScroller = new JScrollPane(airportSelector);
 		listScroller.setPreferredSize(new Dimension(300, 180));
-		add(listScroller);
+		card1.add(listScroller, BorderLayout.WEST);
 
 		selectButton = new JButton("Select");
 		selectButton.addActionListener(new ActionListener() {
@@ -62,21 +73,21 @@ public class ControlPanel extends JPanel {
 				}
 			}
 		});
-		add(selectButton);
+		card1.add(selectButton);
 
 		String[] columnNames = { "Name", "Latitude", "Longitude", "Continent", "Country" };
 
 		airport1Table = new JTable(airport1Data, columnNames);
 		airport1Table.setEnabled(false);
 		JScrollPane table1Scroller = new JScrollPane(airport1Table);
-		table1Scroller.setPreferredSize(new Dimension(300, 40));
-		add(table1Scroller);
+		table1Scroller.setPreferredSize(new Dimension(500, 39));
+		card2A.add(table1Scroller, BorderLayout.NORTH);
 
 		airport2Table = new JTable(airport2Data, columnNames);
 		airport2Table.setEnabled(false);
 		JScrollPane table2Scroller = new JScrollPane(airport2Table);
-		table2Scroller.setPreferredSize(new Dimension(300, 40));
-		add(table2Scroller);
+		table2Scroller.setPreferredSize(new Dimension(500, 39));
+		card2A.add(table2Scroller, BorderLayout.SOUTH);
 
 		clearButton = new JButton("Clear");
 		clearButton.addActionListener(new ActionListener() {
@@ -84,19 +95,87 @@ public class ControlPanel extends JPanel {
 				clearAirports();
 			}
 		});
-		add(clearButton);
+		card1.add(clearButton, BorderLayout.EAST);
 
 		routeButton = new JButton("Route Course");
 		routeButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				if (airport1 != null && airport2 != null) {
 					createRoute();
-					clearAirports();
 				}
 			}
 		});
-		add(routeButton);
+		card2B.add(routeButton);
 
+		flightStats = new JButton("Flight Statistics");
+		flightStats.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				if (airport1 != null && airport2 != null) {
+					JFrame statisticsFrame = new JFrame();
+					statisticsFrame.setTitle("Flight Statistics");
+					statisticsFrame.setSize(new Dimension(500, 400));
+					statisticsFrame.setResizable(false);
+
+//					ArrayList<Node> sPTArray = dij.sPTArrayFinder(g, airport1, airport2);
+
+					String[] columnNames = { "Name", "Latitude", "Longitude", "Continent", "Country" };
+					Object[][] data = new Object[sPTArray.size()][];
+					for (int i = 0; i < sPTArray.size(); i++) {
+						Object[] arr = { sPTArray.get(i).name, sPTArray.get(i).latitude, sPTArray.get(i).longitude,
+								sPTArray.get(i).continent, sPTArray.get(i).country };
+						data[i] = arr;
+					}
+
+					JTable statisticTable = new JTable(data, columnNames);
+					statisticTable.setEnabled(false);
+					JScrollPane statisticScroller = new JScrollPane(statisticTable);
+					statisticScroller.setPreferredSize(new Dimension(500, (19 * sPTArray.size() + 19)));
+					statisticsFrame.add(statisticScroller, BorderLayout.NORTH);
+
+					String[] columnNames2 = { "Total Distance Travelled (km)", "Total Time Taken (hr)" };
+					Object[][] data2 = { { g.sPTArray.flightDist, g.sPTArray.flightTime } };
+					JTable distanceTable = new JTable(data2, columnNames2);
+					distanceTable.setEnabled(false);
+					JScrollPane distanceTableScroller = new JScrollPane(distanceTable);
+					distanceTableScroller.setPreferredSize(new Dimension(500, 39));
+					statisticsFrame.add(distanceTableScroller, BorderLayout.SOUTH);
+
+					statisticsFrame.pack();
+					statisticsFrame.setVisible(true);
+				}
+			}
+		});
+		card3.add(flightStats, BorderLayout.CENTER);
+
+		destByDist = new JButton("Destinations Within Distance");
+		destByDist.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				if (airport1 != null) {
+					Graph sPT = dij.shortestPathTree(g, airport1);
+					possibleDestinationsByTime(sPT, Float.parseFloat(cDest.getText()));
+				}
+			}
+		});
+		card2B.add(destByDist);
+
+		destByTime = new JButton("Destinations Within Hours");
+		destByDist.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				if (airport1 != null) {
+					Graph sPT = dij.shortestPathTree(g, airport1);
+					possibleDestinationsByTime(sPT, Float.parseFloat(cDest.getText()));
+				}
+			}
+		});
+		card2B.add(destByTime);
+
+		cDest = new JTextField();
+		cDest.setPreferredSize(new Dimension(100, 20));
+		card2B.add(cDest);
+
+		add(card1, BorderLayout.WEST);
+		add(card2B, BorderLayout.CENTER);
+		add(card3, BorderLayout.EAST);
 	}
 
 	public void selectAirport(int index) {
@@ -131,7 +210,17 @@ public class ControlPanel extends JPanel {
 	}
 
 	public void createRoute() {
-		dij.pathFinder(g, airport1, airport2);
+		sPTArray = dij.pathFinder(g, airport1, airport2);
+		mapComp.repaint();
+	}
+
+	public void possibleDestinationsByDistance(Graph sPT, float distance) {
+		g.sPTArray.array = dij.possibleDestinationsByDistance(sPT, distance);
+		mapComp.repaint();
+	}
+
+	public void possibleDestinationsByTime(Graph sPT, float hours) {
+		g.sPTArray.array = dij.possibleDestinationsByTime(sPT, hours);
 		mapComp.repaint();
 	}
 

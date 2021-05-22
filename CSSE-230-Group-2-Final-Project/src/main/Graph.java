@@ -121,30 +121,35 @@ public class Graph {
 	}
 
 	public class SPTArray {
-		private ArrayList<Node> sPTArray;
+		public ArrayList<Node> array;
+		public float flightDist;
+		public float flightTime;
 
 		public SPTArray() {
-			sPTArray = new ArrayList<Node>();
-		}
-
-		public void setArray(ArrayList<Node> arr) {
-			sPTArray = arr;
+			array = new ArrayList<Node>();
 		}
 
 		public void drawOn(Graphics2D g2d) {
-			if (sPTArray.size() > 0) {
+			flightDist = 0;
+			flightTime = 0;
+			if (array.size() > 0) {
 				double latMulti = Main.MAP_HEIGHT / 180.00, lonMulti = Main.MAP_WIDTH / 360.00;
-				for (int i = 0; i < sPTArray.size() - 1; i++) {
-					int x1 = (int) Math.round(lonMulti * sPTArray.get(i).displayLong);
-					int y1 = -(int) Math.round(latMulti * sPTArray.get(i).displayLat);
+				for (int i = 0; i < array.size() - 1; i++) {
+					int x1 = (int) Math.round(lonMulti * array.get(i).displayLong);
+					int y1 = -(int) Math.round(latMulti * array.get(i).displayLat);
 
-					int x2 = (int) Math.round(lonMulti * sPTArray.get(i + 1).displayLong);
-					int y2 = -(int) Math.round(latMulti * sPTArray.get(i + 1).displayLat);
+					int x2 = (int) Math.round(lonMulti * array.get(i + 1).displayLong);
+					int y2 = -(int) Math.round(latMulti * array.get(i + 1).displayLat);
 
-					sPTArray.get(i).drawEdge(g2d, Color.RED, x1, y1, x2, y2);
-					sPTArray.get(i).drawNode(g2d, Color.BLACK, 6, x1, y1);
-					sPTArray.get(i + 1).drawNode(g2d, Color.BLACK, 6, x2, y2);
+					flightDist += distBetweenNodes(array.get(i), array.get(i + 1));
+
+					array.get(i).drawEdge(g2d, Color.RED, x1, y1, x2, y2);
+					array.get(i).drawNode(g2d, Color.RED, 8, x1, y1);
+					array.get(i).drawNode(g2d, Color.BLACK, 6, x1, y1);
+					array.get(i + 1).drawNode(g2d, Color.RED, 8, x2, y2);
+					array.get(i + 1).drawNode(g2d, Color.BLACK, 6, x2, y2);
 				}
+				flightTime = (float) (flightDist / 852.952);
 			}
 		}
 	}

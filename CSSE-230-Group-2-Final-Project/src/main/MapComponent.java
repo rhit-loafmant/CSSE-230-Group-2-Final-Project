@@ -50,7 +50,9 @@ public class MapComponent extends JPanel {
 //			}
 			node.drawNode(g2d, Color.BLUE, 6, x1, y1);
 		}
+		if (graph.sPTArray != null || graph.sPTArray.array.size() > 1) {
 			graph.sPTArray.drawOn(g2d);
+		}
 	}
 
 }
