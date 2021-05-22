@@ -17,6 +17,7 @@ public class ControlPanel extends JPanel {
 	private JButton destByDist;
 	private JButton destByTime;
 	private JTextField cDest;
+	private JTextField searchBar;
 	private JTable airport1Table;
 	private JTable airport2Table;
 	private Object[][] airport1Data;
@@ -112,8 +113,6 @@ public class ControlPanel extends JPanel {
 					statisticsFrame.setSize(new Dimension(500, 400));
 					statisticsFrame.setResizable(false);
 
-//					ArrayList<Node> sPTArray = dij.sPTArrayFinder(g, airport1, airport2);
-
 					String[] columnNames = { "Name", "Latitude", "Longitude", "Continent", "Country" };
 					Object[][] data = new Object[sPTArray.size()][];
 					for (int i = 0; i < sPTArray.size(); i++) {
@@ -148,7 +147,8 @@ public class ControlPanel extends JPanel {
 			public void actionPerformed(ActionEvent e) {
 				if (airport1 != null) {
 					Graph sPT = dij.shortestPathTree(g, airport1);
-					possibleDestinationsByTime(sPT, Float.parseFloat(cDest.getText()));
+					int dist = Integer.parseInt(cDest.getText());
+					possibleDestinationsByTime(sPT, dist);
 				}
 			}
 		});
@@ -159,7 +159,8 @@ public class ControlPanel extends JPanel {
 			public void actionPerformed(ActionEvent e) {
 				if (airport1 != null) {
 					Graph sPT = dij.shortestPathTree(g, airport1);
-					possibleDestinationsByTime(sPT, Float.parseFloat(cDest.getText()));
+					int dist = Integer.parseInt(cDest.getText());
+					possibleDestinationsByTime(sPT, dist);
 				}
 			}
 		});
@@ -168,6 +169,10 @@ public class ControlPanel extends JPanel {
 		cDest = new JTextField();
 		cDest.setPreferredSize(new Dimension(100, 20));
 		card2B.add(cDest);
+		
+		searchBar = new JTextField();
+		searchBar.setPreferredSize(new Dimension(300, 39));
+		card1.add(searchBar, BorderLayout.NORTH);
 
 		add(card1, BorderLayout.WEST);
 		add(card2B, BorderLayout.CENTER);
@@ -210,13 +215,13 @@ public class ControlPanel extends JPanel {
 		mapComp.repaint();
 	}
 
-	public void possibleDestinationsByDistance(Graph sPT, float distance) {
-		g.sPTArray.array = dij.possibleDestinationsByDistance(sPT, distance);
+	public void possibleDestinationsByDistance(Graph sPT, int distance) {
+		g.sPTArray.array = dij.possibleDestinationsByDistance(g, distance, airport1);
 		mapComp.repaint();
 	}
 
-	public void possibleDestinationsByTime(Graph sPT, float hours) {
-		g.sPTArray.array = dij.possibleDestinationsByTime(sPT, hours);
+	public void possibleDestinationsByTime(Graph sPT, int hours) {
+		g.sPTArray.array = dij.possibleDestinationsByTime(g, hours, airport1);
 		mapComp.repaint();
 	}
 	

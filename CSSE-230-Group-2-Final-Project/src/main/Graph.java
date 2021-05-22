@@ -76,6 +76,17 @@ public class Graph {
 			System.out.println(n.name + " Has no adj nodes!");
 		}
 	}
+	
+	public ArrayList<Node> getNodesWithinDist(Node source, float distance){
+		ArrayList<Node> list = new ArrayList<Node>();
+		for(Node n : nodes) {
+			if(distBetweenNodes(source,n) <= distance) {
+				list.add(n);
+			}
+		}
+		System.out.println(distance);
+		return list;
+	}
 
 	public class Node {
 		public String name, country, continent;
