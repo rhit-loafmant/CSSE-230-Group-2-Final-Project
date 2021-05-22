@@ -27,6 +27,7 @@ public class ControlPanel extends JPanel {
 	private Dijkstra dij;
 	private MapComponent mapComp;
 	public ArrayList<Node> sPTArray;
+	public ArrayList<Node> searchList;
 	public ArrayList<Node> nodes = new ArrayList<Node>();
 
 	public ControlPanel(Graph g, MapComponent mapComp) {
@@ -52,18 +53,13 @@ public class ControlPanel extends JPanel {
 		JPanel card3 = new JPanel();
 		card3.setLayout(new BorderLayout());
 
-		DefaultListModel model = new DefaultListModel();
-		for (int i = 0; i < nodes.size(); i++) {
-			model.addElement(nodes.get(i).name);
-		}
-		airportSelector = new JList(model);
+		airportSelector = new JList(filteredModel("Jackson"));
 		airportSelector.setSelectionMode(ListSelectionModel.SINGLE_SELECTION);
 		airportSelector.setLayoutOrientation(JList.VERTICAL);
 		airportSelector.setVisibleRowCount(10);
 		JScrollPane listScroller = new JScrollPane(airportSelector);
 		listScroller.setPreferredSize(new Dimension(300, 180));
 		card1.add(listScroller, BorderLayout.WEST);
-
 		selectButton = new JButton("Select");
 		selectButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
@@ -181,14 +177,14 @@ public class ControlPanel extends JPanel {
 	public void selectAirport(int index) {
 		String[] columnNames = { "Name", "Latitude", "Longitude", "Continent", "Country" };
 		if (airport1 == null) {
-			airport1 = nodes.get(index);
+			airport1 = searchList.get(index);
 			Object[] arr = { airport1.name, airport1.latitude, airport1.longitude, airport1.continent,
 					airport1.country };
 			airport1Data[0] = arr;
 			airport1Table = new JTable(airport1Data, columnNames);
 		} else if (airport2 == null) {
-			if (nodes.get(index) != airport1) {
-				airport2 = nodes.get(index);
+			if (searchList.get(index) != airport1) {
+				airport2 = searchList.get(index);
 				Object[] arr = { airport2.name, airport2.latitude, airport2.longitude, airport2.continent,
 						airport2.country };
 				airport2Data[0] = arr;
@@ -222,6 +218,21 @@ public class ControlPanel extends JPanel {
 	public void possibleDestinationsByTime(Graph sPT, float hours) {
 		g.sPTArray.array = dij.possibleDestinationsByTime(sPT, hours);
 		mapComp.repaint();
+	}
+	
+	public DefaultListModel filteredModel(String filter) {
+		DefaultListModel model = new DefaultListModel();
+		searchList = new ArrayList<Node>();
+		int i = 0;
+		
+		for(Node node : nodes) {
+			if(node.name.contains(filter)) {
+				model.add(i++, node.name);
+				searchList.add(node);
+			}
+		}
+		return model;
+		
 	}
 
 }
