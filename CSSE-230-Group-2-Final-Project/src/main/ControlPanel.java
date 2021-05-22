@@ -17,6 +17,7 @@ public class ControlPanel extends JPanel {
 	private JButton destByDist;
 	private JButton destByTime;
 	private JTextField cDest;
+	private JTextField searchBar;
 	private JTable airport1Table;
 	private JTable airport2Table;
 	private Object[][] airport1Data;
@@ -172,6 +173,10 @@ public class ControlPanel extends JPanel {
 		cDest = new JTextField();
 		cDest.setPreferredSize(new Dimension(100, 20));
 		card2B.add(cDest);
+		
+		searchBar = new JTextField();
+		searchBar.setPreferredSize(new Dimension(300, 39));
+		card1.add(searchBar, BorderLayout.NORTH);
 
 		add(card1, BorderLayout.WEST);
 		add(card2B, BorderLayout.CENTER);
