@@ -148,14 +148,14 @@ public class ControlPanel extends JPanel {
 				if (airport1 != null) {
 					Graph sPT = dij.shortestPathTree(g, airport1);
 					int dist = Integer.parseInt(cDest.getText());
-					possibleDestinationsByTime(sPT, dist);
+					possibleDestinationsByDistance(sPT, dist);
 				}
 			}
 		});
 		card2B.add(destByDist);
 
 		destByTime = new JButton("Destinations Within Hours");
-		destByDist.addActionListener(new ActionListener() {
+		destByTime.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				if (airport1 != null) {
 					Graph sPT = dij.shortestPathTree(g, airport1);
@@ -169,35 +169,36 @@ public class ControlPanel extends JPanel {
 		cDest = new JTextField();
 		cDest.setPreferredSize(new Dimension(100, 20));
 		card2B.add(cDest);
-		
+
 		searchBar = new JTextField();
 		searchBar.setPreferredSize(new Dimension(300, 39));
 		card1.add(searchBar, BorderLayout.NORTH);
-		
+
 		searchBar.addKeyListener(new KeyListener() {
 			public void updateList() {
-				if(searchBar.getText() != "") airportSelector.setModel(filteredModel(searchBar.getText()));
+				if (searchBar.getText() != "")
+					airportSelector.setModel(filteredModel(searchBar.getText()));
 			}
 
 			@Override
 			public void keyTyped(KeyEvent e) {
 				updateList();
 				// TODO Auto-generated method stub
-				
+
 			}
 
 			@Override
 			public void keyPressed(KeyEvent e) {
 				updateList();
 				// TODO Auto-generated method stub
-				
+
 			}
 
 			@Override
 			public void keyReleased(KeyEvent e) {
 				updateList();
 				// TODO Auto-generated method stub
-				
+
 			}
 		});
 
@@ -243,28 +244,30 @@ public class ControlPanel extends JPanel {
 	}
 
 	public void possibleDestinationsByDistance(Graph sPT, int distance) {
-		g.sPTArray.array = dij.possibleDestinationsByDistance(g, distance, airport1);
+		Graph pDBDT = dij.shortestPathTree(g, airport1);
+		g.sPTArray.array = dij.possibleDestinationsByDistance(pDBDT, distance, airport1);
 		mapComp.repaint();
 	}
 
 	public void possibleDestinationsByTime(Graph sPT, int hours) {
-		g.sPTArray.array = dij.possibleDestinationsByTime(g, hours, airport1);
+		Graph pDBTT = dij.shortestPathTree(g, airport1);
+		g.sPTArray.array = dij.possibleDestinationsByTime(pDBTT, hours, airport1);
 		mapComp.repaint();
 	}
-	
+
 	public DefaultListModel filteredModel(String filter) {
 		DefaultListModel model = new DefaultListModel();
 		searchList = new ArrayList<Node>();
 		int i = 0;
-		
-		for(Node node : nodes) {
-			if(node.name.contains(filter)) {
+
+		for (Node node : nodes) {
+			if (node.name.contains(filter)) {
 				model.add(i++, node.name);
 				searchList.add(node);
 			}
 		}
 		return model;
-		
+
 	}
 
 }

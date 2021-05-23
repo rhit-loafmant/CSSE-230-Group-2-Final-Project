@@ -78,7 +78,7 @@ public class Dijkstra {
 		visitedNodes.add(sourceVertex);
 		distanceTracker.put(sourceVertex, 0f);
 
-		while (index < graph.nodes.size()) {// was while (index <= graph.nodes.size()) {
+		while (index < graph.nodes.size()) {
 			for (int i = 0; i < visitedNodes.get(index).adjacentNodes.size(); i++) {
 				Node current = visitedNodes.get(index).adjacentNodes.get(i);
 				if (!distanceTracker.containsKey(current)) {

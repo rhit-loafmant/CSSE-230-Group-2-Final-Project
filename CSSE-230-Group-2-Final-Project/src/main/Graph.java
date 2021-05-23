@@ -36,7 +36,7 @@ public class Graph {
 				for (Node n : this.nodes) {
 					float distance = distBetweenNodes(newNode, n);
 					if (distance <= maxNodeDist) {
-						newNode.adjacentNodes.add(n);// not done
+						newNode.adjacentNodes.add(n);
 						n.adjacentNodes.add(newNode);
 						newNode.adjNodeDistances.put(n, distance);
 						n.adjNodeDistances.put(newNode, distance);
@@ -76,11 +76,11 @@ public class Graph {
 			System.out.println(n.name + " Has no adj nodes!");
 		}
 	}
-	
-	public ArrayList<Node> getNodesWithinDist(Node source, float distance){
+
+	public ArrayList<Node> getNodesWithinDist(Node source, float distance) {
 		ArrayList<Node> list = new ArrayList<Node>();
-		for(Node n : nodes) {
-			if(distBetweenNodes(source,n) <= distance) {
+		for (Node n : nodes) {
+			if (distBetweenNodes(source, n) <= distance) {
 				list.add(n);
 			}
 		}
@@ -110,21 +110,14 @@ public class Graph {
 			this.distance = Integer.MAX_VALUE;
 		}
 
-		// latitude = y, longitude = x
 		public void drawNode(Graphics2D g2d, Color color, int radius, int x, int y) {
 			Ellipse2D.Double nodeLocation = new Ellipse2D.Double(x - radius / 2, y - radius / 2, radius, radius);
 			g2d.setColor(color);
 			g2d.fill(nodeLocation);
-//			System.out.println("placed " + this.name+ "at " +x+", "+y);
 		}
 
 		public void drawEdge(Graphics2D g2d, Color color, int x1, int y1, int x2, int y2) {
 			g2d.setColor(color);
-//			int x, y;
-//			x = (x1+x2)/2;
-//			y = (y1+y2)/2;
-//			g2d.drawArc(x, y, (x*2)/(y*2), 10, 5, 170);
-//			g2d.setStroke(new BasicStroke(20));
 			g2d.drawLine(x1, y1, x2, y2);
 
 		}
