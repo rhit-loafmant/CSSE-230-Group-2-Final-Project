@@ -84,7 +84,6 @@ public class Graph {
 				list.add(n);
 			}
 		}
-		System.out.println(distance);
 		return list;
 	}
 
