@@ -145,7 +145,7 @@ public class ControlPanel extends JPanel {
 		destByDist = new JButton("Destinations Within Distance");
 		destByDist.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				if (airport1 != null) {
+				if (airport1 != null && !cDest.getText().isEmpty()) {
 					Graph sPT = dij.shortestPathTree(g, airport1);
 					int dist = Integer.parseInt(cDest.getText());
 					possibleDestinationsByDistance(sPT, dist);
@@ -157,7 +157,7 @@ public class ControlPanel extends JPanel {
 		destByTime = new JButton("Destinations Within Hours");
 		destByTime.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				if (airport1 != null) {
+				if (airport1 != null && !cDest.getText().isEmpty()) {
 					Graph sPT = dij.shortestPathTree(g, airport1);
 					int dist = Integer.parseInt(cDest.getText());
 					possibleDestinationsByTime(sPT, dist);

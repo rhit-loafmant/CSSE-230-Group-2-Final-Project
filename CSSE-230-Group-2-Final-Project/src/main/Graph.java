@@ -61,21 +61,22 @@ public class Graph {
 		float distance = radius * c;
 		return Math.abs(distance);
 	}
-
-	public void printAllAdjNodes(Node n) {
-		if (n.adjacentNodes.size() > 0) {
-			System.out.println("All nodes adjacent to " + n.name + ":");
-			System.out.println(n.name + " Latitude is: " + n.latitude + " Longitude is: " + n.longitude);
-			for (int i = 0; i < n.adjacentNodes.size(); i++) {
-				System.out.println(n.adjacentNodes.get(i).name + ", Distance: "
-						+ n.adjNodeDistances.get(n.adjacentNodes.get(i)) + " km");
-				System.out.println(n.adjacentNodes.get(i).name + " Latitude is: " + n.adjacentNodes.get(i).latitude
-						+ " Longitude is: " + n.adjacentNodes.get(i).longitude);
-			}
-		} else {
-			System.out.println(n.name + " Has no adj nodes!");
-		}
-	}
+	
+	//Used For Testing Purposes
+//	public void printAllAdjNodes(Node n) {
+//		if (n.adjacentNodes.size() > 0) {
+//			System.out.println("All nodes adjacent to " + n.name + ":");
+//			System.out.println(n.name + " Latitude is: " + n.latitude + " Longitude is: " + n.longitude);
+//			for (int i = 0; i < n.adjacentNodes.size(); i++) {
+//				System.out.println(n.adjacentNodes.get(i).name + ", Distance: "
+//						+ n.adjNodeDistances.get(n.adjacentNodes.get(i)) + " km");
+//				System.out.println(n.adjacentNodes.get(i).name + " Latitude is: " + n.adjacentNodes.get(i).latitude
+//						+ " Longitude is: " + n.adjacentNodes.get(i).longitude);
+//			}
+//		} else {
+//			System.out.println(n.name + " Has no adj nodes!");
+//		}
+//	}
 
 	public ArrayList<Node> getNodesWithinDist(Node source, float distance) {
 		ArrayList<Node> list = new ArrayList<Node>();

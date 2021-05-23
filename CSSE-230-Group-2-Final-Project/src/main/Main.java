@@ -75,7 +75,6 @@ public class Main {
 				DocumentBuilder db = dbf.newDocumentBuilder();
 				Document doc = db.parse(file);
 				doc.getDocumentElement().normalize();
-//				System.out.println("Root element: " + doc.getDocumentElement().getNodeName());
 				NodeList nodeList = doc.getElementsByTagName("node");
 				// nodeList is not iterable, so we are using for loop
 				for (int i = 0; i < nodeList.getLength(); i++) {
